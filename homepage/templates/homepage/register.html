@@ -1,0 +1,39 @@
+{% load static %}
+<head>
+    <title>Register</title>
+    <link rel="stylesheet" href="{% static 'homepage/register.css' %}">
+</head>
+<body>
+<div class="head">Register
+</div>
+<div class="line">
+</div>
+
+    <div class="container">
+<form method="post">
+
+        {% csrf_token %}
+        <div class="register_table">
+            <div class="username">Username
+                <div class="input_username">{{ form.username }}</div> </div>
+
+            <div class="first_name">First Name
+                <div class="input_firstname">{{ form.first_name }}</div></div>
+
+            <div class="last_name">Last Name
+                <div class="input_lastname">{{ form.last_name }}</div></div>
+
+            <div class="email">Email
+                <div class="input_email">{{ form.email }}</div></div>
+
+            <div class="password1">Password
+                <div class="input_password1">{{ form.password1 }}</div></div>
+
+            <div class="password2">Confirm Password
+                <div class="input_password2">{{ form.password2 }}</div></div>
+        </div>
+        <button class="button" type="submit">Register</button>
+    </form>
+    </div>
+
+</body>

@@ -1,0 +1,24 @@
+input.Co_name{
+    text-decoration: none;
+    font-size: 150%;
+    border: none;
+    background: none;
+    color: #116466;
+    transition: 200ms ease-in-out;
+    position: absolute;
+    margin-left: 5%;
+    text-align: center;
+}
+input.Co_name:hover{
+    cursor: auto;
+    background-color: #EBEBEB;
+    font-size: 155%;
+}
+div.search_results{
+    margin-top: 2%;
+    margin-left: 45%;
+    font-size: 200%;
+    margin-bottom: 5%;
+    border-bottom: 1px solid #EBEBEB;
+    width: 9.9%;
+}

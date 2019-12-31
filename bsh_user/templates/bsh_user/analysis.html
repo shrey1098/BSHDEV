@@ -1,0 +1,221 @@
+{% extends 'bsh_user/layout_User.html' %}
+{% block content %}
+    {% load static %}
+    <head>
+
+        <link rel="stylesheet" href="{% static 'bsh_user/user_analysis.css' %}">
+
+
+        <title>Analysis</title>
+    </head>
+
+    <body>
+    <div>
+     <form action={% url 'bsh_user:Results_Search_user' %} method="get" autocomplete="on">
+         <div class="autocomplete">
+
+            <label>
+                <input class="enter_ticker" type="text" name="Ticker" id="myInput"  placeholder="Enter Ticker">
+                <img class="search-label-icon" src="{% static 'homepage/path.png' %}" alt="search" id="input_img">
+            </label>
+            <input class="technical_analysis" type="image" src="{% static 'homepage/Submit.png' %}" >
+            </div>
+        </form>
+</div>
+    <div class="line"></div>
+    <div class="co_name">
+        <ul class="ticker_table">
+            <li class="ticker_name">{{ ticker }}-</li>
+            <li class="ticker_price">{{ price }}</li>
+            <li class="diff_green">{{ diff_green }}</li>
+            <li class="diff_red">{{ diff_red }}</li>
+        </ul></div>
+
+    <div class="watchlist"> <form action="{% url 'bsh_user:Userpage' %}" method="post">
+            {% csrf_token %}
+            <label>
+                <input class="watchlist" type="hidden" name="Ticker" value="{{ ticker }}">
+            </label>
+             <label>
+                <input class="watchlist" type="hidden" name="Price" value="{{ price }}">
+            </label>
+            <label>
+                <input class="watchlist" type="hidden" name="Signal" value="{{ signal }}">
+            </label>
+            <input class="watchlist" type="submit" name="add to watchlist" value="Add to Watchlist+">
+        </form> </div>
+
+
+    <div class="tradingview-widget-container">
+        <div id="tradingview_b76bd"></div>
+        <div class="tradingview-widget-copyright"><a href="https://in.tradingview.com/symbols/"
+                                                     rel="noopener" target="_blank"> </a></div>
+        <script type="text/javascript" src="https://s3.tradingview.com/tv.js"></script>
+        <script type="text/javascript">
+            new TradingView.widget(
+                {
+                    "width": 1850,
+                    "height": 740,
+                    "symbol": "BSE:{{ x }}",
+                    "interval": "D",
+                    "timezone": "Asia/Kolkata",
+                    "theme": "Dark",
+                    "style": "1",
+                    "locale": "in",
+                    "toolbar_bg": "#f1f3f6",
+                    "enable_publishing": false,
+                    "allow_symbol_change": false,
+                    "container_id": ""
+                }
+            );
+        </script>
+    </div>
+    <div class="news_sentiment">
+        <div class="news_trend">News Trend -</div>
+        <div class="news_trend_percentage">
+            <ul class="percentage_table">
+                <li class="buy">{{ news_buy }}</li>
+                <li class="sell">{{ news_sell }}</li>
+                <li class="hold">{{ news_hold }}</li>
+            </ul> </div>
+    </div>
+    <div class="line"></div>
+    <div class="head">
+        Technical Analysis
+    </div>
+    <div class="coname">
+    <div class="tables">
+        <table class="momentum">
+            <tr>
+                <th>Momentum</th>
+                <th>Signal</th>
+            </tr>
+            <tr>
+                <td class="fisrt">Relative Strength Index</td>
+                <td class="second"> {{ mom_rsi }} </td>
+            </tr>
+            <tr>
+                <td class="fisrt">Awesome Oscillator</td>
+                <td class="second"> {{ mom_ao }}</td>
+            </tr>
+            <tr>
+                <td class="fisrt">Money Flow Index</td>
+                <td class="second"> {{ mom_mf }}</td>
+            </tr>
+            <tr>
+                <td class="fisrt">Stochastic Oscillator</td>
+                <td class="second"> {{ mom_so }}</td>
+            </tr>
+            <tr>
+                <td class="fisrt">True Strength Index</td>
+                <td class="second"> {{ mom_tsi }}</td>
+            </tr>
+            <tr>
+                <td class="fisrt">Ultimate Oscillator</td>
+                <td class="second"> {{ mom_uo }}</td>
+            </tr>
+            <tr>
+                <td class="fisrt">Williams %R</td>
+                <td class="second"> {{ mom_wr }}</td>
+            </tr>
+
+        </table>
+
+        <table class="Volume">
+            <tr>
+                <th>Volume</th>
+                <th>Signal</th>
+            </tr>
+            <tr>
+                <td class="fisrt">Chaikin Money Flow</td>
+                <td class="second"> {{ vol_cm }}</td>
+            </tr>
+            <tr>
+                <td class="fisrt">Ease of movement</td>
+                <td class="second"> {{ vol_em }}</td>
+            </tr>
+            <tr>
+                <td class="fisrt">Force Index</td>
+                <td class="second"> {{ vol_fi }}</td>
+            </tr>
+            <tr>
+                <td class="fisrt">Negative Volume Index</td>
+                <td class="second"> {{ vol_nv }}</td>
+            </tr>
+            <tr>
+                <td class="fisrt">On-balance volume</td>
+                <td class="second"> {{ vol_ob }}</td>
+            </tr>
+            <tr>
+                <td class="fisrt">Accumulation/Distribution Index</td>
+                <td class="second"> {{ vol_adi }}</td>
+            </tr>
+        </table>
+
+
+        <table class="Volatility">
+            <tr>
+                <th>Volatility</th>
+                <th>Signal</th>
+            </tr>
+            <tr>
+                <td class="fisrt">Average True Range</td>
+                <td class="second"> {{ vot_atr }}</td>
+            </tr>
+            <tr>
+                <td class="fisrt">Bollinger Bands</td>
+                <td class="second"> {{ vot_bb }}</td>
+            </tr>
+            <tr>
+                <td class="fisrt">Donchian channel</td>
+                <td class="second"> {{ vot_dch }}</td>
+            </tr>
+        </table>
+
+        <table class="Trend">
+            <tr>
+                <th>Trend</th>
+                <th>Signal</th>
+            </tr>
+            <tr>
+                <td class="fisrt">Average Directional Movement Index</td>
+                <td class="second"> {{ trn_adx }}</td>
+            </tr>
+            <tr>
+                <td class="fisrt">Aroon Indicator</td>
+                <td class="second"> {{ trn_ai }}</td>
+            </tr>
+            <tr>
+                <td class="fisrt">Commodity Channel Index</td>
+                <td class="second"> {{ trn_cci }}</td>
+            </tr>
+            <tr>
+                <td class="fisrt">Detrended Price Oscillator</td>
+                <td class="second"> {{ trn_dpo }}</td>
+            </tr>
+            <tr>
+                <td class="fisrt">Exponential Moving Average</td>
+                <td class="second"> {{ trn_ema }}</td>
+            </tr>
+            <tr>
+                <td class="fisrt">Ichimoku Kinkō Hyō</td>
+                <td class="second"> {{ trn_ich }}</td>
+            </tr>
+            <tr>
+                <td class="fisrt">KST Oscillator</td>
+                <td class="second"> {{ trn_kst }}</td>
+            </tr>
+            <tr>
+                <td class="fisrt">MACD</td>
+                <td class="second"> {{ trn_macd }}</td>
+            </tr>
+        </table>
+    </div>
+    </div>
+        <div class="line1"></div>
+    <div class="final_signal">
+        <div class="final_signal_writeup">Final Signal</div>
+        <img class="final_signal_img" src="/static/{{ score }}" >
+    </div>
+    </body>
+{% endblock %}

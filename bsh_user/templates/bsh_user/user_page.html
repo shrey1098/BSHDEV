@@ -1,0 +1,81 @@
+{% extends 'bsh_user/layout_User.html' %}
+{% block content %}
+{% load static %}
+    <head>
+    <script> autocomplete(document.getElementById("myInput"), co_names);</script>
+     <link rel="stylesheet" href="{% static 'bsh_user/user_page.css' %}">
+
+        <link type="text/javascript" src="{% static 'bsh_user/auto_comp.js' %}"/>
+    <title>USER</title>
+    </head>
+
+    <body>
+    <div class="welcome">Welcome {{ user.first_name }} </div>
+<div>
+     <form action={% url 'bsh_user:Results_Search_user' %} method="get" autocomplete="on">
+         <div class="autocomplete">
+
+            <label>
+                <input class="enter_ticker" type="text" name="Ticker" id="myInput"  placeholder="Enter Ticker">
+                <img class="search-label-icon" src="{% static 'homepage/path.png' %}" alt="search" id="input_img">
+            </label>
+            <input class="technical_analysis" type="image" src="{% static 'homepage/Submit.png' %}" >
+            </div>
+        </form>
+</div>
+
+</div>
+    <div class="sidebar" onclick="sidebar_pullout()">
+    <div class="arrowleft" onclick="sidebar_pullout()"><img src="{% static 'homepage/Arrow Left.png' %}"
+                                alt="Arrowleft" onclick="sidebar_pullout()">
+    </div>
+    <div class="submenu" id="submenu">
+
+        <div class="name">
+            <div class="name_wl">WATCHLIST</div>
+            <div class="eye_closed" onclick="sidebar_pullout()"><img alt="eye_closed" onclick="sidebar_pullout()"
+                                                                     src="{% static 'bsh_user/eye-closed.svg' %}"
+                                                                     height="30" width="50"></div>
+        </div>
+        <table class="wl_table">
+            <tr class="header">
+                <th>Stock</th>
+                <th class="third">Added Price</th>
+                <th class="third">Current Price</th>
+                <th class="third">Signal</th>
+            </tr>
+            {% for wl , wl_p, wl_sig, closeps in rows %}
+                <tr class="wl_row">
+                    <td class="first">{{ wl }}</td>
+                    <td class="third">{{ wl_p }}</td>
+                    <td class="third">{{ closeps }}</td>
+                    <td class="third">{{ wl_sig }}</td>
+                </tr>
+            {% endfor %}
+        </table>
+
+
+    </div>
+
+</div>
+<script>
+    function sidebar_pullout() {
+        document.getElementById("submenu").classList.toggle("showbar");
+    }
+
+    // Close the dropdown if the user clicks outside of it
+    window.onclick = function (event) {
+        if (!event.target.matches('.sidebar')) {
+            var dropdowns = document.getElementsByClassName("wl_name");
+            var i;
+            for (i = 0; i < dropdowns.length; i++) {
+                var openDropdown = dropdowns[i];
+                if (openDropdown.classList.contains('showbar')) {
+                    openDropdown.classList.remove('showbar');
+                }
+            }
+        }
+    }
+</script>
+    </body>
+{% endblock %}

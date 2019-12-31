@@ -1,0 +1,79 @@
+{% load static %}
+
+<head>
+    <link rel="stylesheet" href="{% static 'bsh_user/layout_User.css' %}">
+</head>
+    <div class="header">
+    <div class="nav-bar">
+        <div class="BSH"><a href="{% url 'homepage:Homepage' %}"> <img src="{% static 'homepage/BSH.png' %}" alt="BSH"></a>
+        </div>
+        <div class="hamburger"><img class="hamburger" src="{% static 'homepage/investor.svg' %}" alt="Hamburger"
+                                    onclick="myFunction()">
+            <div id="myDropdown" class="dropdown-content">
+                <a href="{% url 'bsh_user:Userpage' %}">User Home</a>
+                <a href="{% url 'logout' %}">Logout</a>
+            </div>
+        </div>
+    </div>
+</div>
+<script>
+    function myFunction() {
+        document.getElementById("myDropdown").classList.toggle("show");
+    }
+
+    // Close the dropdown if the user clicks outside of it
+    window.onclick = function (event) {
+        if (!event.target.matches('.hamburger')) {
+            var dropdowns = document.getElementsByClassName("dropdown-content");
+            var i;
+            for (i = 0; i < dropdowns.length; i++) {
+                var openDropdown = dropdowns[i];
+                if (openDropdown.classList.contains('show')) {
+                    openDropdown.classList.remove('show');
+                }
+            }
+        }
+    }
+</script>
+
+<div class="index_prices">
+    <div class="nav-index">
+        <div class="NIFTY50">
+            <ul class="NIFTY_table">
+                <li class="NIFTY">NIFTY</li>
+                <li class="NIFTY_price">{{ price_nifty }}</li>
+                <li class="NIFTY_diff_red">{{ diffn_red }}</li>
+                <li class="NIFTY_diff_green">{{ diffn_green }}</li>
+
+            </ul>
+        </div>
+        <div class="SENSEX">
+            <ul class="SENSEX_table">
+                <li class="SENSEX">SENSEX</li>
+                <li class="SENSEX_price">{{ price_sensex }}</li>
+                <li class="SENSEX_diff_green">{{ diffs_green }}</li>
+                <li class="SENSEX_diff_red">{{ diffs_red }}</li>
+
+            </ul>
+        </div>
+        <div class="NB">
+            <ul class="NB_table">
+                <li class="NB">Stock Of The Day - {{ name }}</li>
+                <li class="NB_price">{{ price_nb }}</li>
+                <li class="NB_diff_green">{{ diffnb_green }}</li>
+                <li class="NB_diff_red">{{ diffnb_red }}</li>
+            </ul>
+        </div>
+    </div>
+</div>
+
+
+{% block content %}
+{% endblock %}
+<div class="footer">
+    <ul class="social_media">
+        <li class="ig_logo"><img src="{% static 'homepage/IG logo.png' %}" alt="ig_logo"></li>
+        <li class="fb_logo"><img src="{% static 'homepage/FB Logo.png' %}" alt="fb_logo"></li>
+        <li class="mail_logo"><img src="{% static 'homepage/Gmail Logo.png' %}" alt="mail_logo"></li>
+    </ul>
+</div>

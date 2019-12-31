@@ -1,0 +1,156 @@
+{% extends 'homepage/layout.html' %}
+{% block content %}
+{% load static %}
+    <head>
+        <title>Technical Analysis</title>
+        <link rel="stylesheet" href="{% static 'tech_analysis/tech_analysis.css' %}">
+        <meta http-equiv="refresh" content="15">
+    </head>
+    <div class="head">
+        Technical Analysis
+    </div>
+    <div class="coname">
+        <ul class="ticker_table">
+            <li class="ticker_name">{{ ticker }}-</li>
+            <li class="ticker_price">{{ price }}</li>
+            <li class="diff_green">{{ diff_green }}</li>
+            <li class="diff_red">{{ diff_red }}</li>
+        </ul>
+
+    </div>
+
+    <div class="tables">
+        <table class="momentum">
+            <tr>
+                <th>Momentum</th>
+                <th>Signal</th>
+            </tr>
+            <tr>
+                <td class="fisrt">Relative Strength Index</td>
+                <td class="second"> {{ mom_rsi }} </td>
+            </tr>
+            <tr>
+                <td class="fisrt">Awesome Oscillator</td>
+                <td class="second"> {{ mom_ao }}</td>
+            </tr>
+            <tr>
+                <td class="fisrt">Money Flow Index</td>
+                <td class="second"> {{ mom_mf }}</td>
+            </tr>
+            <tr>
+                <td class="fisrt">Stochastic Oscillator</td>
+                <td class="second"> {{ mom_so }}</td>
+            </tr>
+            <tr>
+                <td class="fisrt">True Strength Index</td>
+                <td class="second"> {{ mom_tsi }}</td>
+            </tr>
+            <tr>
+                <td class="fisrt">Ultimate Oscillator</td>
+                <td class="second"> {{ mom_uo }}</td>
+            </tr>
+            <tr>
+                <td class="fisrt">Williams %R</td>
+                <td class="second"> {{ mom_wr }}</td>
+            </tr>
+
+        </table>
+
+        <table class="Volume">
+            <tr>
+                <th>Volume</th>
+                <th>Signal</th>
+            </tr>
+            <tr>
+                <td class="fisrt">Chaikin Money Flow</td>
+                <td class="second"> {{ vol_cm }}</td>
+            </tr>
+            <tr>
+                <td class="fisrt">Ease of movement</td>
+                <td class="second"> {{ vol_em }}</td>
+            </tr>
+            <tr>
+                <td class="fisrt">Force Index</td>
+                <td class="second"> {{ vol_fi }}</td>
+            </tr>
+            <tr>
+                <td class="fisrt">Negative Volume Index</td>
+                <td class="second"> {{ vol_nv }}</td>
+            </tr>
+            <tr>
+                <td class="fisrt">On-balance volume</td>
+                <td class="second"> {{ vol_ob }}</td>
+            </tr>
+            <tr>
+                <td class="fisrt">Accumulation/Distribution Index</td>
+                <td class="second"> {{ vol_adi }}</td>
+            </tr>
+        </table>
+
+
+        <table class="Volatility">
+            <tr>
+                <th>Volatility</th>
+                <th>Signal</th>
+            </tr>
+            <tr>
+                <td class="fisrt">Average True Range</td>
+                <td class="second"> {{ vot_atr }}</td>
+            </tr>
+            <tr>
+                <td class="fisrt">Bollinger Bands</td>
+                <td class="second"> {{ vot_bb }}</td>
+            </tr>
+            <tr>
+                <td class="fisrt">Donchian channel</td>
+                <td class="second"> {{ vot_dch }}</td>
+            </tr>
+        </table>
+
+        <table class="Trend">
+            <tr>
+                <th>Trend</th>
+                <th>Signal</th>
+            </tr>
+            <tr>
+                <td class="fisrt">Average Directional Movement Index</td>
+                <td class="second"> {{ trn_adx }}</td>
+            </tr>
+            <tr>
+                <td class="fisrt">Aroon Indicator</td>
+                <td class="second"> {{ trn_ai }}</td>
+            </tr>
+            <tr>
+                <td class="fisrt">Commodity Channel Index</td>
+                <td class="second"> {{ trn_cci }}</td>
+            </tr>
+            <tr>
+                <td class="fisrt">Detrended Price Oscillator</td>
+                <td class="second"> {{ trn_dpo }}</td>
+            </tr>
+            <tr>
+                <td class="fisrt">Exponential Moving Average</td>
+                <td class="second"> {{ trn_ema }}</td>
+            </tr>
+            <tr>
+                <td class="fisrt">Ichimoku Kinkō Hyō</td>
+                <td class="second"> {{ trn_ich }}</td>
+            </tr>
+            <tr>
+                <td class="fisrt">KST Oscillator</td>
+                <td class="second"> {{ trn_kst }}</td>
+            </tr>
+            <tr>
+                <td class="fisrt">MACD</td>
+                <td class="second"> {{ trn_macd }}</td>
+            </tr>
+        </table>
+    </div>
+<img class="mom_final" src="/static/{{ mom_final }}">
+<img class="vol_final" src="/static/{{ vol_final }}">
+<img class="vot_final" src="/static/{{ vot_final }}">
+<img class="trn_final" src="/static/{{ trn_final }}">
+    <div class="more">
+    <a class="more" href="{% url 'homepage:Register' %}">Detailed Analysis</a>
+    </div>
+{% endblock %}

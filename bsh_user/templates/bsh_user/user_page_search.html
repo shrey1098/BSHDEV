@@ -1,0 +1,20 @@
+{% extends 'bsh_user/layout_User.html' %}
+{% block content %}
+{% load static %}
+    <head>
+        <title>Technical Analysis</title>
+        <link rel="stylesheet" href="{% static 'tech_analysis/results.css' %}">
+    </head>
+    <div class="search_results">Search Results</div>
+    {% for index in indexs %}
+        <form action="{% url 'bsh_user:AnalysisPage' %}" method="get">
+            {% csrf_token %}
+            <label>
+                <input  type="hidden" name="Ticker" value="{{ index }}">
+            </label>
+            <input class="Co_name" type="submit" value="{{ index }}">
+        </form>
+
+
+    {% endfor %}
+{% endblock %}
