@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="657a36ee-179f-4fd7-b60f-4d24a3398590" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/main.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -57,10 +57,10 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Python Script" />
         <option value="JavaScript File" />
         <option value="CSS File" />
         <option value="HTML File" />
+        <option value="Python Script" />
       </list>
     </option>
   </component>
@@ -363,8 +363,16 @@
       <workItem from="1577686744589" duration="15254000" />
       <workItem from="1577794745671" duration="1188000" />
       <workItem from="1577949238561" duration="4283000" />
-      <workItem from="1577993214397" duration="166000" />
+      <workItem from="1577993214397" duration="451000" />
     </task>
+    <task id="LOCAL-00001" summary="main.py">
+      <created>1577993738016</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1577993738016</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TodoView">
@@ -379,7 +387,15 @@
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
   </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="main.py" />
+    <option name="LAST_COMMIT_MESSAGE" value="main.py" />
+  </component>
   <component name="WindowStateProjectService">
+    <state x="584" y="134" key="CommitChangelistDialog2" timestamp="1577993718768">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state x="584" y="134" key="CommitChangelistDialog2/0.0.1920.1080@0.0.1920.1080" timestamp="1577993718768" />
     <state x="540" y="276" key="IDE.errors.dialog" timestamp="1577686475329">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
