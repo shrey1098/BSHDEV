@@ -1,0 +1,1 @@
+from BSHDEV.wsgi import application
