@@ -120,3 +120,9 @@ STATIC_URL = '/static/'
 
 LOGIN_REDIRECT_URL = '/user/Userpage'
 LOGOUT_REDIRECT_URL = '/homepage/'
+
+CACHES = {
+    'default': {
+        'BACKEND': 'django.core.cache.backends.dummy.DummyCache',
+    }
+}

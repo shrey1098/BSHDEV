@@ -1,6 +1,4 @@
 from django.shortcuts import render, HttpResponse, redirect
-from bsh_user.indexPrices import args, price_nifty, price_sensex, price_nb, diffs_green, diffs_red, diffnb_green, \
-    diffnb_red, diffn_green, diffn_red
 from tech_analysis.models import Conames
 from bsh_user.models import WatchList
 import datetime as dt
@@ -19,6 +17,60 @@ import ta
 # Create your views here.
 
 def user_page(request):
+    start = dt.datetime(2017, 1, 1)
+    end = date.today()
+    dfn = web.DataReader("^NSEI", 'yahoo', start, end)
+
+    closen = dfn['Close']
+    pricen1 = closen[-1]
+    pricen2 = closen[-2]
+    pdiffn = ((pricen1 - pricen2) / pricen2) * 100
+    diffn = "%.2f" % pdiffn
+    price_nifty = "%.2f" % pricen1
+    if pdiffn > 0:
+        diffn_green = "+" + diffn + "%"
+    else:
+        diffn_green = ""
+
+    if pdiffn < 0:
+        diffn_red = diffn + "%"
+    else:
+        diffn_red = ""
+
+    dfs = web.DataReader("^BSESN", 'yahoo', start, end)
+    closes = dfs['Close']
+    prices1 = closes[-1]
+    prices2 = closes[-2]
+    pdiffs = ((prices1 - prices2) / prices2) * 100
+    diffs = "%.2f" % pdiffs
+    price_sensex = "%.2f" % prices1
+    if pdiffs >= 0:
+        diffs_green = "+" + diffs + "%"
+    else:
+        diffs_green = ""
+
+    if pdiffs <= 0:
+        diffs_red = diffs + "%"
+    else:
+        diffs_red = ""
+
+    dfnb = web.DataReader("VAKRANGEE.NS", 'yahoo', start, end)
+    closenb = dfnb['Close']
+    pricenb1 = closenb[-1]
+    pricenb2 = closenb[-2]
+    pdiffnb = ((pricenb1 - pricenb2) / pricenb2) * 100
+    diffnb = "%.2f" % pdiffnb
+    if pdiffnb > 0:
+        diffnb_green = "+" + diffnb + "%"
+    else:
+        diffnb_green = ""
+
+    if pdiffnb < 0:
+        diffnb_red = diffnb + "%"
+    else:
+        diffnb_red = ""
+    price_nb = "%.2f" % pricenb1
+
     rows = []
     if request.method == 'POST':
         form = request.POST.get('Ticker')
@@ -81,10 +133,66 @@ def user_page(request):
                        'diffnb_red': diffnb_red, 'name': "Vakrangee Ltd."})
 
 def results(request):
+
     if request.method == 'GET':
         form = request.GET
         ticker = form.get("Ticker", "0")
         indexs = Conames.objects.filter(Co_name__icontains=ticker)
+
+        start = dt.datetime(2017, 1, 1)
+        end = date.today()
+        dfn = web.DataReader("^NSEI", 'yahoo', start, end)
+
+        closen = dfn['Close']
+        pricen1 = closen[-1]
+        pricen2 = closen[-2]
+        pdiffn = ((pricen1 - pricen2) / pricen2) * 100
+        diffn = "%.2f" % pdiffn
+        price_nifty = "%.2f" % pricen1
+        if pdiffn > 0:
+            diffn_green = "+" + diffn + "%"
+        else:
+            diffn_green = ""
+
+        if pdiffn < 0:
+            diffn_red = diffn + "%"
+        else:
+            diffn_red = ""
+
+        dfs = web.DataReader("^BSESN", 'yahoo', start, end)
+        closes = dfs['Close']
+        prices1 = closes[-1]
+        prices2 = closes[-2]
+        pdiffs = ((prices1 - prices2) / prices2) * 100
+        diffs = "%.2f" % pdiffs
+        price_sensex = "%.2f" % prices1
+        if pdiffs >= 0:
+            diffs_green = "+" + diffs + "%"
+        else:
+            diffs_green = ""
+
+        if pdiffs <= 0:
+            diffs_red = diffs + "%"
+        else:
+            diffs_red = ""
+
+        dfnb = web.DataReader("VAKRANGEE.NS", 'yahoo', start, end)
+        closenb = dfnb['Close']
+        pricenb1 = closenb[-1]
+        pricenb2 = closenb[-2]
+        pdiffnb = ((pricenb1 - pricenb2) / pricenb2) * 100
+        diffnb = "%.2f" % pdiffnb
+        if pdiffnb > 0:
+            diffnb_green = "+" + diffnb + "%"
+        else:
+            diffnb_green = ""
+
+        if pdiffnb < 0:
+            diffnb_red = diffnb + "%"
+        else:
+            diffnb_red = ""
+        price_nb = "%.2f" % pricenb1
+
         return render(request, 'bsh_user/user_page_search.html',
                       {'indexs':indexs, 'price_nifty': price_nifty,
                        'diffn_green': diffn_green, 'diffn_red': diffn_red,
@@ -634,6 +742,58 @@ def analysis(request):
             signal = 'Strong Sell'
 
         return signal
+
+    dfn = web.DataReader("^NSEI", 'yahoo', start, end)
+
+    closen = dfn['Close']
+    pricen1 = closen[-1]
+    pricen2 = closen[-2]
+    pdiffn = ((pricen1 - pricen2) / pricen2) * 100
+    diffn = "%.2f" % pdiffn
+    price_nifty = "%.2f" % pricen1
+    if pdiffn > 0:
+        diffn_green = "+" + diffn + "%"
+    else:
+        diffn_green = ""
+
+    if pdiffn < 0:
+        diffn_red = diffn + "%"
+    else:
+        diffn_red = ""
+
+    dfs = web.DataReader("^BSESN", 'yahoo', start, end)
+    closes = dfs['Close']
+    prices1 = closes[-1]
+    prices2 = closes[-2]
+    pdiffs = ((prices1 - prices2) / prices2) * 100
+    diffs = "%.2f" % pdiffs
+    price_sensex = "%.2f" % prices1
+    if pdiffs >= 0:
+        diffs_green = "+" + diffs + "%"
+    else:
+        diffs_green = ""
+
+    if pdiffs <= 0:
+        diffs_red = diffs + "%"
+    else:
+        diffs_red = ""
+
+    dfnb = web.DataReader("VAKRANGEE.NS", 'yahoo', start, end)
+    closenb = dfnb['Close']
+    pricenb1 = closenb[-1]
+    pricenb2 = closenb[-2]
+    pdiffnb = ((pricenb1 - pricenb2) / pricenb2) * 100
+    diffnb = "%.2f" % pdiffnb
+    if pdiffnb > 0:
+        diffnb_green = "+" + diffnb + "%"
+    else:
+        diffnb_green = ""
+
+    if pdiffnb < 0:
+        diffnb_red = diffnb + "%"
+    else:
+        diffnb_red = ""
+    price_nb = "%.2f" % pricenb1
 
     return render(request, 'bsh_user/analysis.html',
                   {'x': tick, 'ticker': ticker, "diff_green": diff_green,
