@@ -6,7 +6,7 @@ runtime_config:
   python_version: 3
   
 handlers:
-- url: /static
+- url: '/static/'
   static_dir: public
 
 # This sample incurs costs to run on the App Engine flexible environment. 
