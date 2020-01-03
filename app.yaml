@@ -8,10 +8,6 @@ runtime_config:
 handlers:
 - url: /static
   static_dir: public
-- url: /.*
-    secure: always
-    redirect_http_response_code: 301
-    script: auto
 
 # This sample incurs costs to run on the App Engine flexible environment. 
 # The settings below are to reduce costs during testing and are not appropriate
