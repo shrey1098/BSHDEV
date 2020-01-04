@@ -139,15 +139,11 @@ def homepage(request):
 
         # --------------------------------------------
 
-        TEXT_ANALYTICS_SUBSCRIPTION_KEY = 'TEXT_ANALYTICS_SUBSCRIPTION_KEY'
-        if not TEXT_ANALYTICS_SUBSCRIPTION_KEY in os.environ:
-            raise Exception('Please set/export the environment variable: {}'.format(TEXT_ANALYTICS_SUBSCRIPTION_KEY))
-        subscription_key = os.environ[TEXT_ANALYTICS_SUBSCRIPTION_KEY]
+        TEXT_ANALYTICS_SUBSCRIPTION_KEY = '4d1d3697dc8548b59163e2592b22beb7'
+        subscription_key = TEXT_ANALYTICS_SUBSCRIPTION_KEY
 
-        TEXT_ANALYTICS_ENDPOINT = 'TEXT_ANALYTICS_ENDPOINT'
-        if not TEXT_ANALYTICS_ENDPOINT in os.environ:
-            raise Exception('Please set/export the environment variable: {}'.format(TEXT_ANALYTICS_ENDPOINT))
-        endpoint = os.environ[TEXT_ANALYTICS_ENDPOINT]
+        TEXT_ANALYTICS_ENDPOINT = 'https://analytics4sentiment.cognitiveservices.azure.com/'
+        endpoint =TEXT_ANALYTICS_ENDPOINT
 
         credentials = CognitiveServicesCredentials(subscription_key)
         text_analytics_client = TextAnalyticsClient(
