@@ -1,0 +1,105 @@
+div.tag_line{
+     color: #B4B4B4;
+     margin-top: 14%;
+     margin-left: 35%;
+     font-size: 250%;
+     font-family: "Roboto", serif;
+    font-weight: lighter;
+}
+div.buttons_page{
+     text-align: center;
+    margin-top: 20%;
+}
+ul.table_buttons_page li{
+     display: inline;
+    font-size: 150%;
+}
+li.what_we_do{
+    padding: 50px 50px;
+    margin-right: 20%;
+    transition: 200ms ease-in-out;
+}
+li.what_we_do:hover{
+    background-color: #012840;
+    color:#EBEBEB;
+}
+li.what_we_do:hover a{
+    color:#EBEBEB;
+}
+li.getting_started{
+    padding: 50px 50px;
+    margin-right: 20%;
+    transition: 200ms ease-in-out;
+}
+li.getting_started:hover{
+    background-color: #012840;
+    color:#EBEBEB;
+}
+li.getting_started:hover a{
+    color:#EBEBEB;
+}
+
+
+.closeps{
+    margin-left: 140px;
+    display: inline-block;
+    width:90%;
+    margin-top: 14%;
+}
+.featured_stocks{
+    font-size: 200%;
+    color: #012840;
+    margin-left: 11%;
+}
+.logos{
+    margin-left: -1450px;
+    margin-top: -3.4%;
+ }
+.Hpbar{
+    margin-left: 100px;
+    margin-top: 30px;
+}
+.nums{
+    margin-left: 600px;
+    margin-top: -70px;
+}
+.price_green,.price_red{
+    margin-top: -23px;
+    margin-left: 120px;
+}
+.price{
+    font-size: 180%;
+}
+.price_green{
+    color: #00DB24;
+}
+.price_red{
+    color: #d7040b;
+}
+.explore{
+    position: absolute;
+    font-size: 120%;
+    margin-top: 5%;
+    margin-left: 45%;
+    transition: 300ms ease-in-out;
+    text-decoration: none;
+}
+.explore:hover{
+    font-size: 150%;
+}
+.coming_soon{
+    position: absolute;
+    transition: 200ms ease-in-out;
+    margin-left: 43.5%;
+    font-size: 120%;
+    margin-top: 450px;
+    margin-bottom: -20%;
+}
+.coming_soon:hover{
+    font-size: 150%;
+}
+a{
+    text-decoration: none;
+    color: #012840;
+    text-align: center;
+}

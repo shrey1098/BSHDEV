@@ -1,0 +1,54 @@
+body{
+    background-color: #012840;
+}
+
+div.head{
+    text-align: center;
+    color: #EBEBEB;
+    font-size: 200%;
+    margin-top: 8%;
+    font-family: "Segoe UI",sans-serif;
+}
+div.line{
+    height: .1%;
+    margin-left: 5%;
+    margin-top: 2%;
+    width: 90%;
+    background-color: #707070;
+
+}
+table{
+    margin-left: 42%;
+    margin-top: 7%;
+    color: #EBEBEB;
+    font-family: "Segoe UI",sans-serif;
+    font-size: 130%;
+
+}
+input.submit{
+    margin-left: 43%;
+    margin-top: 5%;
+    box-sizing: border-box;
+    border-radius: 15px;
+    border: solid 1px #7b7b7b;
+    background: #012840;
+    color: #7b7b7b ;
+    height: 2.5%;
+    width: 12%;
+    transition: 200ms ease-in-out;
+}
+input.submit:hover{
+        background: #012840;
+    border-color: #EBEBEB;
+    color: #EBEBEB;
+}
+input {
+    background-color: #012840;
+    border-bottom: 1px solid #EBEBEB;
+    border-right: none;
+    border-top: none;
+    border-left: none;
+    color: #EBEBEB;
+    margin-left: 20%;
+    margin-top: -1.3%;
+}

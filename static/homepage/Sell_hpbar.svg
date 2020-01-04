@@ -1,0 +1,28 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="1457" height="90" viewBox="0 0 1457 90">
+  <defs>
+    <filter id="Rectangle_24" x="0" y="0" width="1457" height="90" filterUnits="userSpaceOnUse">
+      <feOffset dx="8" dy="3" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="3" result="blur"/>
+      <feFlood flood-opacity="0.161"/>
+      <feComposite operator="in" in2="blur"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+  </defs>
+  <g id="Sell_hpbar" transform="translate(-291 -324)">
+    <g id="Group_23" data-name="Group 23" transform="translate(0 -39)">
+      <g id="Group_22" data-name="Group 22" transform="translate(135 -331.512)">
+        <g transform="matrix(1, 0, 0, 1, 156, 694.51)" filter="url(#Rectangle_24)">
+          <rect id="Rectangle_24-2" data-name="Rectangle 24" width="1439" height="72" rx="22" transform="translate(1 6)" fill="#ffe8e8"/>
+        </g>
+      </g>
+    </g>
+    <g id="Group_20" data-name="Group 20" transform="translate(-116 -475)">
+      <g id="Strong_Sell" data-name="Strong Sell" transform="translate(815.066 -69.143)">
+        <path id="Path_8" data-name="Path 8" d="M0,0H381.2V13H0Z" transform="translate(590 921.143)" fill="#fff"/>
+        <rect id="Rectangle_12" data-name="Rectangle 12" width="92" height="13" transform="translate(589.934 921.143)" fill="#e40000"/>
+        <path id="Path_7" data-name="Path 7" d="M0,0H110.5V20H0Z" transform="translate(621 914.143)" fill="none"/>
+        <text id="Sell" transform="translate(675.934 887.143)" fill="#e40000" font-size="25" font-family="SegoeUI, Segoe UI"><tspan x="79.768" y="27">Sell</tspan></text>
+      </g>
+    </g>
+  </g>
+</svg>

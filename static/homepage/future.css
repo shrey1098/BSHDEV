@@ -1,0 +1,66 @@
+body{
+    background-color: black;
+}
+div.hamburger_menu{
+    margin-left: 5%;
+    margin-top: 2%;
+}
+div.cross{
+    margin-left: 95%;
+    margin-top: -1.5%;
+}
+div.welcome{
+    color: #EBC613;
+    text-align: center;
+    margin-top: 10%;
+    font-size: 250%;
+    letter-spacing: 5px;
+    font-family: "Segoe UI", sans-serif;
+}
+div.line{
+   height: .2%;
+    width: 20%;
+    margin-top: .5%;
+    margin-left: 40%;
+    background-color: #707070;
+}
+div.future{
+    margin-left:36%;
+}
+div.line2{
+       height: .1%;
+    width: 20%;
+    margin-top: -.5%;
+    margin-left: 40%;
+    background-color: #707070;
+}
+div.right_arrow{
+    margin-left: 95%;
+    margin-top: -5%;
+    transition: 200ms ease-in-out;
+}
+div.right_arrow:hover{
+    margin-left: 95.2%;
+}
+div.box_table{
+    margin-left: 48%;
+}
+div.box1{
+    width: 20px;
+    height: 20px;
+    margin-top: 15%;
+    background-color:#EBC613 ;
+    border: solid 1px #EBC613 ;
+}
+div.box2{
+    width: 20px;
+    height: 20px;
+    border: solid 1px #EBC613 ;
+    margin-top: -2%;
+    margin-left: 7%;
+    transition: 200ms ease-in-out;
+}
+div.box2:hover{
+    background-color:#EBC613 ;
+}
+
