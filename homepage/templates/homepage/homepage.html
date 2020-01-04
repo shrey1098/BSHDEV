@@ -2,7 +2,7 @@
 {%  block content %}
 {% load static %}
 <head>
-    <link rel="stylesheet" href="{% static 'homepage/homepage.css' %}">
+    <link rel="stylesheet" href="https://storage.googleapis.com/buy-sell-holdhttps://storage.googleapis.com/buy-sell-hold/static//homepage/homepage.css' %}">
     <title>Buy Sell Hold</title>
 </head>
 
@@ -13,8 +13,8 @@
     <div class="closeps">
         <div class="featured_stocks">Featured Stocks</div>
             {% for x, closeps,price_diff_green, price_diff_red, hpbar in rows %}
-                <div class="Hpbar"><img class="hpbar" src="/static/homepage/{{ hpbar }}">
-                    <img class="logos" src="/static/homepage/{{ x }}">
+                <div class="Hpbar"><img class="hpbar" src="https://storage.googleapis.com/buy-sell-hold/static/homepage/{{ hpbar }}">
+                    <img class="logos" src="https://storage.googleapis.com/buy-sell-hold/static/homepage/{{ x }}">
                     <div class="nums">
                     <div class="price">{{ closeps }}</div>
                     <div class="price_green ">{{ price_diff_green }}</div>

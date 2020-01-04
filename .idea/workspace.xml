@@ -3,6 +3,23 @@
   <component name="ChangeListManager">
     <list default="true" id="657a36ee-179f-4fd7-b60f-4d24a3398590" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bsh_user/templates/bsh_user/analysis.html" beforeDir="false" afterPath="$PROJECT_DIR$/bsh_user/templates/bsh_user/analysis.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bsh_user/templates/bsh_user/layout_User.html" beforeDir="false" afterPath="$PROJECT_DIR$/bsh_user/templates/bsh_user/layout_User.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bsh_user/templates/bsh_user/user_page.html" beforeDir="false" afterPath="$PROJECT_DIR$/bsh_user/templates/bsh_user/user_page.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bsh_user/templates/bsh_user/user_page_search.html" beforeDir="false" afterPath="$PROJECT_DIR$/bsh_user/templates/bsh_user/user_page_search.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/homepage/templates/homepage/What_do_we_do.html" beforeDir="false" afterPath="$PROJECT_DIR$/homepage/templates/homepage/What_do_we_do.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/homepage/templates/homepage/future.html" beforeDir="false" afterPath="$PROJECT_DIR$/homepage/templates/homepage/future.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/homepage/templates/homepage/future1.html" beforeDir="false" afterPath="$PROJECT_DIR$/homepage/templates/homepage/future1.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/homepage/templates/homepage/homepage.html" beforeDir="false" afterPath="$PROJECT_DIR$/homepage/templates/homepage/homepage.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/homepage/templates/homepage/layout.html" beforeDir="false" afterPath="$PROJECT_DIR$/homepage/templates/homepage/layout.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/homepage/templates/homepage/menu.html" beforeDir="false" afterPath="$PROJECT_DIR$/homepage/templates/homepage/menu.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/homepage/templates/homepage/our_goal.html" beforeDir="false" afterPath="$PROJECT_DIR$/homepage/templates/homepage/our_goal.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/homepage/templates/homepage/our_inspiration.html" beforeDir="false" afterPath="$PROJECT_DIR$/homepage/templates/homepage/our_inspiration.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/homepage/templates/homepage/register.html" beforeDir="false" afterPath="$PROJECT_DIR$/homepage/templates/homepage/register.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/homepage/templates/homepage/who_we_are.html" beforeDir="false" afterPath="$PROJECT_DIR$/homepage/templates/homepage/who_we_are.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/homepage/templates/registration/login.html" beforeDir="false" afterPath="$PROJECT_DIR$/homepage/templates/registration/login.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tech_analysis/templates/tech_analysis/results.html" beforeDir="false" afterPath="$PROJECT_DIR$/tech_analysis/templates/tech_analysis/results.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tech_analysis/templates/tech_analysis/tech_analysis.html" beforeDir="false" afterPath="$PROJECT_DIR$/tech_analysis/templates/tech_analysis/tech_analysis.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -364,6 +381,7 @@
       <workItem from="1577794745671" duration="1188000" />
       <workItem from="1577949238561" duration="4283000" />
       <workItem from="1577993214397" duration="451000" />
+      <workItem from="1578173124278" duration="1586000" />
     </task>
     <task id="LOCAL-00001" summary="main.py">
       <created>1577993738016</created>
