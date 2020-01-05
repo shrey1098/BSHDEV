@@ -226,8 +226,8 @@ def register(request):
         if form.is_valid():
             form.save()
             return HttpResponseRedirect('login')
-    else:
-        form = RegistrationForm()
+        else:
+            form = RegistrationForm()
 
         arg = {'form': form}
         return render(request, 'homepage/register.html', arg)
