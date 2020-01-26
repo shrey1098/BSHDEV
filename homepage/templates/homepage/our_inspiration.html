@@ -2,10 +2,15 @@
 {%  block content %}
     {% load static %}
     <head>
-        <link rel="stylesheet" href="https://storage.googleapis.com/buy-sell-hold/static/homepage/our_goal.css">
+        <link rel="stylesheet" href="{% static 'homepage/our_goal.css' %}">
         <title>Our Inspiration</title>
     </head>
     <body>
-        <div class=" write_up"><img src="https://storage.googleapis.com/buy-sell-hold/static/homepage/Our Inspiration.png"> </div>
+        <div class=" write_up">
+            <h1>Our Inspiration</h1>
+            <p>We are inspired by the idea of enabling our users to be regular investors in the stock market.</p>
+            <p>We are inspired everyday by the advancements that are being made in the Fintech Sector and everything around it.</p>
+            <p>We look up to this community of Fintech Sector and ideas they are exploring to help us continue the work we're doing to deliver our purpose: Making Stock Market Decisions Easy.  </p>
+        </div>
     </body>
 {% endblock %}

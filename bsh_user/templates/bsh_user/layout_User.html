@@ -1,13 +1,17 @@
 {% load static %}
 
 <head>
-    <link rel="stylesheet" href="https://storage.googleapis.com/buy-sell-hold/static/bsh_user/layout_User.css">
+    <link rel="stylesheet" href="{% static 'bsh_user/layout_User.css' %}">
+    <meta name="viewport" content="width=device-width" initial-scale="1.0">
 </head>
-    <div class="header">
+<div class="header">
     <div class="nav-bar">
-        <div class="BSH"><a href="{% url 'homepage:Homepage' %}"> <img src="https://storage.googleapis.com/buy-sell-hold/static/homepage/BSH.png" alt="BSH"></a>
+        <div class="BSH"><a href="{% url 'homepage:Homepage' %}"> <img
+                src="{% static 'homepage/BSH.svg' %}" alt="BSH"></a>
         </div>
-        <div class="hamburger"><img class="hamburger" src="https://storage.googleapis.com/buy-sell-hold/static/homepage/investor.svg" alt="Hamburger"
+        <div class="hamburger"><img class="hamburger"
+                                    src="https://storage.googleapis.com/buy-sell-hold/static/homepage/investor.svg"
+                                    alt="Hamburger"
                                     onclick="myFunction()">
             <div id="myDropdown" class="dropdown-content">
                 <a href="{% url 'bsh_user:Userpage' %}">User Home</a>
@@ -72,8 +76,11 @@
 {% endblock %}
 <div class="footer">
     <ul class="social_media">
-        <li class="ig_logo"><img src="https://storage.googleapis.com/buy-sell-hold/static/homepage/IG logo.png" alt="ig_logo"></li>
-        <li class="fb_logo"><img src="https://storage.googleapis.com/buy-sell-hold/static/homepage/FB Logo.png" alt="fb_logo"></li>
-        <li class="mail_logo"><img src="https://storage.googleapis.com/buy-sell-hold/static/homepage/Gmail Logo.png" alt="mail_logo"></li>
+        <li class="ig_logo"><img src="https://storage.googleapis.com/buy-sell-hold/static/homepage/IG logo.png"
+                                 alt="ig_logo"></li>
+        <li class="fb_logo"><img src="https://storage.googleapis.com/buy-sell-hold/static/homepage/FB Logo.png"
+                                 alt="fb_logo"></li>
+        <li class="mail_logo"><img src="https://storage.googleapis.com/buy-sell-hold/static/homepage/Gmail Logo.png"
+                                   alt="mail_logo"></li>
     </ul>
 </div>

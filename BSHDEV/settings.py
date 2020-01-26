@@ -24,7 +24,7 @@ SECRET_KEY = '898zf*uth=h(s&iu+3+yl5!(3kfgc1ihk-7uy@@!m1&c-t7!cp'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = False
 
-ALLOWED_HOSTS = ['buy-sell-hold-260610.appspot.com']
+ALLOWED_HOSTS = ['buy-sell-hold-260610.appspot.com', '127.0.0.0']
 
 # Application definition
 
@@ -81,7 +81,6 @@ DATABASES = {
         'NAME': os.path.join(BASE_DIR, 'db.sqlite3'),
     }
 }
-
 # Password validation
 # https://docs.djangoproject.com/en/2.2/ref/settings/#auth-password-validators
 

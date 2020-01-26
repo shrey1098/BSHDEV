@@ -624,7 +624,7 @@ def analysis(request):
         search_term = ticker
 
         client = NewsSearchAPI(CognitiveServicesCredentials(subscription_key))
-        news_result = client.news.search(query=search_term, market="en-us", count=10)
+        news_result = client.news.search(query=search_term, market="en-US")
 
         if news_result.value:
 
@@ -669,6 +669,7 @@ def analysis(request):
 
         ]
 
+        # print(documents)
         response = client.sentiment(documents=documents)
         res = []
         for document in response.documents:
@@ -691,7 +692,7 @@ def analysis(request):
             final_sentiment_hold = ""
 
     def final_signal():
-        global path
+        global path, data, data1, data2, data3
         tech_signals = [rs(), ao(), mf(), so(), s_o(), tsi(), u_o(), w_r(), cm(), em(), f_i(), nv(), ob(), adi(),
                         at(), bb(), dch(), adx(), ai(), c(), dpo(), ema(), ich(), kst(), macd(), ]
         buy = tech_signals.count("Buy")

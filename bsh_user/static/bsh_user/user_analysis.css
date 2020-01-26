@@ -1,171 +1,1459 @@
-.co_name{
-    font-size: 250%;
-    color: #012840;
-    margin-left: 10%;
-    margin-bottom: 3%;
-    margin-top: 5%;
+body {
+    font-family: "Segoe UI", serif;
 }
 
-.watchlist{
-    margin-top: -4.3%;
-    font-size: 120%;
-    margin-left: 40%;
-    font-weight: lighter;
-    border: white;
-    background-color: white;
-}
-.watchlist:hover{
-    color: #737373;
-}
-ul.ticker_table li{
-    display: inline-block;
-}
-li.diff_green {
-    font-size: 80%;
-    color: #44d731;
-}
-li.diff_red {
-    font-size: 80%;
-    color: #d7040b;
-}
-.tradingview-widget-container{
-    margin-top: 4%;
-}
-.line{
-     height: .1%;
-    width: 100%;
-    margin-top: 5%;
-    margin-left: .4%;
-    background-color: #EBEBEB;
-    margin-bottom: -3%;
-}
-.line1{
-    height: .1%;
-    width: 100%;
-    margin-top: 5%;
-    margin-left: .4%;
-    background-color: #EBEBEB;
-    margin-bottom: -3%;
-}
-.news_sentiment{
-    text-align: center;
-    margin-top: 8%;
-    color: #7b7b7b;
-}
-.news_trend{
-    font-size: 200%;
-}
-.news_trend_percentage{
-    font-size: 400%;
-    margin-left: -3%;
+@media only screen and (max-width: 380px)
+and (min-width: 370px) {
+    div.header {
+        margin-left: -2.5%;
+        width: 104.5%;
+    }
 
-}
-ul.percentage_table li{
-    display: inline;
-}
-li.buy{
-    color: #44d731;
-}
-li.sell{
-    color: #d7040b;
-}
-li.hold{
-    color: #ebc613;
-}
-table {
-    display: inline;
-    font-size: 150%;
-    padding: 3%;
+    div.index_prices {
+        margin-left: -2.5%;
+        width: 104.5%;
+    }
 
-}
-.tables{
-    margin-top: 2%;
-}
-table.momentum{
-    margin-left: 2% ;
+    div.footer {
+        width: 104.5%;
+        margin-left: -2%
+    }
+
+    div.insert_ticker {
+        margin-top: 5%;
+        margin-left: 15%;
+    }
+
+    input.enter_ticker {
+        width: 80%;
+        height: 5%;
+        box-shadow: 5px 5px 2px #7b7b7b;
+        border: #FFFFFF;
+        color: #7b7b7b;
+        border-radius: 20px;
+        box-sizing: border-box;
+        transition: 200ms ease-in-out;
+        padding-left: 50px;
+        background-color: #fcfcfc;
+    }
+
+    input.enter_ticker[type=text]:focus {
+        box-shadow: 5px 5px 5px #626262;
+        padding-left: 50px;
+    }
+
+    img.search-label-icon {
+        position: absolute;
+        margin-top: 6px;
+        margin-left: -230px;
+    }
+
+    input.technical_analysis {
+        position: absolute;
+        margin-top: 6px;
+        margin-left: -40px;
+        transition: 100ms ease-in-out;
+    }
+
+    input.technical_analysis:hover {
+        margin-left: -38px;
+
+    }
+
+    .autocomplete {
+        position: relative;
+    }
+
+    input.new {
+        margin-left: 10%;
+    }
+
+    div.line {
+        margin-left: -2%;
+        width: 103%;
+        height: .1%;
+        background-color: #EBEBEB;
+    }
+
+    div.co_name {
+        margin-top: 10%;
+    }
+
+    ul.ticker_table li {
+        display: inline-block;
+    }
+
+    ul.ticker_table {
+        margin-left: -5%;
+
+    }
+
+    li.ticker_name, li.ticker_price {
+        color: #012840;
+        font-size: 110%;
+    }
+
+    li.diff_green, li.diff_red {
+        font-size: 80%;
+    }
+
+    li.diff_green {
+        color: #00DB24;
+    }
+
+    li.diff_red {
+        color: #d7040b;
+    }
+
+    .watchlist {
+        font-weight: lighter;
+        border: white;
+        background-color: white;
+        color: #012840;
+        margin-left: 2%;
+    }
+
+    .watchlist:hover {
+        color: #737373;
+    }
+
+    div.tradingview-widget-container {
+        display: none;
+    }
+
+    div.tradingview-widget-container-mobile-onp5, div.tradingview-widget-container-laptop {
+        display: none;
+    }
+
+    .news_sentiment {
+        text-align: center;
+        margin-top: 15%;
+        color: #7b7b7b;
+
+    }
+
+    ul.percentage_table li {
+        display: inline;
+    }
+
+    .news_trend {
+        font-size: 150%;
+    }
+
+    .news_trend_percentage {
+        font-size: 300%;
+        text-align: center;
+        margin-left: -5%;
+    }
+
+    li.buy {
+        color: #44d731;
+    }
+
+    li.sell {
+        color: #d7040b;
+    }
+
+    li.hold {
+        color: #ebc613;
+    }
+
+
+    /*tech_analysis*/
+    div.head {
+        margin-top: 10%;
+        border-bottom: 1px solid #EBEBEB;
+        width: 35%;
+        margin-left: 32%;
+    }
+
+    div.tables {
+        margin-top: 10%;
+    }
+
+    th {
+        font-weight: normal;
+        font-size: 80%;
+        color: #919191;
+    }
+
+    td.fisrt {
+        min-width: 50%;
+        text-align: left;
+        border-bottom: 1px solid #EBEBEB;
+    }
+
+    td.second {
+        min-width: 20%;
+        text-align: center;
+        border-bottom: 1px solid #EBEBEB;
+    }
+
+    table.momentum {
+        margin-left: 6%;
+    }
+
+    table.Volume {
+        margin-left: 4%;
+        margin-top: 15%;
+    }
+
+    table.Volatility {
+        margin-left: 12%;
+        margin-top: 15%;
+    }
+
+    table.Trend {
+        margin-left: 4%;
+        margin-top: 15%;
+        margin-bottom: 20%;
+    }
+
+    .final_signal {
+        text-align: center;
+        margin-top: 8%;
+    }
+
+    .final_signal_writeup {
+        font-size: 200%;
+        font-family: "Segoe UI", sans-serif;
+        color: #7b7b7b;
+    }
+
+    img.final_signal_img {
+        margin-top: 10%;
+        width: 99%;
+        margin-bottom: -20%;
+    }
 }
 
-td.fisrt{
-    text-align: left;
-    border-bottom: 1px solid #EBEBEB;
-    padding: 1.5%;
-    font-family: "Segoe UI",sans-serif;
+@media only screen and (max-width: 418px)
+and (min-width: 410px) {
+    div.header {
+        margin-left: -2.5%;
+        width: 104.5%;
+    }
 
+    div.index_prices {
+        margin-left: -2.5%;
+        width: 104.5%;
+    }
+
+    div.footer {
+        width: 104.5%;
+        margin-left: -2%
+    }
+
+    div.insert_ticker {
+        margin-top: 5%;
+        margin-left: 15%;
+    }
+
+    input.enter_ticker {
+        width: 80%;
+        height: 5%;
+        box-shadow: 5px 5px 2px #7b7b7b;
+        border: #FFFFFF;
+        color: #7b7b7b;
+        border-radius: 20px;
+        box-sizing: border-box;
+        transition: 200ms ease-in-out;
+        padding-left: 50px;
+        background-color: #fcfcfc;
+    }
+
+    input.enter_ticker[type=text]:focus {
+        box-shadow: 5px 5px 5px #626262;
+        padding-left: 50px;
+    }
+
+    img.search-label-icon {
+        position: absolute;
+        margin-top: 6px;
+        margin-left: -255px;
+    }
+
+    input.technical_analysis {
+        position: absolute;
+        margin-top: 6px;
+        margin-left: -40px;
+        transition: 100ms ease-in-out;
+    }
+
+    input.technical_analysis:hover {
+        margin-left: -38px;
+
+    }
+
+    .autocomplete {
+        position: relative;
+    }
+
+    input.new {
+        margin-left: 10%;
+    }
+
+    div.line {
+        margin-left: -2%;
+        width: 103%;
+        height: .1%;
+        background-color: #EBEBEB;
+    }
+
+    div.co_name {
+        margin-top: 10%;
+    }
+
+    ul.ticker_table li {
+        display: inline-block;
+    }
+
+    ul.ticker_table {
+        margin-left: -5%;
+
+    }
+
+    li.ticker_name, li.ticker_price {
+        color: #012840;
+        font-size: 110%;
+    }
+
+    li.diff_green, li.diff_red {
+        font-size: 80%;
+    }
+
+    li.diff_green {
+        color: #00DB24;
+    }
+
+    li.diff_red {
+        color: #d7040b;
+    }
+
+    .watchlist {
+        font-weight: lighter;
+        border: white;
+        background-color: white;
+        color: #012840;
+        margin-left: 2%;
+    }
+
+    .watchlist:hover {
+        color: #737373;
+    }
+
+    div.tradingview-widget-container {
+        display: none;
+    }
+
+    div.tradingview-widget-container-mobile-onp5, div.tradingview-widget-container-laptop {
+        display: none;
+    }
+
+    .news_sentiment {
+        text-align: center;
+        margin-top: 15%;
+        color: #7b7b7b;
+
+    }
+
+    ul.percentage_table li {
+        display: inline;
+    }
+
+    .news_trend {
+        font-size: 150%;
+    }
+
+    .news_trend_percentage {
+        font-size: 300%;
+        text-align: center;
+        margin-left: -5%;
+    }
+
+    li.buy {
+        color: #44d731;
+    }
+
+    li.sell {
+        color: #d7040b;
+    }
+
+    li.hold {
+        color: #ebc613;
+    }
+
+
+    /*tech_analysis*/
+    div.head {
+        margin-top: 10%;
+        border-bottom: 1px solid #EBEBEB;
+        width: 35%;
+        margin-left: 32%;
+    }
+
+    div.tables {
+        margin-top: 10%;
+    }
+
+    th {
+        font-weight: normal;
+        font-size: 80%;
+        color: #919191;
+    }
+
+    td.fisrt {
+        min-width: 50%;
+        text-align: left;
+        border-bottom: 1px solid #EBEBEB;
+    }
+
+    td.second {
+        min-width: 20%;
+        text-align: center;
+        border-bottom: 1px solid #EBEBEB;
+    }
+
+    table.momentum {
+        margin-left: 6%;
+    }
+
+    table.Volume {
+        margin-left: 4%;
+        margin-top: 15%;
+    }
+
+    table.Volatility {
+        margin-left: 12%;
+        margin-top: 15%;
+    }
+
+    table.Trend {
+        margin-left: 4%;
+        margin-top: 15%;
+        margin-bottom: 20%;
+    }
+
+    .final_signal {
+        text-align: center;
+        margin-top: 8%;
+    }
+
+    .final_signal_writeup {
+        font-size: 200%;
+        font-family: "Segoe UI", sans-serif;
+        color: #7b7b7b;
+    }
+
+    img.final_signal_img {
+        margin-top: 10%;
+        width: 99%;
+        margin-bottom: -20%;
+    }
 }
-td.second{
-    text-align: right;
-    border-bottom: 1px solid #EBEBEB;
-    padding: 1.5%;
-    font-family: "Segoe UI",sans-serif;
+
+@media only screen and (max-width: 460px)
+and (min-width: 454px) {
+    div.header {
+        margin-left: -2.5%;
+        width: 104.5%;
+    }
+
+    div.index_prices {
+        margin-left: -2.5%;
+        width: 104.5%;
+    }
+
+    div.footer {
+        width: 104.5%;
+        margin-left: -2%
+    }
+
+    div.insert_ticker {
+        margin-top: 5%;
+        margin-left: 15%;
+    }
+
+    input.enter_ticker {
+        width: 80%;
+        height: 5%;
+        box-shadow: 5px 5px 2px #7b7b7b;
+        border: #FFFFFF;
+        color: #7b7b7b;
+        border-radius: 20px;
+        box-sizing: border-box;
+        transition: 200ms ease-in-out;
+        padding-left: 50px;
+        background-color: #fcfcfc;
+    }
+
+    input.enter_ticker[type=text]:focus {
+        box-shadow: 5px 5px 5px #626262;
+        padding-left: 50px;
+    }
+
+    img.search-label-icon {
+        position: absolute;
+        margin-top: 7px;
+        margin-left: -280px;
+    }
+
+    input.technical_analysis {
+        position: absolute;
+        margin-top: 7px;
+        margin-left: -40px;
+        transition: 100ms ease-in-out;
+    }
+
+    input.technical_analysis:hover {
+        margin-left: -38px;
+
+    }
+
+    .autocomplete {
+        position: relative;
+    }
+
+    input.new {
+        margin-left: 10%;
+    }
+
+    div.line {
+        margin-left: -2%;
+        width: 103%;
+        height: .1%;
+        background-color: #EBEBEB;
+    }
+
+    div.co_name {
+        margin-top: 10%;
+    }
+
+    ul.ticker_table li {
+        display: inline-block;
+    }
+
+    ul.ticker_table {
+        margin-left: -5%;
+
+    }
+
+    li.ticker_name, li.ticker_price {
+        color: #012840;
+        font-size: 110%;
+    }
+
+    li.diff_green, li.diff_red {
+        font-size: 80%;
+    }
+
+    li.diff_green {
+        color: #00DB24;
+    }
+
+    li.diff_red {
+        color: #d7040b;
+    }
+
+    .watchlist {
+        font-weight: lighter;
+        border: white;
+        background-color: white;
+        color: #012840;
+        margin-left: 2%;
+    }
+
+    .watchlist:hover {
+        color: #737373;
+    }
+
+    div.tradingview-widget-container, div.tradingview-widget-container-laptop {
+        display: none;
+    }
+
+    div.tradingview-widget-container-mobile-iphone6 {
+        display: none;
+    }
+
+    .news_sentiment {
+        text-align: center;
+        margin-top: 15%;
+        color: #7b7b7b;
+
+    }
+
+    ul.percentage_table li {
+        display: inline;
+    }
+
+    .news_trend {
+        font-size: 150%;
+    }
+
+    .news_trend_percentage {
+        font-size: 300%;
+        text-align: center;
+        margin-left: -5%;
+    }
+
+    li.buy {
+        color: #44d731;
+    }
+
+    li.sell {
+        color: #d7040b;
+    }
+
+    li.hold {
+        color: #ebc613;
+    }
+
+    div.head {
+        margin-top: 10%;
+        border-bottom: 1px solid #EBEBEB;
+        width: 30%;
+        margin-left: 32%;
+    }
+
+    div.tables {
+        margin-top: 10%;
+    }
+
+    th {
+        font-weight: normal;
+        font-size: 80%;
+        color: #919191;
+    }
+
+    td.fisrt {
+        min-width: 50%;
+        text-align: left;
+        border-bottom: 1px solid #EBEBEB;
+    }
+
+    td.second {
+        min-width: 20%;
+        text-align: center;
+        border-bottom: 1px solid #EBEBEB;
+    }
+
+    table.momentum {
+        margin-left: 10%;
+    }
+
+    table.Volume {
+        margin-left: 4%;
+        margin-top: 15%;
+    }
+
+    table.Volatility {
+        margin-left: 15%;
+        margin-top: 15%;
+    }
+
+    table.Trend {
+        margin-left: 4%;
+        margin-top: 15%;
+        margin-bottom: 20%;
+    }
+
+    .final_signal {
+        text-align: center;
+        margin-top: 8%;
+    }
+
+    .final_signal_writeup {
+        font-size: 200%;
+        font-family: "Segoe UI", sans-serif;
+        color: #7b7b7b;
+    }
+
+    img.final_signal_img {
+        margin-top: 10%;
+        width: 99%;
+        margin-bottom: -20%;
+    }
 }
-th{
+
+@media only screen and (min-width: 1279px)
+and (max-width: 1281px) {
+    div.header {
+        margin-left: -2.5%;
+        width: 103%;
+    }
+
+    div.index_prices {
+        margin-left: -2.5%;
+        width: 103%;
+    }
+
+    div.footer {
+        width: 103%;
+        margin-left: -2%
+    }
+
+    form {
+        margin-left: 30%;
+        padding: 2%;
+        margin-top: -.1%;
+    }
+
+    input.enter_ticker {
+        width: 60%;
+        height: 4%;
+        box-shadow: 5px 5px 2px #7b7b7b;
+        border: #FFFFFF;
+        color: #7b7b7b;
+        border-radius: 15px;
+        box-sizing: border-box;
+        transition: 200ms ease-in-out;
+        padding-left: 50px;
+        background-color: #fcfcfc;
+    }
+
+    input.enter_ticker[type=text]:focus {
+        box-shadow: 5px 5px 5px #7b7b7b;
+        padding-left: 50px;
+    }
+
+    img.search-label-icon {
+        position: absolute;
+        margin-left: -488px;
+        margin-top: 5px;
+    }
+
+    input.technical_analysis {
+        position: absolute;
+        margin-top: 5px;
+        margin-left: -40px;
+        transition: 100ms ease-in-out;
+    }
+
+    input.technical_analysis:hover {
+        margin-left: -38px;
+
+    }
+
+    .autocomplete {
+        position: relative;
+    }
+
+    input.new {
+        margin-left: 10%;
+    }
+
+    div.line {
+        height: .1%;
+        width: 100%;
+        background-color: #EBEBEB;
+        margin-left: -.001%;
+
+    }
+
+    ul.ticker_table li {
+        display: inline-block;
+    }
+
+    ul.ticker_table {
+        margin-left: 5%;
+        margin-top: 5%;
+
+    }
+
+    li.ticker_name, li.ticker_price {
+        color: #012840;
+        font-size: 150%;
+    }
+
+    li.diff_green {
+        color: #00DB24;
+    }
+
+    li.diff_red {
+        color: #d7040b;
+    }
+
+    .watchlist {
+        font-weight: lighter;
+        border: white;
+        background-color: white;
+        color: #012840;
+        font-size: 105%;
+        margin-top: -3.5%;
+        text-align: right;
+    }
+
+    .watchlist:hover {
+        color: #737373;
+    }
+
+    div.tradingview-widget-container, div.tradingview-widget-container-mobile-iphone6, div.tradingview-widget-container-mobile-onp5 {
+        display: none;
+    }
+
+    .news_sentiment {
+        text-align: center;
+        margin-top: 15%;
+        color: #7b7b7b;
+
+    }
+
+    ul.percentage_table li {
+        display: inline;
+    }
+
+    .news_trend {
+        font-size: 150%;
+    }
+
+    .news_trend_percentage {
+        font-size: 350%;
+        text-align: center;
+        margin-left: -5%;
+    }
+
+    li.buy {
+        color: #44d731;
+    }
+
+    li.sell {
+        color: #d7040b;
+    }
+
+    li.hold {
+        color: #ebc613;
+    }
+
+    div.head {
+        margin-top: 10%;
+        border-bottom: 1px solid #EBEBEB;
+        width: 10%;
+        margin-left: 45%;
+    }
+
+    .tables table {
+        display: inline;
+        margin-left: 4%
+    }
+
+    div.tables {
+        margin-top: 5%;
+        margin-bottom: 5%;
+    }
+
+    th {
+        font-weight: normal;
+        font-size: 80%;
+        color: #919191;
+    }
+
+    td.fisrt {
+        text-align: left;
+        border-bottom: 1px solid #EBEBEB;
+    }
+
+    td.second {
+        text-align: center;
+        border-bottom: 1px solid #EBEBEB;
+    }
+
+    div.final_signal_writeup {
+        margin-top: 10%;
+        border-bottom: 1px solid #EBEBEB;
+        width: 7%;
+        margin-left: 46%;
+    }
+
+    img.final_signal_img {
+        margin-top: 5%;
+        margin-left: 15%;
+    }
+}
+
+@media only screen and (min-width: 1360px)
+and (max-width: 1370px) {
+    div.header {
+        margin-left: -2.5%;
+        width: 103%;
+    }
+
+    div.index_prices {
+        margin-left: -2.5%;
+        width: 103%;
+    }
+
+    div.footer {
+        width: 103%;
+        margin-left: -2%
+    }
+
+    form {
+        margin-left: 30%;
+        padding: 2%;
+        margin-top: -.1%;
+    }
+
+    input.enter_ticker {
+        width: 60%;
+        height: 4.8%;
+        box-shadow: 5px 5px 2px #7b7b7b;
+        border: #FFFFFF;
+        color: #7b7b7b;
+        border-radius: 15px;
+        box-sizing: border-box;
+        transition: 200ms ease-in-out;
+        padding-left: 50px;
+        background-color: #fcfcfc;
+    }
+
+    input.enter_ticker[type=text]:focus {
+        box-shadow: 5px 5px 5px #7b7b7b;
+        padding-left: 50px;
+    }
+
+    img.search-label-icon {
+        position: absolute;
+        margin-left: -520px;
+        margin-top: 5px;
+    }
+
+    input.technical_analysis {
+        position: absolute;
+        margin-top: 5px;
+        margin-left: -40px;
+        transition: 100ms ease-in-out;
+    }
+
+    input.technical_analysis:hover {
+        margin-left: -38px;
+
+    }
+
+    .autocomplete {
+        position: relative;
+    }
+
+    input.new {
+        margin-left: 10%;
+    }
+
+    div.line {
+        height: .1%;
+        width: 100%;
+        background-color: #EBEBEB;
+        margin-left: -.001%;
+
+    }
+
+    ul.ticker_table li {
+        display: inline-block;
+    }
+
+    ul.ticker_table {
+        margin-left: 5%;
+        margin-top: 5%;
+
+    }
+
+    li.ticker_name, li.ticker_price {
+        color: #012840;
+        font-size: 150%;
+    }
+
+    li.diff_green {
+        color: #00DB24;
+    }
+
+    li.diff_red {
+        color: #d7040b;
+    }
+
+    .watchlist {
+        font-weight: lighter;
+        border: white;
+        background-color: white;
+        color: #012840;
+        font-size: 105%;
+        margin-top: -3.5%;
+        text-align: right;
+    }
+
+    .watchlist:hover {
+        color: #737373;
+    }
+
+    div.tradingview-widget-container, div.tradingview-widget-container-mobile-iphone6, div.tradingview-widget-container-mobile-onp5 {
+        display: none;
+    }
+
+    .news_sentiment {
+        text-align: center;
+        margin-top: 15%;
+        color: #7b7b7b;
+
+    }
+
+    ul.percentage_table li {
+        display: inline;
+    }
+
+    .news_trend {
+        font-size: 150%;
+    }
+
+    .news_trend_percentage {
+        font-size: 350%;
+        text-align: center;
+        margin-left: -5%;
+    }
+
+    li.buy {
+        color: #44d731;
+    }
+
+    li.sell {
+        color: #d7040b;
+    }
+
+    li.hold {
+        color: #ebc613;
+    }
+
+    div.head {
+        margin-top: 10%;
+        border-bottom: 1px solid #EBEBEB;
+        width: 10%;
+        margin-left: 45%;
+    }
+
+    .tables table {
+        display: inline;
+        margin-left: 4%
+    }
+
+    div.tables {
+        margin-top: 5%;
+        margin-bottom: 5%;
+    }
+
+    th {
+        font-weight: normal;
+        font-size: 80%;
+        color: #919191;
+    }
+
+    td.fisrt {
+        text-align: left;
+        border-bottom: 1px solid #EBEBEB;
+    }
+
+    td.second {
+        text-align: center;
+        border-bottom: 1px solid #EBEBEB;
+    }
+
+    div.final_signal_writeup {
+        margin-top: 10%;
+        border-bottom: 1px solid #EBEBEB;
+        width: 7%;
+        margin-left: 46%;
+    }
+
+    img.final_signal_img {
+        margin-top: 5%;
+        margin-left: 18%;
+    }
+}
+
+@media only screen and (min-width: 1439px)
+and (max-width: 1441px) {
+    div.header {
+        margin-left: -2.5%;
+        width: 103%;
+    }
+
+    div.index_prices {
+        margin-left: -2.5%;
+        width: 103%;
+    }
+
+    div.footer {
+        width: 103%;
+        margin-left: -2%
+    }
+
+    form {
+        margin-left: 30%;
+        padding: 2%;
+        margin-top: -.1%;
+    }
+
+    input.enter_ticker {
+        width: 60%;
+        height: 4%;
+        box-shadow: 5px 5px 2px #7b7b7b;
+        border: #FFFFFF;
+        color: #7b7b7b;
+        border-radius: 15px;
+        box-sizing: border-box;
+        transition: 200ms ease-in-out;
+        padding-left: 50px;
+        background-color: #fcfcfc;
+    }
+
+    input.enter_ticker[type=text]:focus {
+        box-shadow: 5px 5px 5px #7b7b7b;
+        padding-left: 50px;
+    }
+
+    img.search-label-icon {
+        position: absolute;
+        margin-left: -550px;
+        margin-top: 8px;
+    }
+
+    input.technical_analysis {
+        position: absolute;
+        margin-top: 8px;
+        margin-left: -40px;
+        transition: 100ms ease-in-out;
+    }
+
+    input.technical_analysis:hover {
+        margin-left: -38px;
+
+    }
+
+    .autocomplete {
+        position: relative;
+    }
+
+    input.new {
+        margin-left: 10%;
+    }
+
+    div.line {
+        height: .1%;
+        width: 100%;
+        background-color: #EBEBEB;
+        margin-left: -.001%;
+
+    }
+
+    ul.ticker_table li {
+        display: inline-block;
+    }
+
+    ul.ticker_table {
+        margin-left: 5%;
+        margin-top: 5%;
+
+    }
+
+    li.ticker_name, li.ticker_price {
+        color: #012840;
+        font-size: 150%;
+    }
+
+    li.diff_green {
+        color: #00DB24;
+    }
+
+    li.diff_red {
+        color: #d7040b;
+    }
+
+    .watchlist {
+        font-weight: lighter;
+        border: white;
+        background-color: white;
+        color: #012840;
+        font-size: 105%;
+        margin-top: -3.5%;
+        text-align: right;
+    }
+
+    .watchlist:hover {
+        color: #737373;
+    }
+
+    div.tradingview-widget-container, div.tradingview-widget-container-mobile-iphone6, div.tradingview-widget-container-mobile-onp5 {
+        display: none;
+    }
+
+    .news_sentiment {
+        text-align: center;
+        margin-top: 15%;
+        color: #7b7b7b;
+
+    }
+
+    ul.percentage_table li {
+        display: inline;
+    }
+
+    .news_trend {
+        font-size: 150%;
+    }
+
+    .news_trend_percentage {
+        font-size: 350%;
+        text-align: center;
+        margin-left: -5%;
+    }
+
+    li.buy {
+        color: #44d731;
+    }
+
+    li.sell {
+        color: #d7040b;
+    }
+
+    li.hold {
+        color: #ebc613;
+    }
+
+    div.head {
+        margin-top: 10%;
+        border-bottom: 1px solid #EBEBEB;
+        width: 9%;
+        margin-left: 45%;
+    }
+
+    .tables table {
+        display: inline;
+        margin-left: 6%
+    }
+
+    div.tables {
+        margin-top: 5%;
+        margin-bottom: 5%;
+    }
+
+    th {
+        font-weight: normal;
+        font-size: 80%;
+        color: #919191;
+    }
+
+    td.fisrt {
+        text-align: left;
+        border-bottom: 1px solid #EBEBEB;
+    }
+
+    td.second {
+        text-align: center;
+        border-bottom: 1px solid #EBEBEB;
+    }
+
+    div.final_signal_writeup {
+        margin-top: 10%;
+        border-bottom: 1px solid #EBEBEB;
+        width: 6%;
+        margin-left: 46%;
+    }
+
+    img.final_signal_img {
+        margin-top: 5%;
+        margin-left: 19%;
+    }
+}
+
+@media only screen and (min-width: 1824px) {
+    div.header {
+        margin-left: -2.5%;
+        width: 103%;
+    }
+
+    div.index_prices {
+        margin-left: -2.5%;
+        width: 103%;
+    }
+
+    div.footer {
+        width: 103%;
+        margin-left: -2%
+    }
+
+    form {
+        margin-left: 35%;
+        padding: 2%;
+        margin-top: -.1%;
+    }
+
+    input.enter_ticker {
+        width: 40%;
+        height: 3%;
+        box-shadow: 5px 5px 2px #7b7b7b;
+        border: #FFFFFF;
+        color: #7b7b7b;
+        border-radius: 15px;
+        box-sizing: border-box;
+        transition: 200ms ease-in-out;
+        padding-left: 50px;
+        background-color: #fcfcfc;
+    }
+
+    input.enter_ticker[type=text]:focus {
+        box-shadow: 5px 5px 5px #7b7b7b;
+        padding-left: 50px;
+    }
+
+    img.search-label-icon {
+        position: absolute;
+        margin-left: -450px;
+        margin-top: 4px;
+    }
+
+    input.technical_analysis {
+        position: absolute;
+        margin-top: 4px;
+        margin-left: -40px;
+        transition: 100ms ease-in-out;
+    }
+
+    input.technical_analysis:hover {
+        margin-left: -38px;
+
+    }
+
+    .autocomplete {
+        position: relative;
+    }
+
+    input.new {
+        margin-left: 10%;
+    }
+
+    div.line {
+        height: .1%;
+        width: 100%;
+        background-color: #EBEBEB;
+        margin-left: -.001%;
+
+    }
+
+    ul.ticker_table li {
+        display: inline-block;
+    }
+
+    ul.ticker_table {
+        margin-left: 5%;
+        margin-top: 5%;
+
+    }
+
+    li.ticker_name, li.ticker_price {
+        color: #012840;
+        font-size: 150%;
+    }
+
+    li.diff_green {
+        color: #00DB24;
+    }
+
+    li.diff_red {
+        color: #d7040b;
+    }
+
+    .watchlist {
+        font-weight: lighter;
+        border: white;
+        background-color: white;
+        color: #012840;
+        font-size: 105%;
+        margin-top: -2.8%;
+        text-align: right;
+    }
+
+    .watchlist:hover {
+        color: #737373;
+    }
+
+    div.tradingview-widget-container-laptop, div.tradingview-widget-container-mobile-iphone6, div.tradingview-widget-container-mobile-onp5 {
+        display: none;
+    }
+
+    .news_sentiment {
+        text-align: center;
+        margin-top: 15%;
+        color: #7b7b7b;
+
+    }
+
+    ul.percentage_table li {
+        display: inline;
+    }
+
+    .news_trend {
+        font-size: 150%;
+    }
+
+    .news_trend_percentage {
+        font-size: 350%;
+        text-align: center;
+        margin-left: -5%;
+    }
+
+    li.buy {
+        color: #44d731;
+    }
+
+    li.sell {
+        color: #d7040b;
+    }
+
+    li.hold {
+        color: #ebc613;
+    }
+
+    div.head {
+        margin-top: 10%;
+        border-bottom: 1px solid #EBEBEB;
+        width: 8%;
+        margin-left: 45%;
+        font-size: 120%;
+    }
+
+     .tables table{
+        display: inline;
+    }
+     div.tables{margin-top: 3%;
+     margin-left: 6%;
+margin-bottom: 5%;
+     }
+    table.Volume, table.Volatility,table.Trend{
+        margin-left: 6%;
+
+    }
+    table.momentum, table.Volume, table.Volatility,table.Trend{
+         font-size: 130%;
+    }
+    th {
     font-weight: normal;
-    font-size: 50%;
+    font-size: 80%;
     color: #919191;
 }
+    td.fisrt{
+        text-align: left;
+        border-bottom: 1px solid #EBEBEB;
+    }
+    td.second{
+        text-align: center;
+        border-bottom: 1px solid #EBEBEB;
+    }
 
+    div.final_signal_writeup {
+        margin-top: 10%;
+        border-bottom: 1px solid #EBEBEB;
+        width: 5.5%;
+        margin-left: 46%;
+        font-size: 120%;
+    }
 
-ul.ticker_table li {
-    display: inline;
-}
-.head{
-    text-align: center;
-    font-size: 200%;
-    font-family: "Segoe UI",sans-serif;
-    margin-top: 7%;
-    margin-bottom: 1%;
-    color: #7b7b7b;
-}
-.final_signal{
-    text-align: center;
-    margin-top: 8%;
-}
-.final_signal_writeup{
-    font-size: 200%;
-    font-family: "Segoe UI",sans-serif;
-    color: #7b7b7b;
-}
-.final_signal_img{
-    margin-top: 3%;
-    margin-left: -2%;
-    margin-bottom: -15%;
-}
-input.enter_ticker {
-    width: 40%;
-    height: 3%;
-    box-shadow: 5px 5px 2px #7b7b7b;
-    border: #FFFFFF;
-    color: #7b7b7b;
-    border-radius: 15px;
-    box-sizing: border-box;
-    transition: 200ms ease-in-out;
-    padding-left: 50px;
-    background-color: #fcfcfc;
-}
-
-input.enter_ticker[type=text]:focus {
-    box-shadow: 5px 5px 5px #7b7b7b;
-    padding-left: 50px;
-}
-
-img.search-label-icon {
-    position: absolute;
-    margin-left: -500px;
-    margin-top: 5px;
-}
-
-input.technical_analysis {
-    position: absolute;
-    margin-top: 6px;
-    margin-left: -40px;
-    transition: 100ms ease-in-out;
-}
-
-input.technical_analysis:hover {
-    margin-left: -38px;
-
-}
-.autocomplete{
-    margin-top: 2%;
-    margin-bottom: -6%;
+    img.final_signal_img {
+        margin-top: 5%;
+        margin-left: 25%;
+    }
 }

@@ -2,7 +2,8 @@
 {%  block content %}
 {% load static %}
 <head>
-    <link rel="stylesheet" href="https://storage.googleapis.com/buy-sell-hold/static/homepage/homepage.css">
+    <link rel="stylesheet" href="{% static 'homepage/homepage.css' %}">
+    <meta name="viewport" content="width=device-width" initial-scale="1.0">
     <title>Buy Sell Hold</title>
 </head>
 
@@ -12,20 +13,31 @@
 </div>
     <div class="closeps">
         <div class="featured_stocks">Featured Stocks</div>
-            {% for x, closeps,price_diff_green, price_diff_red, hpbar in rows %}
+            {% for x, closeps,price_diff_green, price_diff_red, hpbar, signal, stocks in rows %}
                 <div class="Hpbar"><img class="hpbar" src="https://storage.googleapis.com/buy-sell-hold/static/homepage/{{ hpbar }}">
-                    <img class="logos" src="https://storage.googleapis.com/buy-sell-hold/static/homepage/{{ x }}">
-                    <div class="nums">
-                    <div class="price">{{ closeps }}</div>
-                    <div class="price_green ">{{ price_diff_green }}</div>
-                    <div class="price_red">{{ price_diff_red }}</div>
-                    </div>
+                    <img class="logos" src="/static/homepage/{{ x }}">
+                    <table class="nums">
+                        <tr>
+                    <td class="stocks">{{ stocks }}</td>
+                    <td class="price">{{ closeps }}</td>
+                    <td class="price_green ">{{ price_diff_green }}</td>
+                    <td class="price_red">{{ price_diff_red }}</td>
+                        </tr>
+                    </table>
                 </div>
+                <table class="fs_table">
+                <tr>
+                    <td class="stocks">{{ stocks }}</td>
+                    <td class="price">{{ closeps }}</td>
+                    <td class ="price_green ">{{ price_diff_green }}</td>
+                    <td class="price_red">{{ price_diff_red }}</td>
+                    <td class="signal">{{ signal }}</td>
+                </tr>
+                </table>
             {% endfor %}
 
     </div>
-<div class="explore"><a href="{% url 'homepage:Register' %}"> Explore</a></div>
-<div class="coming_soon"><a href="{% url 'homepage:Future' %}">Coming Soon</a></div>
+<div class="explore"><a class="explore" href="{% url 'homepage:Register' %}"> Explore</a></div>
 
 {% endblock %}
 

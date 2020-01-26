@@ -16,7 +16,7 @@ import os
 
 
 def homepage(request):
-    global x, rows
+    global x, rows, signal
     start = dt.datetime(2017, 1, 1)
     end = date.today()
     dfn = web.DataReader("^NSEI", 'yahoo', start, end)
@@ -87,12 +87,14 @@ def homepage(request):
     else:
         diffbm_red = ""
     price_bm = "%.2f" % pricebm1
-    tickers = ['LT.BO', 'MARUTI.BO', 'RELIANCE.NS', 'WIPRO.BO', 'KOTAKBANK.NS']
+    tickers = ['LT.BO', 'ITC.NS', 'RELIANCE.NS', 'WIPRO.BO', 'TCS.NS']
+    stocks = ["Larsen & Toubro", "ITC Limited", "Reliance Industries", "Wipro", "TATA Consultancy Services"]
     closeps = []
     x = []
     price_diff_green = []
     price_diff_red = []
     hpbar = []
+    signal = []
     for ticker in tickers:
         start = dt.datetime(2019, 1, 1)
         end = date.today()
@@ -143,7 +145,7 @@ def homepage(request):
         subscription_key = TEXT_ANALYTICS_SUBSCRIPTION_KEY
 
         TEXT_ANALYTICS_ENDPOINT = 'https://analytics4sentiment.cognitiveservices.azure.com/'
-        endpoint =TEXT_ANALYTICS_ENDPOINT
+        endpoint = TEXT_ANALYTICS_ENDPOINT
 
         credentials = CognitiveServicesCredentials(subscription_key)
         text_analytics_client = TextAnalyticsClient(
@@ -168,16 +170,21 @@ def homepage(request):
 
         if res_mean > 80:
             hpbar.append("StrongBuy_hpbar.svg")
+            signal.append("Strong Buy")
         elif 80 > res_mean > 60:
             hpbar.append("Buy_hpbar.svg")
+            signal.append("Buy")
         elif 60 > res_mean > 35:
             hpbar.append("Hold_hpbar.svg")
+            signal.append("Hold")
         elif 20 > res_mean > 35:
             hpbar.append("Sell_hpbar.svg")
+            signal.append("Sell")
         else:
             hpbar.append("StrongSell_hpbar.svg")
+            signal.append("Strong Sell")
 
-    rows = zip(x, closeps, price_diff_green, price_diff_red, hpbar)
+    rows = zip(x, closeps, price_diff_green, price_diff_red, hpbar, signal, stocks)
 
     return render(request, 'homepage/homepage.html',
                   {"rows": rows, 'price_nifty': price_nifty, 'diffn_green': diffn_green, 'diffn_red': diffn_red,
@@ -212,14 +219,6 @@ def who_we_are(request):
     return render(request, 'homepage/who_we_are.html', args)
 
 
-def future(request):
-    return render(request, 'homepage/future.html')
-
-
-def future1(request):
-    return render(request, 'homepage/future1.html')
-
-
 def register(request):
     if request.method == "POST":
         form = RegistrationForm(request.POST)
@@ -227,7 +226,9 @@ def register(request):
             form.save()
             return HttpResponseRedirect('login')
         else:
-            form = RegistrationForm()
+            return HttpResponse("Registration Form Not Valid")
+    else:
+        form = RegistrationForm()
 
         arg = {'form': form}
         return render(request, 'homepage/register.html', arg)

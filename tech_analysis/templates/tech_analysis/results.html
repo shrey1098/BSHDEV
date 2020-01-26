@@ -3,11 +3,13 @@
 {% load static %}
     <head>
         <title>Technical Analysis</title>
-        <link rel="stylesheet" href="https://storage.googleapis.com/buy-sell-hold/static/tech_analysis/results.css">
+        <link rel="stylesheet" href="{% static 'tech_analysis/results.css' %}">
+    <meta name="viewport" content="width=device-width" initial-scale="1.0">
     </head>
     <div class="search_results">Search Results</div>
+    <div class="results">
     {% for index in indexs %}
-        <form action="{% url 'tech_analysis:Tech_Analysis' %}" method="get">
+        <form class="ticker" action="{% url 'tech_analysis:Tech_Analysis' %}" method="get">
             {% csrf_token %}
             <label>
                 <input  type="hidden" name="Ticker" value="{{ index }}">
@@ -17,4 +19,5 @@
 
 
     {% endfor %}
+    </div>
 {% endblock %}

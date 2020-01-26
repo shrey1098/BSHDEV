@@ -1,10 +1,10 @@
 {% extends 'homepage/layout.html' %}
 {% block content %}
-{% load static %}
+    {% load static %}
     <head>
         <title>Technical Analysis</title>
-        <link rel="stylesheet" href="https://storage.googleapis.com/buy-sell-hold/static/tech_analysis/tech_analysis.css">
-        <meta http-equiv="refresh" content="15">
+        <link rel="stylesheet" href="{% static 'tech_analysis/tech_analysis.css' %}">
+        <meta name="viewport" content="width=device-width" initial-scale="1.0">
     </head>
     <div class="head">
         Technical Analysis
@@ -26,35 +26,43 @@
                 <th>Signal</th>
             </tr>
             <tr>
-                <td class="fisrt">Relative Strength Index</td>
+                <td class="first">Relative Strength Index</td>
                 <td class="second"> {{ mom_rsi }} </td>
             </tr>
             <tr>
-                <td class="fisrt">Awesome Oscillator</td>
+                <td class="first">Awesome Oscillator</td>
                 <td class="second"> {{ mom_ao }}</td>
             </tr>
             <tr>
-                <td class="fisrt">Money Flow Index</td>
+                <td class="first">Money Flow Index</td>
                 <td class="second"> {{ mom_mf }}</td>
             </tr>
             <tr>
-                <td class="fisrt">Stochastic Oscillator</td>
+                <td class="first">Stochastic Oscillator</td>
                 <td class="second"> {{ mom_so }}</td>
             </tr>
             <tr>
-                <td class="fisrt">True Strength Index</td>
+                <td class="first">True Strength Index</td>
                 <td class="second"> {{ mom_tsi }}</td>
             </tr>
             <tr>
-                <td class="fisrt">Ultimate Oscillator</td>
+                <td class="first">Ultimate Oscillator</td>
                 <td class="second"> {{ mom_uo }}</td>
             </tr>
             <tr>
-                <td class="fisrt">Williams %R</td>
+                <td class="first">Williams %R</td>
                 <td class="second"> {{ mom_wr }}</td>
+            </tr>
+            <tr>
+                <td colspan="2">
+
+                    <img class="mom_final" src="https://storage.googleapis.com/buy-sell-hold/static/{{ mom_final }}">
+
+                </td>
             </tr>
 
         </table>
+
 
         <table class="Volume">
             <tr>
@@ -62,48 +70,60 @@
                 <th>Signal</th>
             </tr>
             <tr>
-                <td class="fisrt">Chaikin Money Flow</td>
+                <td class="first">Chaikin Money Flow</td>
                 <td class="second"> {{ vol_cm }}</td>
             </tr>
             <tr>
-                <td class="fisrt">Ease of movement</td>
+                <td class="first">Ease of movement</td>
                 <td class="second"> {{ vol_em }}</td>
             </tr>
             <tr>
-                <td class="fisrt">Force Index</td>
+                <td class="first">Force Index</td>
                 <td class="second"> {{ vol_fi }}</td>
             </tr>
             <tr>
-                <td class="fisrt">Negative Volume Index</td>
+                <td class="first">Negative Volume Index</td>
                 <td class="second"> {{ vol_nv }}</td>
             </tr>
             <tr>
-                <td class="fisrt">On-balance volume</td>
+                <td class="first">On-balance volume</td>
                 <td class="second"> {{ vol_ob }}</td>
             </tr>
             <tr>
-                <td class="fisrt">Accumulation/Distribution Index</td>
+                <td class="first">Accumulation/Distribution Index</td>
                 <td class="second"> {{ vol_adi }}</td>
+            </tr>
+            <tr>
+                <td colspan="2">
+                    <img class="vol_final" src="https://storage.googleapis.com/buy-sell-hold/static/{{ vol_final }}">
+                </td>
+
             </tr>
         </table>
 
 
+
         <table class="Volatility">
-            <tr>
+            <tr class="head_table">
                 <th>Volatility</th>
                 <th>Signal</th>
             </tr>
             <tr>
-                <td class="fisrt">Average True Range</td>
+                <td class="first">Average True Range</td>
                 <td class="second"> {{ vot_atr }}</td>
             </tr>
             <tr>
-                <td class="fisrt">Bollinger Bands</td>
+                <td class="first">Bollinger Bands</td>
                 <td class="second"> {{ vot_bb }}</td>
             </tr>
             <tr>
-                <td class="fisrt">Donchian channel</td>
+                <td class="first">Donchian channel</td>
                 <td class="second"> {{ vot_dch }}</td>
+            </tr>
+            <tr>
+                <td colspan="2">
+                    <img class="vot_final" src="https://storage.googleapis.com/buy-sell-hold/static/{{ vot_final }}">
+                </td>
             </tr>
         </table>
 
@@ -113,44 +133,46 @@
                 <th>Signal</th>
             </tr>
             <tr>
-                <td class="fisrt">Average Directional Movement Index</td>
+                <td class="first">Average Directional Movement Index</td>
                 <td class="second"> {{ trn_adx }}</td>
             </tr>
             <tr>
-                <td class="fisrt">Aroon Indicator</td>
+                <td class="first">Aroon Indicator</td>
                 <td class="second"> {{ trn_ai }}</td>
             </tr>
             <tr>
-                <td class="fisrt">Commodity Channel Index</td>
+                <td class="first">Commodity Channel Index</td>
                 <td class="second"> {{ trn_cci }}</td>
             </tr>
             <tr>
-                <td class="fisrt">Detrended Price Oscillator</td>
+                <td class="first">Detrended Price Oscillator</td>
                 <td class="second"> {{ trn_dpo }}</td>
             </tr>
             <tr>
-                <td class="fisrt">Exponential Moving Average</td>
+                <td class="first">Exponential Moving Average</td>
                 <td class="second"> {{ trn_ema }}</td>
             </tr>
             <tr>
-                <td class="fisrt">Ichimoku Kinkō Hyō</td>
+                <td class="first">Ichimoku Kinkō Hyō</td>
                 <td class="second"> {{ trn_ich }}</td>
             </tr>
             <tr>
-                <td class="fisrt">KST Oscillator</td>
+                <td class="first">KST Oscillator</td>
                 <td class="second"> {{ trn_kst }}</td>
             </tr>
             <tr>
-                <td class="fisrt">MACD</td>
+                <td class="first">MACD</td>
                 <td class="second"> {{ trn_macd }}</td>
             </tr>
+            <tr>
+                <td colspan="2">
+                    <img class="trn_final" src="https://storage.googleapis.com/buy-sell-hold/static/{{ trn_final }}">
+                </td>
+            </tr>
         </table>
+
     </div>
-<img class="mom_final" src="https://storage.googleapis.com/buy-sell-hold/static/{{ mom_final }}">
-<img class="vol_final" src="https://storage.googleapis.com/buy-sell-hold/static/{{ vol_final }}">
-<img class="vot_final" src="https://storage.googleapis.com/buy-sell-hold/static/{{ vot_final }}">
-<img class="trn_final" src="https://storage.googleapis.com/buy-sell-hold/static/{{ trn_final }}">
     <div class="more">
-    <a class="more" href="{% url 'homepage:Register' %}">Detailed Analysis</a>
+        <a class="more" href="{% url 'homepage:Register' %}">Detailed Analysis</a>
     </div>
 {% endblock %}

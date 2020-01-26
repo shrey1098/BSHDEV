@@ -8,10 +8,10 @@ import os
 from statistics import mean, mode
 import ta
 
-companys = ["PCJEWELLER.NS", "VAKRANGEE.NS", "PFIZER.NS", "PNB.NS", "SHOPERSTOP.NS", "JSWSTEEL.NS", "LT.NS", "LUPIN.NS",
+companys = ["PCJEWELLER.NS", "PFIZER.NS", "PNB.NS", "SHOPERSTOP.NS", "JSWSTEEL.NS", "LT.NS", "LUPIN.NS",
             "M&M.NS", "MRF.NS", "GAIL.NS"]
 
-tickers = ["PC Jeweller Ltd", "Vakrangee Limited", "Pfizer Limited", "Punjab National Bank", "Shoppers Stop Limited",
+tickers = ["PC Jeweller Ltd", "Pfizer Limited", "Punjab National Bank", "Shoppers Stop Limited",
            "JW Steel Limited",
            "Larsen & Toubro Limited", "Lupin Limited", "Mahindra & Mahindra limited", "MRF Tyres limited",
            "Gail Limited"]

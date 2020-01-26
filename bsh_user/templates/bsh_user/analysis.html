@@ -3,14 +3,14 @@
     {% load static %}
     <head>
 
-        <link rel="stylesheet" href="https://storage.googleapis.com/buy-sell-hold/static/bsh_user/user_analysis.css">
-
+        <link rel="stylesheet" href="{% static 'bsh_user/user_analysis.css' %}">
+<meta name="viewport" content="width=device-width" initial-scale="1.0">
 
         <title>Analysis</title>
     </head>
 
     <body>
-    <div>
+    <div class="insert_ticker">
      <form action={% url 'bsh_user:Results_Search_user' %} method="get" autocomplete="on">
          <div class="autocomplete">
 
@@ -70,8 +70,80 @@
             );
         </script>
     </div>
+     <div class="tradingview-widget-container-laptop">
+        <div id="tradingview_b76bd"></div>
+        <div class="tradingview-widget-copyright"><a href="https://in.tradingview.com/symbols/"
+                                                     rel="noopener" target="_blank"> </a></div>
+        <script type="text/javascript" src="https://s3.tradingview.com/tv.js"></script>
+        <script type="text/javascript">
+            new TradingView.widget(
+                {
+                    "width": 1200,
+                    "height": 630,
+                    "symbol": "BSE:{{ x }}",
+                    "interval": "D",
+                    "timezone": "Asia/Kolkata",
+                    "theme": "Dark",
+                    "style": "1",
+                    "locale": "in",
+                    "toolbar_bg": "#f1f3f6",
+                    "enable_publishing": false,
+                    "allow_symbol_change": false,
+                    "container_id": ""
+                }
+            );
+        </script>
+    </div>
+    <div class="tradingview-widget-container-mobile-iphone6">
+        <div id="tradingview_b76bd"></div>
+        <div class="tradingview-widget-copyright"><a href="https://in.tradingview.com/symbols/"
+                                                     rel="noopener" target="_blank"> </a></div>
+        <script type="text/javascript" src="https://s3.tradingview.com/tv.js"></script>
+        <script type="text/javascript">
+            new TradingView.widget(
+                {
+                    "width": 360,
+                    "height": 500,
+                    "symbol": "BSE:{{ x }}",
+                    "interval": "D",
+                    "timezone": "Asia/Kolkata",
+                    "theme": "Light",
+                    "style": "2",
+                    "locale": "in",
+                    "toolbar_bg": "#f1f3f6",
+                    "enable_publishing": false,
+                    "allow_symbol_change": false,
+                    "container_id": ""
+                }
+            );
+        </script>
+    </div>
+    <div class="tradingview-widget-container-mobile-onp5">
+        <div id="tradingview_b76bd"></div>
+        <div class="tradingview-widget-copyright"><a href="https://in.tradingview.com/symbols/"
+                                                     rel="noopener" target="_blank"> </a></div>
+        <script type="text/javascript" src="https://s3.tradingview.com/tv.js"></script>
+        <script type="text/javascript">
+            new TradingView.widget(
+                {
+                    "width": 420,
+                    "height": 600,
+                    "symbol": "BSE:{{ x }}",
+                    "interval": "D",
+                    "timezone": "Asia/Kolkata",
+                    "theme": "Light",
+                    "style": "2",
+                    "locale": "in",
+                    "toolbar_bg": "#f1f3f6",
+                    "enable_publishing": false,
+                    "allow_symbol_change": false,
+                    "container_id": ""
+                }
+            );
+        </script>
+    </div>
     <div class="news_sentiment">
-        <div class="news_trend">News Trend -</div>
+        <div class="news_trend">News Trend-</div>
         <div class="news_trend_percentage">
             <ul class="percentage_table">
                 <li class="buy">{{ news_buy }}</li>
@@ -212,7 +284,7 @@
         </table>
     </div>
     </div>
-        <div class="line1"></div>
+        <div class="line"></div>
     <div class="final_signal">
         <div class="final_signal_writeup">Final Signal</div>
         <img class="final_signal_img" src="https://storage.googleapis.com/buy-sell-hold/static/{{ score }}" >

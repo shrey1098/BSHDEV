@@ -2,10 +2,13 @@
 {%  block content %}
 {% load static %}
     <head>
-        <link rel="stylesheet" href="https://storage.googleapis.com/buy-sell-hold/static/homepage/our_goal.css">
+        <link rel="stylesheet" href="{% static 'homepage/our_goal.css' %}">
         <title>Who We Are</title>
     </head>
     <body>
-        <div class=" write_up"><img src="https://storage.googleapis.com/buy-sell-hold/static/homepage/Whoweare.png"> </div>
+        <div class=" write_up">
+            <h1>Who We Are</h1>
+            <p>We are your go to website for stock analysis.</p>
+        </div>
     </body>
 {% endblock %}

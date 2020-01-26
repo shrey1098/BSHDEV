@@ -1,81 +1,93 @@
 {% extends 'bsh_user/layout_User.html' %}
 {% block content %}
-{% load static %}
+    {% load static %}
     <head>
-    <script> autocomplete(document.getElementById("myInput"), co_names);</script>
-     <link rel="stylesheet" href="https://storage.googleapis.com/buy-sell-hold/static/bsh_user/user_page.css">
-
+        <script> autocomplete(document.getElementById("myInput"), co_names);</script>
+        <link rel="stylesheet" href="{% static 'bsh_user/user_page.css' %}">
+        <meta name="viewport" content="width=device-width" initial-scale="1.0">
         <link type="text/javascript" src="https://storage.googleapis.com/buy-sell-hold/static/bsh_user/auto_comp.js"/>
-    <title>USER</title>
+        <title>USER</title>
     </head>
 
     <body>
     <div class="welcome">Welcome {{ user.first_name }} </div>
-<div>
-     <form action={% url 'bsh_user:Results_Search_user' %} method="get" autocomplete="on">
-         <div class="autocomplete">
+    <div>
+        <form action={% url 'bsh_user:Results_Search_user' %} method="get" autocomplete="on">
+            <div class="autocomplete">
 
-            <label>
-                <input class="enter_ticker" type="text" name="Ticker" id="myInput"  placeholder="Enter Ticker">
-                <img class="search-label-icon" src="https://storage.googleapis.com/buy-sell-hold/static/homepage/path.png" alt="search" id="input_img">
-            </label>
-            <input class="technical_analysis" type="image" src="https://storage.googleapis.com/buy-sell-hold/static/homepage/Submit.png" >
+                <label>
+                    <input class="enter_ticker" type="text" name="Ticker" id="myInput" placeholder="Enter Ticker">
+                    <img class="search-label-icon"
+                         src="https://storage.googleapis.com/buy-sell-hold/static/homepage/path.png" alt="search"
+                         id="input_img">
+                </label>
+                <input class="technical_analysis" type="image"
+                       src="https://storage.googleapis.com/buy-sell-hold/static/homepage/Submit.png">
             </div>
         </form>
-</div>
+    </div>
 
-</div>
+    </div>
     <div class="sidebar" onclick="sidebar_pullout()">
-    <div class="arrowleft" onclick="sidebar_pullout()"><img src="https://storage.googleapis.com/buy-sell-hold/static/homepage/Arrow Left.png"
-                                alt="Arrowleft" onclick="sidebar_pullout()">
-    </div>
-    <div class="submenu" id="submenu">
-
-        <div class="name">
-            <div class="name_wl">WATCHLIST</div>
-            <div class="eye_closed" onclick="sidebar_pullout()"><img alt="eye_closed" onclick="sidebar_pullout()"
-                                                                     src="https://storage.googleapis.com/buy-sell-hold/static/bsh_user/eye-closed.svg"
-                                                                     height="30" width="50"></div>
+        <div class="arrowleft" onclick="sidebar_pullout()"><img
+                src="https://storage.googleapis.com/buy-sell-hold/static/homepage/Arrow Left.png"
+                alt="Arrowleft" onclick="sidebar_pullout()">
         </div>
-        <table class="wl_table">
-            <tr class="header">
-                <th>Stock</th>
-                <th class="third">Added Price</th>
-                <th class="third">Current Price</th>
-                <th class="third">Signal</th>
-            </tr>
-            {% for wl , wl_p, wl_sig, closeps in rows %}
-                <tr class="wl_row">
-                    <td class="first">{{ wl }}</td>
-                    <td class="third">{{ wl_p }}</td>
-                    <td class="third">{{ closeps }}</td>
-                    <td class="third">{{ wl_sig }}</td>
-                </tr>
-            {% endfor %}
-        </table>
+        <div class="submenu" id="submenu">
 
+            <div class="name">
+                <div class="name_wl">WATCHLIST</div>
+                <div class="eye_closed" onclick="sidebar_pullout()"><img alt="eye_closed" onclick="sidebar_pullout()"
+                                                                         src="data:image/svg+xml;utf8;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0iaXNvLTg4NTktMSI/Pgo8IS0tIEdlbmVyYXRvcjogQWRvYmUgSWxsdXN0cmF0b3IgMTkuMC4wLCBTVkcgRXhwb3J0IFBsdWctSW4gLiBTVkcgVmVyc2lvbjogNi4wMCBCdWlsZCAwKSAgLS0+CjxzdmcgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIiB4bWxuczp4bGluaz0iaHR0cDovL3d3dy53My5vcmcvMTk5OS94bGluayIgdmVyc2lvbj0iMS4xIiBpZD0iTGF5ZXJfMSIgeD0iMHB4IiB5PSIwcHgiIHZpZXdCb3g9IjAgMCA1MTIgNTEyIiBzdHlsZT0iZW5hYmxlLWJhY2tncm91bmQ6bmV3IDAgMCA1MTIgNTEyOyIgeG1sOnNwYWNlPSJwcmVzZXJ2ZSIgd2lkdGg9IjUxMnB4IiBoZWlnaHQ9IjUxMnB4Ij4KPGc+Cgk8Zz4KCQk8Zz4KCQkJPHBhdGggZD0iTTI1NiwwQzExNC44NDQsMCwwLDExNC44NDQsMCwyNTZzMTE0Ljg0NCwyNTYsMjU2LDI1NnMyNTYtMTE0Ljg0NCwyNTYtMjU2UzM5Ny4xNTYsMCwyNTYsMHogTTI1Niw0OTAuNjY3ICAgICBDMTI2LjYwNCw0OTAuNjY3LDIxLjMzMywzODUuMzk2LDIxLjMzMywyNTZTMTI2LjYwNCwyMS4zMzMsMjU2LDIxLjMzM1M0OTAuNjY3LDEyNi42MDQsNDkwLjY2NywyNTZTMzg1LjM5Niw0OTAuNjY3LDI1Niw0OTAuNjY3ICAgICB6IiBmaWxsPSIjMDAwMDAwIi8+CgkJCTxwYXRoIGQ9Ik0zNTkuNTQyLDE1Mi40NThjLTQuMTY3LTQuMTY3LTEwLjkxNy00LjE2Ny0xNS4wODMsMEwyNTYsMjQwLjkxN2wtODguNDU4LTg4LjQ1OGMtNC4xNjctNC4xNjctMTAuOTE3LTQuMTY3LTE1LjA4MywwICAgICBjLTQuMTY3LDQuMTY3LTQuMTY3LDEwLjkxNywwLDE1LjA4M0wyNDAuOTE3LDI1NmwtODguNDU4LDg4LjQ1OGMtNC4xNjcsNC4xNjctNC4xNjcsMTAuOTE3LDAsMTUuMDgzICAgICBjMi4wODMsMi4wODMsNC44MTMsMy4xMjUsNy41NDIsMy4xMjVzNS40NTgtMS4wNDIsNy41NDItMy4xMjVMMjU2LDI3MS4wODNsODguNDU4LDg4LjQ1OGMyLjA4MywyLjA4Myw0LjgxMywzLjEyNSw3LjU0MiwzLjEyNSAgICAgYzIuNzI5LDAsNS40NTgtMS4wNDIsNy41NDItMy4xMjVjNC4xNjctNC4xNjcsNC4xNjctMTAuOTE3LDAtMTUuMDgzTDI3MS4wODMsMjU2bDg4LjQ1OC04OC40NTggICAgIEMzNjMuNzA4LDE2My4zNzUsMzYzLjcwOCwxNTYuNjI1LDM1OS41NDIsMTUyLjQ1OHoiIGZpbGw9IiMwMDAwMDAiLz4KCQk8L2c+Cgk8L2c+CjwvZz4KPGc+CjwvZz4KPGc+CjwvZz4KPGc+CjwvZz4KPGc+CjwvZz4KPGc+CjwvZz4KPGc+CjwvZz4KPGc+CjwvZz4KPGc+CjwvZz4KPGc+CjwvZz4KPGc+CjwvZz4KPGc+CjwvZz4KPGc+CjwvZz4KPGc+CjwvZz4KPGc+CjwvZz4KPGc+CjwvZz4KPC9zdmc+Cg=="
+                                                                         height="25" width="45"></div>
+            </div>
+            <table class="wl_table">
+                <tr class="header">
+                    <th>Stock</th>
+                    <th class="third">Added Price</th>
+                    <th class="third">Current Price</th>
+                    <th class="third">Signal</th>
+                </tr>
+                {% for wl , wl_p, wl_sig, closeps in rows %}
+                    <tr class="wl_row">
+                        <td class="first">{{ wl }}</td>
+                        <td class="third">{{ wl_p }}</td>
+                        <td class="third">{{ closeps }}</td>
+                        <td class="third">{{ wl_sig }}</td>
+                    </tr>
+                {% endfor %}
+            </table>
+
+
+        </div>
 
     </div>
+    <script>
+        function sidebar_pullout() {
+            document.getElementById("submenu").classList.toggle("showbar");
+        }
 
-</div>
-<script>
-    function sidebar_pullout() {
-        document.getElementById("submenu").classList.toggle("showbar");
-    }
-
-    // Close the dropdown if the user clicks outside of it
-    window.onclick = function (event) {
-        if (!event.target.matches('.sidebar')) {
-            var dropdowns = document.getElementsByClassName("wl_name");
-            var i;
-            for (i = 0; i < dropdowns.length; i++) {
-                var openDropdown = dropdowns[i];
-                if (openDropdown.classList.contains('showbar')) {
-                    openDropdown.classList.remove('showbar');
+        // Close the dropdown if the user clicks outside of it
+        window.onclick = function (event) {
+            if (!event.target.matches('.sidebar')) {
+                var dropdowns = document.getElementsByClassName("wl_name");
+                var i;
+                for (i = 0; i < dropdowns.length; i++) {
+                    var openDropdown = dropdowns[i];
+                    if (openDropdown.classList.contains('showbar')) {
+                        openDropdown.classList.remove('showbar');
+                    }
                 }
             }
         }
-    }
-</script>
+    </script>
+
+    <div class="info">
+        <p>Our Algorithm anslyses various factors that affect a stock price</p>
+        <p>And gives a Buy, Sell or Hold signal.</p>
+        <p>You can search stocks from NSE and BSE to see Signals on them and add them to your watchlist to track
+            them.</p>
+    </div>
+
     </body>
 {% endblock %}
