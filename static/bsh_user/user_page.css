@@ -1,0 +1,1251 @@
+@media only screen and (max-width: 380px)
+and (min-width: 370px) {
+    div.welcome {
+        font-size: 180%;
+        color: #919191;
+        text-align: center;
+        margin-top: 15%;
+    }
+
+    form {
+        margin-left: 15%;
+        margin-top: 4%;
+    }
+
+    input.enter_ticker {
+        width: 80%;
+        height: 5%;
+        box-shadow: 5px 5px 2px #7b7b7b;
+        border: #FFFFFF;
+        color: #7b7b7b;
+        border-radius: 20px;
+        box-sizing: border-box;
+        transition: 200ms ease-in-out;
+        padding-left: 50px;
+        background-color: #fcfcfc;
+    }
+
+    input.enter_ticker[type=text]:focus {
+        box-shadow: 5px 5px 5px #626262;
+        padding-left: 50px;
+    }
+
+    img.search-label-icon {
+        position: absolute;
+        margin-top: 6px;
+        margin-left: -230px;
+    }
+
+    input.technical_analysis {
+        position: absolute;
+        margin-top: 6px;
+        margin-left: -40px;
+        transition: 100ms ease-in-out;
+    }
+
+    input.technical_analysis:hover {
+        margin-left: -38px;
+
+    }
+
+    .autocomplete {
+        margin-top: 15%;
+        position: relative;
+    }
+
+    div.sidebar {
+        height: 100%;
+        width: 3.5%;
+        margin-left: -1.8%;
+        margin-top: -83%;
+        background-color: #EBEBEB;
+        position: fixed;
+
+    }
+
+    div.arrowleft {
+        margin-top: 85%;
+        position: fixed;
+        margin-left: -2%;
+    }
+
+    .submenu {
+        position: absolute;
+        background-color: #EBEBEB;
+        box-shadow: 1px 8px 16px 1px rgba(0, 0, 0, 0.2);
+        transition: 200ms ease-in-out;
+        width: 350px;
+        height: 1100px;
+        text-align: center;
+        z-index: 1;
+    }
+
+    table.wl_table {
+        margin-top: 5%;
+        margin-left: 2%;
+        margin-right: 4%;
+
+    }
+    .name_wl{
+        font-size: 150%;
+        margin-top: 2%;
+        border-bottom: 1px solid #7b7b7b;
+        width: 35%;
+        margin-left: 35%;
+    }
+    .eye_closed{
+    flex: 0;
+    margin-left: 85%;
+    margin-top: -9%;
+}
+    th {
+        font-size: 90%;
+        color: #7b7b7b;
+        font-weight: lighter;
+        margin-bottom: 100px;
+    }
+
+    th.third {
+        text-align: right;
+    }
+
+    td {
+        height: 50px;
+        color: #012840;
+    }
+
+    td.first {
+        width: 2900px;
+        font-size: 80%;
+    }
+
+    td.third {
+        width: 1000px;
+        text-align: right;
+    }
+
+    .showbar {
+        margin-left: -2700%;
+    }
+    div.info{
+        margin-left: 10%;
+        margin-top: 20%;
+        margin-bottom: -50%;
+        width: 80%;
+        color: #7b7b7b;
+        text-align: justify;
+    }
+
+
+}
+@media only screen and (max-width: 418px)
+and (min-width: 410px){
+    div.welcome {
+        font-size: 180%;
+        color: #919191;
+        text-align: center;
+        margin-top: 15%;
+    }
+
+    form {
+        margin-left: 15%;
+        margin-top: 4%;
+    }
+
+    input.enter_ticker {
+        width: 80%;
+        height: 5%;
+        box-shadow: 5px 5px 2px #7b7b7b;
+        border: #FFFFFF;
+        color: #7b7b7b;
+        border-radius: 20px;
+        box-sizing: border-box;
+        transition: 200ms ease-in-out;
+        padding-left: 50px;
+        background-color: #fcfcfc;
+    }
+
+    input.enter_ticker[type=text]:focus {
+        box-shadow: 5px 5px 5px #626262;
+        padding-left: 50px;
+    }
+
+    img.search-label-icon {
+        position: absolute;
+        margin-top: 6px;
+        margin-left: -260px;
+    }
+
+    input.technical_analysis {
+        position: absolute;
+        margin-top: 6px;
+        margin-left: -40px;
+        transition: 100ms ease-in-out;
+    }
+
+    input.technical_analysis:hover {
+        margin-left: -38px;
+
+    }
+
+    .autocomplete {
+        margin-top: 15%;
+        position: relative;
+    }
+
+    div.sidebar {
+        height: 100%;
+        width: 3.5%;
+        margin-left: -1.8%;
+        margin-top: -81%;
+        background-color: #EBEBEB;
+        position: fixed;
+
+    }
+
+    div.arrowleft {
+        margin-top: 85%;
+        position: fixed;
+        margin-left: -1.5%;
+    }
+
+    .submenu {
+        position: absolute;
+        background-color: #EBEBEB;
+        box-shadow: 1px 8px 16px 1px rgba(0, 0, 0, 0.2);
+        transition: 200ms ease-in-out;
+        width: 370px;
+        height: 1100px;
+        text-align: center;
+        z-index: 1;
+    }
+
+    table.wl_table {
+        margin-top: 5%;
+        margin-left: 2%;
+        margin-right: 4%;
+
+    }
+    .name_wl{
+        font-size: 150%;
+        margin-top: 2%;
+        border-bottom: 1px solid #7b7b7b;
+        width: 35%;
+        margin-left: 35%;
+    }
+    .eye_closed{
+    flex: 0;
+    margin-left: 85%;
+    margin-top: -9%;
+}
+    th {
+        font-size: 90%;
+        color: #7b7b7b;
+        font-weight: lighter;
+        margin-bottom: 100px;
+    }
+
+    th.third {
+        text-align: right;
+    }
+
+    td {
+        height: 50px;
+        color: #012840;
+    }
+
+    td.first {
+        width: 2900px;
+        font-size: 80%;
+    }
+
+    td.third {
+        width: 1000px;
+        text-align: right;
+    }
+
+    .showbar {
+        margin-left: -2700%;
+    }
+    div.info{
+        margin-left: 10%;
+        margin-top: 20%;
+        margin-bottom: -50%;
+        width: 80%;
+        color: #7b7b7b;
+        text-align: justify;
+    }
+
+
+}
+@media only screen and (width: 375px)
+and (height: 812px){
+    div.welcome {
+        font-size: 180%;
+        color: #919191;
+        text-align: center;
+        margin-top: 15%;
+    }
+
+    form {
+        margin-left: 15%;
+        margin-top: 4%;
+    }
+
+    input.enter_ticker {
+        width: 80%;
+        height: 4%;
+        box-shadow: 5px 5px 2px #7b7b7b;
+        border: #FFFFFF;
+        color: #7b7b7b;
+        border-radius: 20px;
+        box-sizing: border-box;
+        transition: 200ms ease-in-out;
+        padding-left: 50px;
+        background-color: #fcfcfc;
+    }
+
+    input.enter_ticker[type=text]:focus {
+        box-shadow: 5px 5px 5px #626262;
+        padding-left: 50px;
+    }
+
+    img.search-label-icon {
+        position: absolute;
+        margin-top: 6px;
+        margin-left: -230px;
+    }
+
+    input.technical_analysis {
+        position: absolute;
+        margin-top: 6px;
+        margin-left: -40px;
+        transition: 100ms ease-in-out;
+    }
+
+    input.technical_analysis:hover {
+        margin-left: -38px;
+
+    }
+
+    .autocomplete {
+        margin-top: 15%;
+        position: relative;
+    }
+
+    div.sidebar {
+        height: 100%;
+        width: 3.5%;
+        margin-left: -1.8%;
+        margin-top: -92%;
+        background-color: #EBEBEB;
+        position: fixed;
+
+    }
+
+    div.arrowleft {
+        margin-top: 88%;
+        position: fixed;
+        margin-left: -2%;
+    }
+
+    .submenu {
+        position: absolute;
+        background-color: #EBEBEB;
+        box-shadow: 1px 8px 16px 1px rgba(0, 0, 0, 0.2);
+        transition: 200ms ease-in-out;
+        width: 350px;
+        height: 1100px;
+        text-align: center;
+        z-index: 1;
+    }
+
+    table.wl_table {
+        margin-top: 5%;
+        margin-left: 2%;
+        margin-right: 4%;
+
+    }
+    .name_wl{
+        font-size: 150%;
+        margin-top: 2%;
+        border-bottom: 1px solid #7b7b7b;
+        width: 35%;
+        margin-left: 35%;
+    }
+    .eye_closed{
+    flex: 0;
+    margin-left: 85%;
+    margin-top: -9%;
+}
+    th {
+        font-size: 90%;
+        color: #7b7b7b;
+        font-weight: lighter;
+        margin-bottom: 100px;
+    }
+
+    th.third {
+        text-align: right;
+    }
+
+    td {
+        height: 50px;
+        color: #012840;
+    }
+
+    td.first {
+        width: 2900px;
+        font-size: 80%;
+    }
+
+    td.third {
+        width: 1000px;
+        text-align: right;
+    }
+
+    .showbar {
+        margin-left: -2700%;
+    }
+    div.info{
+        margin-left: 10%;
+        margin-top: 20%;
+        margin-bottom: -45%;
+        width: 80%;
+        color: #7b7b7b;
+        text-align: justify;
+    }
+}
+@media only screen and (width: 414px)
+and (height: 896px)
+{
+    div.welcome {
+        font-size: 180%;
+        color: #919191;
+        text-align: center;
+        margin-top: 15%;
+    }
+
+    form {
+        margin-left: 15%;
+        margin-top: 4%;
+    }
+
+    input.enter_ticker {
+        width: 80%;
+        height: 4%;
+        box-shadow: 5px 5px 2px #7b7b7b;
+        border: #FFFFFF;
+        color: #7b7b7b;
+        border-radius: 20px;
+        box-sizing: border-box;
+        transition: 200ms ease-in-out;
+        padding-left: 50px;
+        background-color: #fcfcfc;
+    }
+
+    input.enter_ticker[type=text]:focus {
+        box-shadow: 5px 5px 5px #626262;
+        padding-left: 50px;
+    }
+
+    img.search-label-icon {
+        position: absolute;
+        margin-top: 6px;
+        margin-left: -250px;
+    }
+
+    input.technical_analysis {
+        position: absolute;
+        margin-top: 6px;
+        margin-left: -40px;
+        transition: 100ms ease-in-out;
+    }
+
+    input.technical_analysis:hover {
+        margin-left: -38px;
+
+    }
+
+    .autocomplete {
+        margin-top: 15%;
+        position: relative;
+    }
+
+    div.sidebar {
+        height: 100%;
+        width: 3.5%;
+        margin-left: -1.8%;
+        margin-top: -88.5%;
+        background-color: #EBEBEB;
+        position: fixed;
+
+    }
+
+    div.arrowleft {
+        margin-top: 90%;
+        position: fixed;
+        margin-left: -1.5%;
+    }
+
+    .submenu {
+        position: absolute;
+        background-color: #EBEBEB;
+        box-shadow: 1px 8px 16px 1px rgba(0, 0, 0, 0.2);
+        transition: 200ms ease-in-out;
+        width: 350px;
+        height: 1100px;
+        text-align: center;
+        z-index: 1;
+    }
+
+    table.wl_table {
+        margin-top: 10%;
+        margin-left: 2%;
+        margin-right: 4%;
+
+    }
+    .name_wl{
+        font-size: 150%;
+        margin-top: 2%;
+        border-bottom: 1px solid #7b7b7b;
+        width: 35%;
+        margin-left: 35%;
+    }
+    .eye_closed{
+    flex: 0;
+    margin-left: 85%;
+    margin-top: -9%;
+}
+    th {
+        font-size: 90%;
+        color: #7b7b7b;
+        font-weight: lighter;
+        margin-bottom: 100px;
+    }
+
+    th.third {
+        text-align: right;
+    }
+
+    td {
+        height: 50px;
+        color: #012840;
+    }
+
+    td.first {
+        width: 2900px;
+        font-size: 80%;
+    }
+
+    td.third {
+        width: 1000px;
+        text-align: right;
+    }
+
+    .showbar {
+        margin-left: -2700%;
+    }
+    div.info{
+        margin-left: 10%;
+        margin-top: 20%;
+        margin-bottom: -42%;
+        width: 80%;
+        color: #7b7b7b;
+        text-align: justify;
+    }
+}
+
+@media only screen and (max-width: 460px)
+and (min-width: 454px){
+    div.welcome {
+        font-size: 180%;
+        color: #919191;
+        text-align: center;
+        margin-top: 15%;
+    }
+
+    form {
+        margin-left: 15%;
+        margin-top: 4%;
+    }
+
+    input.enter_ticker {
+        width: 80%;
+        height: 4.5%;
+        box-shadow: 5px 5px 2px #7b7b7b;
+        border: #FFFFFF;
+        color: #7b7b7b;
+        border-radius: 20px;
+        box-sizing: border-box;
+        transition: 200ms ease-in-out;
+        padding-left: 50px;
+        background-color: #fcfcfc;
+    }
+
+    input.enter_ticker[type=text]:focus {
+        box-shadow: 5px 5px 5px #626262;
+        padding-left: 50px;
+    }
+
+    img.search-label-icon {
+        position: absolute;
+        margin-top: 6px;
+        margin-left: -280px;
+    }
+
+    input.technical_analysis {
+        position: absolute;
+        margin-top: 6px;
+        margin-left: -40px;
+        transition: 100ms ease-in-out;
+    }
+
+    input.technical_analysis:hover {
+        margin-left: -38px;
+
+    }
+
+    .autocomplete {
+        margin-top: 15%;
+        position: relative;
+    }
+
+    div.sidebar {
+        height: 100%;
+        width: 3.5%;
+        margin-left: -1.8%;
+        margin-top: -79%;
+        background-color: #EBEBEB;
+        position: fixed;
+
+    }
+
+    div.arrowleft {
+        margin-top: 85%;
+        position: fixed;
+        margin-left: -1%;
+    }
+
+    .submenu {
+        position: absolute;
+        background-color: #EBEBEB;
+        box-shadow: 1px 8px 16px 1px rgba(0, 0, 0, 0.2);
+        transition: 200ms ease-in-out;
+        width: 400px;
+        height: 1100px;
+        text-align: center;
+        z-index: 1;
+    }
+
+    table.wl_table {
+        margin-top: 5%;
+        margin-left: 2%;
+        margin-right: 4%;
+
+    }
+    .name_wl{
+        font-size: 150%;
+        margin-top: 2%;
+        border-bottom: 1px solid #7b7b7b;
+        width: 35%;
+        margin-left: 35%;
+    }
+    .eye_closed{
+    flex: 0;
+    margin-left: 85%;
+    margin-top: -9%;
+}
+    th {
+        font-size: 90%;
+        color: #7b7b7b;
+        font-weight: lighter;
+        margin-bottom: 100px;
+    }
+
+    th.third {
+        text-align: right;
+    }
+
+    td {
+        height: 50px;
+        color: #012840;
+    }
+
+    td.first {
+        width: 2900px;
+        font-size: 80%;
+    }
+
+    td.third {
+        width: 1000px;
+        text-align: right;
+    }
+
+    .showbar {
+        margin-left: -2700%;
+    }
+    div.info{
+        margin-left: 10%;
+        margin-top: 20%;
+        margin-bottom: -50%;
+        width: 80%;
+        color: #7b7b7b;
+        text-align: justify;
+    }
+
+
+}
+@media only screen and (min-width : 1279px)
+and (max-width: 1281px){
+
+    div.welcome {
+        font-size: 250%;
+        color: #919191;
+        text-align: center;
+        margin-top: 5%;
+    }
+
+    form {
+        margin-left: 33%;
+        margin-top: 2%;
+    }
+
+    input.enter_ticker {
+        width: 50%;
+        height: 4.5%;
+        box-shadow: 5px 5px 2px #7b7b7b;
+        border: #FFFFFF;
+        color: #7b7b7b;
+        border-radius: 20px;
+        box-sizing: border-box;
+        transition: 200ms ease-in-out;
+        padding-left: 50px;
+        background-color: #fcfcfc;
+    }
+
+    input.enter_ticker[type=text]:focus {
+        box-shadow: 5px 5px 5px #626262;
+        padding-left: 50px;
+    }
+
+    img.search-label-icon {
+        position: absolute;
+        margin-top: 6px;
+        margin-left: -410px;
+    }
+
+    input.technical_analysis {
+        position: absolute;
+        margin-top: 6px;
+        margin-left: -40px;
+        transition: 100ms ease-in-out;
+    }
+
+    input.technical_analysis:hover {
+        margin-left: -38px;
+
+    }
+
+    .autocomplete {
+        margin-top: 15%;
+        position: relative;
+    }
+
+    div.sidebar {
+        height: 100%;
+        width: 3.5%;
+        margin-left: -1.8%;
+        margin-top: -30.5%;
+        background-color: #EBEBEB;
+        position: fixed;
+
+    }
+
+    div.arrowleft {
+        margin-top: 30%;
+        position: fixed;
+        margin-left: 2%;
+    }
+
+    .submenu {
+        position: absolute;
+        background-color: #EBEBEB;
+        box-shadow: 1px 8px 16px 1px rgba(0, 0, 0, 0.2);
+        transition: 200ms ease-in-out;
+        width: 500px;
+        height: 1100px;
+        text-align: center;
+        z-index: 1;
+    }
+
+    table.wl_table {
+        margin-top: 8%;
+        margin-left: 5%;
+        margin-right: 4%;
+
+    }
+    .name_wl{
+        font-size: 150%;
+        margin-top: 2%;
+        border-bottom: 1px solid #7b7b7b;
+        width: 35%;
+        margin-left: 35%;
+    }
+    .eye_closed{
+    flex: 0;
+    margin-left: 85%;
+    margin-top: -8%;
+}
+    th {
+        font-size: 90%;
+        color: #7b7b7b;
+        font-weight: lighter;
+        margin-bottom: 100px;
+    }
+
+    th.third {
+        text-align: right;
+    }
+
+    td {
+        height: 50px;
+        color: #012840;
+    }
+
+    td.first {
+        width: 2900px;
+        font-size: 80%;
+    }
+
+    td.third {
+        width: 1000px;
+        text-align: right;
+    }
+
+    .showbar {
+        margin-left: -2700%;
+    }
+    div.info{
+        margin-top: 5%;
+        color: #7b7b7b;
+        text-align: center;
+        margin-bottom: -15%;
+    }
+
+}
+
+@media only screen and (min-width : 1360px)
+and (max-width: 1370px){
+
+    div.welcome {
+        font-size: 250%;
+        color: #919191;
+        text-align: center;
+        margin-top: 5%;
+    }
+
+    form {
+        margin-left: 33%;
+        margin-top: 2%;
+    }
+
+    input.enter_ticker {
+        width: 50%;
+        height: 4.5%;
+        box-shadow: 5px 5px 2px #7b7b7b;
+        border: #FFFFFF;
+        color: #7b7b7b;
+        border-radius: 20px;
+        box-sizing: border-box;
+        transition: 200ms ease-in-out;
+        padding-left: 50px;
+        background-color: #fcfcfc;
+    }
+
+    input.enter_ticker[type=text]:focus {
+        box-shadow: 5px 5px 5px #626262;
+        padding-left: 50px;
+    }
+
+    img.search-label-icon {
+        position: absolute;
+        margin-top: 4px;
+        margin-left: -435px;
+    }
+
+    input.technical_analysis {
+        position: absolute;
+        margin-top: 4px;
+        margin-left: -40px;
+        transition: 100ms ease-in-out;
+    }
+
+    input.technical_analysis:hover {
+        margin-left: -38px;
+
+    }
+
+    .autocomplete {
+        margin-top: 15%;
+        position: relative;
+    }
+
+    div.sidebar {
+        height: 100%;
+        width: 3.5%;
+        margin-left: -1.8%;
+        margin-top: -28%;
+        background-color: #EBEBEB;
+        position: fixed;
+
+    }
+
+    div.arrowleft {
+        margin-top: 25%;
+        position: fixed;
+        margin-left: 2%;
+    }
+
+    .submenu {
+        position: absolute;
+        background-color: #EBEBEB;
+        box-shadow: 1px 8px 16px 1px rgba(0, 0, 0, 0.2);
+        transition: 200ms ease-in-out;
+        width: 550px;
+        height: 1100px;
+        text-align: center;
+        z-index: 1;
+    }
+
+    table.wl_table {
+        margin-top: 8%;
+        margin-left: 5%;
+        margin-right: 4%;
+
+    }
+    .name_wl{
+        font-size: 150%;
+        margin-top: 2%;
+        border-bottom: 1px solid #7b7b7b;
+        width: 35%;
+        margin-left: 35%;
+    }
+    .eye_closed{
+    flex: 0;
+    margin-left: 85%;
+    margin-top: -8%;
+}
+    th {
+        font-size: 90%;
+        color: #7b7b7b;
+        font-weight: lighter;
+        margin-bottom: 100px;
+    }
+
+    th.third {
+        text-align: right;
+    }
+
+    td {
+        height: 50px;
+        color: #012840;
+    }
+
+    td.first {
+        width: 2900px;
+        font-size: 80%;
+    }
+
+    td.third {
+        width: 1000px;
+        text-align: right;
+    }
+
+    .showbar {
+        margin-left: -2700%;
+    }
+    div.info{
+        margin-top: 5%;
+        color: #7b7b7b;
+        text-align: center;
+        margin-bottom: -15%;
+    }
+
+}
+
+@media only screen and (min-width : 1439px)
+and (max-width: 1441px){
+        div.welcome {
+        font-size: 250%;
+        color: #919191;
+        text-align: center;
+        margin-top: 5%;
+    }
+
+    form {
+        margin-left: 33%;
+        margin-top: 2%;
+    }
+
+    input.enter_ticker {
+        width: 50%;
+        height: 4.5%;
+        box-shadow: 5px 5px 2px #7b7b7b;
+        border: #FFFFFF;
+        color: #7b7b7b;
+        border-radius: 20px;
+        box-sizing: border-box;
+        transition: 200ms ease-in-out;
+        padding-left: 50px;
+        background-color: #fcfcfc;
+    }
+
+    input.enter_ticker[type=text]:focus {
+        box-shadow: 5px 5px 5px #626262;
+        padding-left: 50px;
+    }
+
+    img.search-label-icon {
+        position: absolute;
+        margin-top: 8.5px;
+        margin-left: -460px;
+    }
+
+    input.technical_analysis {
+        position: absolute;
+        margin-top: 8.5px;
+        margin-left: -40px;
+        transition: 100ms ease-in-out;
+    }
+
+    input.technical_analysis:hover {
+        margin-left: -38px;
+
+    }
+
+    .autocomplete {
+        margin-top: 15%;
+        position: relative;
+    }
+
+    div.sidebar {
+        height: 100%;
+        width: 3.5%;
+        margin-left: -1.8%;
+        margin-top: -30%;
+        background-color: #EBEBEB;
+        position: fixed;
+
+    }
+
+    div.arrowleft {
+        margin-top: 30%;
+        position: fixed;
+        margin-left: 2%;
+    }
+
+    .submenu {
+        position: absolute;
+        background-color: #EBEBEB;
+        box-shadow: 1px 8px 16px 1px rgba(0, 0, 0, 0.2);
+        transition: 200ms ease-in-out;
+        width: 550px;
+        height: 1100px;
+        text-align: center;
+        z-index: 1;
+    }
+
+    table.wl_table {
+        margin-top: 8%;
+        margin-left: 5%;
+        margin-right: 4%;
+
+    }
+    .name_wl{
+        font-size: 150%;
+        margin-top: 2%;
+        border-bottom: 1px solid #7b7b7b;
+        width: 35%;
+        margin-left: 35%;
+    }
+    .eye_closed{
+    flex: 0;
+    margin-left: 85%;
+    margin-top: -6%;
+}
+    th {
+        font-size: 90%;
+        color: #7b7b7b;
+        font-weight: lighter;
+        margin-bottom: 100px;
+    }
+
+    th.third {
+        text-align: right;
+    }
+
+    td {
+        height: 50px;
+        color: #012840;
+    }
+
+    td.first {
+        width: 2900px;
+        font-size: 80%;
+    }
+
+    td.third {
+        width: 1000px;
+        text-align: right;
+    }
+
+    .showbar {
+        margin-left: -2700%;
+    }
+    div.info{
+        margin-top: 5%;
+        color: #7b7b7b;
+        text-align: center;
+        margin-bottom: -15%;
+    }
+
+}
+
+@media only screen and (min-width: 1824px) {
+        div.welcome {
+        font-size: 250%;
+        color: #919191;
+        text-align: center;
+        margin-top: 5%;
+    }
+
+    form {
+        margin-left: 33%;
+        margin-top: 2%;
+    }
+
+    input.enter_ticker {
+        width: 50%;
+        height: 4.5%;
+        box-shadow: 5px 5px 2px #7b7b7b;
+        border: #FFFFFF;
+        color: #7b7b7b;
+        border-radius: 20px;
+        box-sizing: border-box;
+        transition: 200ms ease-in-out;
+        padding-left: 50px;
+        background-color: #fcfcfc;
+    }
+
+    input.enter_ticker[type=text]:focus {
+        box-shadow: 5px 5px 5px #626262;
+        padding-left: 50px;
+    }
+
+    img.search-label-icon {
+        position: absolute;
+        margin-top: 11px;
+        margin-left: -620px;
+    }
+
+    input.technical_analysis {
+        position: absolute;
+        margin-top: 11px;
+        margin-left: -40px;
+        transition: 100ms ease-in-out;
+    }
+
+    input.technical_analysis:hover {
+        margin-left: -38px;
+
+    }
+
+    .autocomplete {
+        margin-top: 15%;
+        position: relative;
+    }
+
+    div.sidebar {
+        height: 100%;
+        width: 3%;
+        margin-left: -1.8%;
+        margin-top: -26%;
+        background-color: #EBEBEB;
+        position: fixed;
+
+    }
+
+    div.arrowleft {
+        margin-top: 25%;
+        position: fixed;
+        margin-left: 2%;
+    }
+
+    .submenu {
+        position: absolute;
+        background-color: #EBEBEB;
+        box-shadow: 1px 8px 16px 1px rgba(0, 0, 0, 0.2);
+        transition: 200ms ease-in-out;
+        width: 600px;
+        height: 1100px;
+        text-align: center;
+        z-index: 1;
+    }
+
+    table.wl_table {
+        margin-top: 8%;
+        margin-left: 10%;
+        margin-right: 4%;
+
+    }
+    .name_wl{
+        font-size: 150%;
+        margin-top: 2%;
+        border-bottom: 1px solid #7b7b7b;
+        width: 35%;
+        margin-left: 35%;
+    }
+    .eye_closed{
+    flex: 0;
+    margin-left: 85%;
+    margin-top: -6%;
+}
+    th {
+        font-size: 90%;
+        color: #7b7b7b;
+        font-weight: lighter;
+        margin-bottom: 100px;
+    }
+
+    th.third {
+        text-align: right;
+    }
+
+    td {
+        height: 50px;
+        color: #012840;
+    }
+
+    td.first {
+        width: 2900px;
+    }
+
+    td.third {
+        width: 1000px;
+        text-align: right;
+    }
+
+    .showbar {
+        margin-left: -2700%;
+    }
+    div.info{
+        margin-top: 5%;
+        color: #7b7b7b;
+        text-align: center;
+        margin-bottom: -15%;
+    }
+
+}
+
+

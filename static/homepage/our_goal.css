@@ -1,0 +1,148 @@
+h1{
+    font-weight: normal;
+}
+@media only screen and (max-width: 380px)
+and (min-width: 370px) {
+    .write_up {
+        text-align: justify;
+        width: 85%;
+        margin-left: 7%;
+    }
+
+    h1 {
+        color: #a1a1a1;
+        text-align: center;
+        font-size: 150%;
+        margin-bottom: 15%;
+    }
+
+    p {
+        color: #626262;
+    }
+
+}
+
+@media only screen and (max-width: 418px)
+and (min-width: 410px) {
+    .write_up {
+        text-align: justify;
+        width: 85%;
+        margin-left: 7%;
+    }
+
+    h1 {
+        color: #a1a1a1;
+        text-align: center;
+        font-size: 150%;
+        margin-bottom: 15%;
+    }
+
+    p {
+        color: #626262;
+    }
+}
+
+@media only screen and (max-width: 460px)
+and (min-width: 454px) {
+    .write_up {
+        text-align: justify;
+        width: 85%;
+        margin-left: 7%;
+    }
+
+    h1 {
+        color: #a1a1a1;
+        text-align: center;
+        font-size: 150%;
+        margin-bottom: 15%;
+    }
+
+    p {
+        color: #626262;
+    }
+}
+
+@media only screen and (min-width : 1279px)
+and (max-width: 1281px){
+        .write_up {
+        text-align: justify;
+        width: 85%;
+        margin-left: 7%;
+    }
+
+    h1 {
+        color: #a1a1a1;
+        text-align: center;
+        font-size: 150%;
+        margin-bottom: 15%;
+    }
+
+    p {
+        color: #626262;
+        margin-left: 10%;
+    }
+}
+
+@media only screen and (min-width : 1360px)
+and (max-width: 1370px){
+            .write_up {
+        text-align: justify;
+        width: 85%;
+        margin-left: 7%;
+    }
+
+    h1 {
+        color: #a1a1a1;
+        text-align: center;
+        font-size: 150%;
+        margin-bottom: 15%;
+    }
+
+    p {
+        color: #626262;
+        margin-left: 10%;
+    }
+
+}
+
+@media only screen and (min-width : 1439px)
+and (max-width: 1441px){
+            .write_up {
+        text-align: justify;
+        width: 85%;
+        margin-left: 7%;
+    }
+
+    h1 {
+        color: #a1a1a1;
+        text-align: center;
+        font-size: 150%;
+        margin-bottom: 15%;
+    }
+
+    p {
+        color: #626262;
+        margin-left: 15%;
+    }
+}
+@media only screen and (min-width: 1824px)
+{
+            .write_up {
+        text-align: justify;
+        width: 85%;
+        margin-left: 7%;
+    }
+
+    h1 {
+        color: #a1a1a1;
+        text-align: center;
+        font-size: 150%;
+        margin-bottom: 15%;
+        margin-top: 5%;
+    }
+
+    p {
+        color: #626262;
+        margin-left: 15%;
+    }
+}

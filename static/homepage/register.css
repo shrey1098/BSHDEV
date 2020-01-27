@@ -1,0 +1,393 @@
+body {
+    background-color: #012840;
+
+    font-family: "Segoe UI", serif;
+    text-decoration: none;
+    position: relative;
+}
+@media only screen and (max-width: 380px)
+and (min-width: 370px) {
+    div.head {
+        text-align: center;
+        color: #EBEBEB;
+        font-size: 150%;
+        margin-top: 25%;
+    }
+
+    div.line {
+        margin-top: 5%;
+        width: 90%;
+        height: .2%;
+        background-color: #707070;
+        margin-left: 5%;
+    }
+
+    div.container {
+        text-align: center;
+        color: #EBEBEB;
+        margin-top: 15%;
+    }
+
+    div.username, div.first_name, div.last_name, div.email, div.password1, div.password2 {
+        margin-top: 3%;
+    }
+
+    input {
+        color: #c8f0ff;
+        border-bottom: 1px solid #EBEBEB;
+        border-top: none;
+        border-left: none;
+        border-right: none;
+        background-color: #012840;
+    }
+
+    button {
+        background-color: #012840;
+        color: #707070;
+        width: 50%;
+        border-radius: 15px;
+        border: 1px solid #707070;
+        margin-top: 10%;
+        height: 4%;
+        transition: 200ms ease-in-out;
+    }
+
+    button:hover {
+        border: 1px solid #EBEBEB;
+        color: #EBEBEB;
+    }
+}
+@media only screen and (max-width: 418px)
+and (min-width: 410px){
+        div.head {
+        text-align: center;
+        color: #EBEBEB;
+        font-size: 150%;
+        margin-top: 25%;
+    }
+
+    div.line {
+        margin-top: 5%;
+        width: 90%;
+        height: .2%;
+        background-color: #707070;
+        margin-left: 5%;
+    }
+
+    div.container {
+        text-align: center;
+        color: #EBEBEB;
+        margin-top: 15%;
+    }
+
+    div.username, div.first_name, div.last_name, div.email, div.password1, div.password2 {
+        margin-top: 3%;
+    }
+
+    input {
+        color: #c8f0ff;
+        border-bottom: 1px solid #EBEBEB;
+        border-top: none;
+        border-left: none;
+        border-right: none;
+        background-color: #012840;
+    }
+
+    button {
+        background-color: #012840;
+        color: #707070;
+        width: 50%;
+        border-radius: 15px;
+        border: 1px solid #707070;
+        margin-top: 10%;
+        height: 4%;
+        transition: 200ms ease-in-out;
+    }
+
+    button:hover {
+        border: 1px solid #EBEBEB;
+        color: #EBEBEB;
+    }
+}
+@media only screen and (max-width: 460px)
+and (min-width: 454px)
+{
+            div.head {
+        text-align: center;
+        color: #EBEBEB;
+        font-size: 150%;
+        margin-top: 25%;
+    }
+
+    div.line {
+        margin-top: 5%;
+        width: 90%;
+        height: .2%;
+        background-color: #707070;
+        margin-left: 5%;
+    }
+
+    div.container {
+        text-align: center;
+        color: #EBEBEB;
+        margin-top: 15%;
+    }
+
+    div.username, div.first_name, div.last_name, div.email, div.password1, div.password2 {
+        margin-top: 3%;
+    }
+
+    input {
+        color: #c8f0ff;
+        border-bottom: 1px solid #EBEBEB;
+        border-top: none;
+        border-left: none;
+        border-right: none;
+        background-color: #012840;
+    }
+
+    button {
+        background-color: #012840;
+        color: #707070;
+        width: 50%;
+        border-radius: 15px;
+        border: 1px solid #707070;
+        margin-top: 10%;
+        height: 4%;
+        transition: 200ms ease-in-out;
+    }
+
+    button:hover {
+        border: 1px solid #EBEBEB;
+        color: #EBEBEB;
+    }
+}
+@media only screen and (min-width : 1279px)
+and (max-width: 1281px)
+{
+                div.head {
+        text-align: center;
+        color: #EBEBEB;
+        font-size: 150%;
+        margin-top: 10%;
+    }
+
+    div.line {
+        margin-top: 4%;
+        width: 90%;
+        height: .1%;
+        background-color: #707070;
+        margin-left: 5%;
+    }
+
+    div.container {
+        text-align: center;
+        color: #EBEBEB;
+        margin-top: 5%;
+        margin-left: -12%;
+    }
+
+    div.username, div.first_name, div.last_name, div.email, div.password1, div.password2 {
+        margin-top: 3%;
+    }
+
+    input {
+        color: #c8f0ff;
+        border-bottom: 1px solid #EBEBEB;
+        border-top: none;
+        border-left: none;
+        border-right: none;
+        background-color: #012840;
+        margin-top: -1.9%;
+        margin-left: 23%;
+    }
+
+    button {
+        background-color: #012840;
+        color: #707070;
+        width: 15%;
+        border-radius: 15px;
+        border: 1px solid #707070;
+        margin-top: 5%;
+        margin-left: 12%;
+        height: 3%;
+        transition: 200ms ease-in-out;
+    }
+
+    button:hover {
+        border: 1px solid #EBEBEB;
+        color: #EBEBEB;
+    }
+}
+@media only screen and (min-width : 1360px)
+and (max-width: 1370px){
+    div.head {
+        text-align: center;
+        color: #EBEBEB;
+        font-size: 150%;
+        margin-top: 5%;
+    }
+
+    div.line {
+        margin-top: 4%;
+        width: 90%;
+        height: .19%;
+        background-color: #707070;
+        margin-left: 5%;
+    }
+
+    div.container {
+        text-align: center;
+        color: #EBEBEB;
+        margin-top: 1%;
+        margin-left: -12%;
+    }
+
+    div.username, div.first_name, div.last_name, div.email, div.password1, div.password2 {
+        margin-top: 3%;
+    }
+
+    input {
+        color: #c8f0ff;
+        border-bottom: 1px solid #EBEBEB;
+        border-top: none;
+        border-left: none;
+        border-right: none;
+        background-color: #012840;
+        margin-top: -1.9%;
+        margin-left: 23%;
+    }
+
+    button {
+        background-color: #012840;
+        color: #707070;
+        width: 15%;
+        border-radius: 15px;
+        border: 1px solid #707070;
+        margin-top: 5%;
+        margin-left: 12%;
+        height: 4%;
+        transition: 200ms ease-in-out;
+    }
+
+    button:hover {
+        border: 1px solid #EBEBEB;
+        color: #EBEBEB;
+    }
+
+}
+@media only screen and (min-width : 1439px)
+and (max-width: 1441px)
+{
+                div.head {
+        text-align: center;
+        color: #EBEBEB;
+        font-size: 150%;
+        margin-top: 10%;
+    }
+
+    div.line {
+        margin-top: 4%;
+        width: 90%;
+        height: .1%;
+        background-color: #707070;
+        margin-left: 5%;
+    }
+
+    div.container {
+        text-align: center;
+        color: #EBEBEB;
+        margin-top: 5%;
+        margin-left: -12%;
+    }
+
+    div.username, div.first_name, div.last_name, div.email, div.password1, div.password2 {
+        margin-top: 3%;
+    }
+
+    input {
+        color: #c8f0ff;
+        border-bottom: 1px solid #EBEBEB;
+        border-top: none;
+        border-left: none;
+        border-right: none;
+        background-color: #012840;
+        margin-top: -1.9%;
+        margin-left: 23%;
+    }
+
+    button {
+        background-color: #012840;
+        color: #707070;
+        width: 15%;
+        border-radius: 15px;
+        border: 1px solid #707070;
+        margin-top: 5%;
+        margin-left: 12%;
+        height: 3%;
+        transition: 200ms ease-in-out;
+    }
+
+    button:hover {
+        border: 1px solid #EBEBEB;
+        color: #EBEBEB;
+    }
+}
+@media only screen and (min-width: 1824px) {
+    body{
+        font-size: 120%;
+    }
+    div.head {
+        text-align: center;
+        color: #EBEBEB;
+        font-size: 150%;
+        margin-top: 5%;
+    }
+
+    div.line {
+        margin-top: 4%;
+        width: 90%;
+        height: .1%;
+        background-color: #707070;
+        margin-left: 5%;
+    }
+
+    div.container {
+        text-align: center;
+        color: #EBEBEB;
+        margin-top: 5%;
+        margin-left: -12%;
+    }
+
+    div.username, div.first_name, div.last_name, div.email, div.password1, div.password2 {
+        margin-top: 3%;
+    }
+
+    input {
+        color: #c8f0ff;
+        border-bottom: 1px solid #EBEBEB;
+        border-top: none;
+        border-left: none;
+        border-right: none;
+        background-color: #012840;
+        margin-top: -1.2%;
+        margin-left:20%;
+    }
+
+    button {
+        background-color: #012840;
+        color: #707070;
+        width: 15%;
+        border-radius: 15px;
+        border: 1px solid #707070;
+        margin-top: 5%;
+        margin-left: 12%;
+        height: 3%;
+        transition: 200ms ease-in-out;
+    }
+
+    button:hover {
+        border: 1px solid #EBEBEB;
+        color: #EBEBEB;
+    }
+}

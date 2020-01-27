@@ -1,0 +1,1280 @@
+@media only screen and (max-width: 380px)
+and (min-width: 370px) {
+    body {
+        font-family: "Segoe UI", serif;
+        text-decoration: none;
+        position: relative;
+    }
+
+    div.header {
+        height: 8%;
+        width: 100%;
+        margin-top: -2%;
+        background-color: #EBEBEB;
+        margin-left: 1%;
+    }
+
+    .nav-bar {
+        display: flex;
+    }
+
+    .hamburger {
+        flex: 0;
+    }
+
+    .BSH {
+        flex: 3;
+        margin-left: 10px;
+    }
+
+    .dropdown-content {
+        display: none;
+        position: absolute;
+        background-color: #EBEBEB;
+        max-width: 160px;
+        overflow: auto;
+        box-shadow: 1px 8px 16px 1px rgba(0, 0, 0, 0.2);
+        z-index: 1;
+        text-align: left;
+        margin-left: -20px;
+    }
+
+    .dropdown-content a {
+        color: #223741;
+        padding: 12px 10px;
+        text-decoration: none;
+        display: block;
+        text-align: left;
+    }
+
+    .dropdown-content a:hover {
+        background-color: #116466;
+        color: #EBEBEB;
+    }
+
+    .show {
+        display: block;
+    }
+
+    div.index_prices {
+        display: block;
+        background-color: #012840;
+        height: 11%;
+        width: 100%;
+        box-shadow: 2px 2px 2px gray;
+        margin-left: 1%;
+    }
+
+    .nav-index {
+        width: 100%;
+        display: flex;
+        margin: auto;
+
+    }
+
+    div.NIFTY50 {
+        margin-top: -10px;
+        text-align: left;
+        margin-left: -20px;
+    }
+
+    ul.NIFTY_table li {
+        display: block;
+    }
+
+    li.NIFTY {
+        color: #ebea2b;
+    }
+
+    li.NIFTY_price {
+        color: #EBEBEB;
+    }
+
+    li.NIFTY_diff_red {
+        color: #d7040b;
+    }
+
+    li.NIFTY_diff_green {
+        color: #00DB24;
+    }
+
+    div.SENSEX {
+        margin-top: -10px;
+        text-align: left;
+        margin-left: -20px;
+    }
+
+    ul.SENSEX_table li {
+        display: inline;
+    }
+
+    li.SENSEX {
+        color: #ebea2b;
+    }
+
+    li.SENSEX_price {
+        color: #EBEBEB;
+    }
+
+    li.SENSEX_diff_red {
+        color: #d7040b;
+    }
+
+    li.SENSEX_diff_green {
+        color: #00DB24;
+    }
+
+    div.NB {
+        margin-top: -10px;
+        text-align: left;
+        margin-left: -35px;
+    }
+
+    ul.NB_table li {
+        display: inline;
+    }
+
+    li.NB {
+        color: #ebea2b;
+    }
+
+    li.NB_price {
+        color: #EBEBEB;
+    }
+
+    li.NB_diff_green {
+        color: #44d731;
+    }
+
+    li.NB_diff_red {
+        color: #d7040b;
+    }
+
+    div.footer {
+        margin-top: 106%;
+        background-color: #EBEBEB;
+        height: 5%;
+        width: 100%;
+        margin-left: 1%;
+
+
+    }
+
+    .social_media {
+        margin-left: 38%;
+    }
+
+    ul.social_media li {
+        display: inline;
+
+    }
+
+    li img {
+        margin-left: 15px;
+        margin-top: 3.5%;
+    }
+}
+
+@media only screen and (max-width: 418px)
+and (min-width: 410px) {
+    body {
+        font-family: "Segoe UI", serif;
+        text-decoration: none;
+        position: relative;
+    }
+
+    div.header {
+        height: 8%;
+        width: 100%;
+        margin-top: -2%;
+        background-color: #EBEBEB;
+        margin-left: 1%;
+    }
+
+    .nav-bar {
+        display: flex;
+    }
+
+    .hamburger {
+        flex: 0;
+    }
+
+    .BSH {
+        flex: 3;
+        margin-left: 10px;
+    }
+
+    .dropdown-content {
+        display: none;
+        position: absolute;
+        background-color: #EBEBEB;
+        max-width: 160px;
+        overflow: auto;
+        box-shadow: 1px 8px 16px 1px rgba(0, 0, 0, 0.2);
+        z-index: 1;
+        text-align: left;
+        margin-left: -20px;
+    }
+
+    .dropdown-content a {
+        color: #223741;
+        padding: 12px 10px;
+        text-decoration: none;
+        display: block;
+        text-align: left;
+    }
+
+    .dropdown-content a:hover {
+        background-color: #116466;
+        color: #EBEBEB;
+    }
+
+    .show {
+        display: block;
+    }
+
+    div.index_prices {
+        display: block;
+        background-color: #012840;
+        height: 11%;
+        width: 100%;
+        box-shadow: 2px 2px 2px gray;
+        margin-left: 1%;
+    }
+
+    .nav-index {
+        width: 100%;
+        display: flex;
+        margin: auto;
+
+    }
+
+    div.NIFTY50 {
+        margin-top: -10px;
+        text-align: left;
+        margin-left: -20px;
+    }
+
+    ul.NIFTY_table li {
+        display: block;
+    }
+
+    li.NIFTY {
+        color: #ebea2b;
+    }
+
+    li.NIFTY_price {
+        color: #EBEBEB;
+    }
+
+    li.NIFTY_diff_red {
+        color: #d7040b;
+    }
+
+    li.NIFTY_diff_green {
+        color: #00DB24;
+    }
+
+    div.SENSEX {
+        margin-top: -10px;
+        text-align: left;
+        margin-left: -20px;
+    }
+
+    ul.SENSEX_table li {
+        display: inline;
+    }
+
+    li.SENSEX {
+        color: #ebea2b;
+    }
+
+    li.SENSEX_price {
+        color: #EBEBEB;
+    }
+
+    li.SENSEX_diff_red {
+        color: #d7040b;
+    }
+
+    li.SENSEX_diff_green {
+        color: #00DB24;
+    }
+
+    div.NB {
+        margin-top: -10px;
+        text-align: left;
+        margin-left: -35px;
+    }
+
+    ul.NB_table li {
+        display: inline;
+    }
+
+    li.NB {
+        color: #ebea2b;
+    }
+
+    li.NB_price {
+        color: #EBEBEB;
+    }
+
+    li.NB_diff_green {
+        color: #44d731;
+    }
+
+    li.NB_diff_red {
+        color: #d7040b;
+    }
+
+    div.footer {
+        margin-top: 122%;
+        background-color: #EBEBEB;
+        height: 5%;
+        width: 100%;
+        margin-left: -1%;
+    }
+
+    .social_media {
+        margin-left: 38%;
+    }
+
+    ul.social_media li {
+        display: inline;
+
+    }
+
+    li img {
+        margin-left: 15px;
+        margin-top: 3.5%;
+    }
+}
+
+@media only screen and (max-width: 460px)
+and (min-width: 454px) {
+    body {
+        font-family: "Segoe UI", serif;
+        text-decoration: none;
+        position: relative;
+    }
+
+    div.header {
+        height: 8%;
+        width: 100%;
+        margin-top: -2%;
+        background-color: #EBEBEB;
+        margin-left: 1%;
+    }
+
+    .nav-bar {
+        display: flex;
+    }
+
+    .hamburger {
+        flex: 0;
+    }
+
+    .BSH {
+        flex: 3;
+        margin-left: 10px;
+    }
+
+    .dropdown-content {
+        display: none;
+        position: absolute;
+        background-color: #EBEBEB;
+        max-width: 160px;
+        overflow: auto;
+        box-shadow: 1px 8px 16px 1px rgba(0, 0, 0, 0.2);
+        z-index: 1;
+        text-align: left;
+        margin-left: -20px;
+    }
+
+    .dropdown-content a {
+        color: #223741;
+        padding: 12px 10px;
+        text-decoration: none;
+        display: block;
+        text-align: left;
+    }
+
+    .dropdown-content a:hover {
+        background-color: #116466;
+        color: #EBEBEB;
+    }
+
+    .show {
+        display: block;
+    }
+
+    div.index_prices {
+        display: block;
+        background-color: #012840;
+        height: 11%;
+        width: 100%;
+        box-shadow: 2px 2px 2px gray;
+        margin-left: 1%;
+    }
+
+    .nav-index {
+        width: 100%;
+        display: flex;
+        margin: auto;
+
+    }
+
+    div.NIFTY50 {
+        margin-top: -10px;
+        text-align: left;
+        margin-left: -20px;
+    }
+
+    ul.NIFTY_table li {
+        display: block;
+    }
+
+    li.NIFTY {
+        color: #ebea2b;
+    }
+
+    li.NIFTY_price {
+        color: #EBEBEB;
+    }
+
+    li.NIFTY_diff_red {
+        color: #d7040b;
+    }
+
+    li.NIFTY_diff_green {
+        color: #00DB24;
+    }
+
+    div.SENSEX {
+        margin-top: -10px;
+        text-align: left;
+        margin-left: -20px;
+    }
+
+    ul.SENSEX_table li {
+        display: inline;
+    }
+
+    li.SENSEX {
+        color: #ebea2b;
+    }
+
+    li.SENSEX_price {
+        color: #EBEBEB;
+    }
+
+    li.SENSEX_diff_red {
+        color: #d7040b;
+    }
+
+    li.SENSEX_diff_green {
+        color: #00DB24;
+    }
+
+    div.NB {
+        margin-top: -10px;
+        text-align: left;
+    }
+
+    ul.NB_table li {
+        display: inline;
+    }
+
+    li.NB {
+        color: #ebea2b;
+    }
+
+    li.NB_price {
+        color: #EBEBEB;
+    }
+
+    li.NB_diff_green {
+        color: #44d731;
+    }
+
+    li.NB_diff_red {
+        color: #d7040b;
+    }
+
+    div.footer {
+        margin-top: 106%;
+        background-color: #EBEBEB;
+        height: 5%;
+        width: 100%;
+        margin-left: 1%;
+    }
+
+    .social_media {
+        margin-left: 38%;
+    }
+
+    ul.social_media li {
+        display: inline;
+
+    }
+
+    li img {
+        margin-left: 15px;
+        margin-top: 3.5%;
+    }
+}
+
+@media only screen and (min-width: 1279px)
+and (max-width: 1281px) {
+    body {
+        font-family: "Segoe UI", serif;
+        text-decoration: none;
+        position: relative;
+    }
+
+    div.header {
+        height: 7%;
+        width: 100%;
+        margin-top: -.5%;
+        background-color: #EBEBEB;
+        margin-left: .38%;
+    }
+
+    .nav-bar {
+        width: 95.5%;
+        display: flex;
+        margin: auto;
+    }
+
+    .hamburger {
+        flex: 0;
+    }
+
+    .BSH {
+        flex: 2;
+        margin-left: 36px;
+    }
+
+    .dropdown-content {
+        display: none;
+        position: absolute;
+        background-color: #EBEBEB;
+        min-width: 160px;
+        overflow: auto;
+        box-shadow: 1px 8px 16px 1px rgba(0, 0, 0, 0.2);
+        z-index: 1;
+        text-align: left;
+    }
+
+    .dropdown-content a {
+        color: #223741;
+        padding: 12px 16px;
+        text-decoration: none;
+        display: block;
+        text-align: left;
+    }
+
+    .dropdown-content a:hover {
+        background-color: #116466;
+        color: #EBEBEB;
+    }
+
+    .show {
+        display: block;
+    }
+
+    div.index_prices {
+        display: block;
+        background-color: #012840;
+        height: 5%;
+        width: 100%;
+        margin-left: .4%;
+        box-shadow: 2px 2px 2px gray;
+    }
+
+    .nav-index {
+        width: 95.5%;
+        display: flex;
+        margin: auto;
+
+    }
+
+    div.NIFTY50 {
+        flex: 1;
+        margin-top: -13px;
+    }
+
+    ul.NIFTY_table li {
+        display: inline-flex;
+    }
+
+    li.NIFTY {
+        font-size: 140%;
+        color: #ebea2b;
+    }
+
+    li.NIFTY_price {
+        font-size: 140%;
+        color: #EBEBEB;
+    }
+
+    li.NIFTY_diff_red {
+        font-size: 140%;
+        color: #d7040b;
+    }
+
+    li.NIFTY_diff_green {
+        font-size: 140%;
+        color: #00DB24;
+    }
+
+    div.SENSEX {
+        flex: 1;
+        margin-top: -13px;
+        margin-left: -16%;
+    }
+
+    ul.SENSEX_table li {
+        display: inline;
+    }
+
+    li.SENSEX {
+        font-size: 140%;
+        color: #ebea2b;
+    }
+
+    li.SENSEX_price {
+        font-size: 140%;
+        color: #EBEBEB;
+    }
+
+    li.SENSEX_diff_red {
+        font-size: 140%;
+        color: #d7040b;
+    }
+
+    li.SENSEX_diff_green {
+        font-size: 140%;
+        color: #00DB24;
+    }
+
+    div.NB {
+        flex: 1;
+        margin-top: -13px;
+        margin-left: -13%
+    }
+
+    ul.NB_table li {
+        display: inline;
+    }
+
+    li.NB {
+        font-size: 140%;
+        color: #ebea2b;
+    }
+
+
+    li.NB_price {
+        font-size: 140%;
+        color: #EBEBEB;
+    }
+
+    li.NB_diff_green {
+        font-size: 140%;
+        color: #44d731;
+    }
+
+    li.NB_diff_red {
+        font-size: 140%;
+        color: #d7040b;
+    }
+
+    div.footer {
+        background-color: #EBEBEB;
+        height: 5%;
+        width: 100%;
+        margin-left: -.1;
+        margin-top: 42%;
+    }
+
+    .social_media {
+        margin-left: 80%;
+    }
+
+    ul.social_media li {
+        display: inline;
+    }
+
+
+    li img {
+        margin-top: 5%;
+        margin-left: 15px;
+    }
+}
+
+@media only screen and (min-width: 1360px)
+and (max-width: 1370px) {
+    body {
+        font-family: "Segoe UI", serif;
+        text-decoration: none;
+        position: relative;
+    }
+
+    div.header {
+        height: 7%;
+        width: 100%;
+        margin-top: -.5%;
+        background-color: #EBEBEB;
+        margin-left: .38%;
+    }
+
+    .nav-bar {
+        width: 95.5%;
+        display: flex;
+        margin: auto;
+    }
+
+    .hamburger {
+        flex: 0;
+        margin-top: -.5%;
+    }
+
+    .BSH {
+        flex: 2;
+        margin-left: 36px;
+        margin-top: -7px;
+    }
+
+    .dropdown-content {
+        display: none;
+        position: absolute;
+        background-color: #EBEBEB;
+        min-width: 160px;
+        overflow: auto;
+        box-shadow: 1px 8px 16px 1px rgba(0, 0, 0, 0.2);
+        z-index: 1;
+        text-align: left;
+        margin-left: -5%;
+    }
+
+    .dropdown-content a {
+        color: #223741;
+        padding: 12px 16px;
+        text-decoration: none;
+        display: block;
+        text-align: left;
+    }
+
+    .dropdown-content a:hover {
+        background-color: #116466;
+        color: #EBEBEB;
+    }
+
+    .show {
+        display: block;
+    }
+
+    div.index_prices {
+        display: block;
+        background-color: #012840;
+        height: 5%;
+        width: 100%;
+        margin-left: .4%;
+        box-shadow: 2px 2px 2px gray;
+    }
+
+    .nav-index {
+        width: 95.5%;
+        display: flex;
+        margin: auto;
+
+    }
+
+    div.NIFTY50 {
+        flex: 1;
+        margin-top: -13px;
+    }
+
+    ul.NIFTY_table li {
+        display: inline-flex;
+    }
+
+    li.NIFTY {
+        font-size: 140%;
+        color: #ebea2b;
+    }
+
+    li.NIFTY_price {
+        font-size: 140%;
+        color: #EBEBEB;
+    }
+
+    li.NIFTY_diff_red {
+        font-size: 140%;
+        color: #d7040b;
+    }
+
+    li.NIFTY_diff_green {
+        font-size: 140%;
+        color: #00DB24;
+    }
+
+    div.SENSEX {
+        flex: 1;
+        margin-top: -13px;
+        margin-left: -16%;
+    }
+
+    ul.SENSEX_table li {
+        display: inline;
+    }
+
+    li.SENSEX {
+        font-size: 140%;
+        color: #ebea2b;
+    }
+
+    li.SENSEX_price {
+        font-size: 140%;
+        color: #EBEBEB;
+    }
+
+    li.SENSEX_diff_red {
+        font-size: 140%;
+        color: #d7040b;
+    }
+
+    li.SENSEX_diff_green {
+        font-size: 140%;
+        color: #00DB24;
+    }
+
+    div.NB {
+        flex: 1;
+        margin-top: -13px;
+        margin-left: -13%
+    }
+
+    ul.NB_table li {
+        display: inline;
+    }
+
+    li.NB {
+        font-size: 140%;
+        color: #ebea2b;
+    }
+
+
+    li.NB_price {
+        font-size: 140%;
+        color: #EBEBEB;
+    }
+
+    li.NB_diff_green {
+        font-size: 140%;
+        color: #44d731;
+    }
+
+    li.NB_diff_red {
+        font-size: 140%;
+        color: #d7040b;
+    }
+
+    div.footer {
+        background-color: #EBEBEB;
+        height: 5%;
+        width: 100%;
+        margin-left: -.1;
+        margin-top: 42%;
+    }
+
+    .social_media {
+        margin-left: 80%;
+    }
+
+    ul.social_media li {
+        display: inline;
+    }
+
+
+    li img {
+        margin-top: 5%;
+        margin-left: 15px;
+    }
+}
+
+@media only screen and (min-width: 1439px)
+and (max-width: 1441px) {
+    body {
+        font-family: "Segoe UI", serif;
+        text-decoration: none;
+        position: relative;
+    }
+
+    div.header {
+        height: 7%;
+        width: 100%;
+        margin-top: -.5%;
+        background-color: #EBEBEB;
+        margin-left: .38%;
+    }
+
+    .nav-bar {
+        width: 95.5%;
+        display: flex;
+        margin: auto;
+    }
+
+    .hamburger {
+        flex: 0;
+    }
+
+    .BSH {
+        flex: 2;
+        margin-left: 36px;
+    }
+
+    .dropdown-content {
+        display: none;
+        position: absolute;
+        background-color: #EBEBEB;
+        min-width: 160px;
+        overflow: auto;
+        box-shadow: 1px 8px 16px 1px rgba(0, 0, 0, 0.2);
+        z-index: 1;
+        text-align: left;
+        margin-left: -5%;
+    }
+
+    .dropdown-content a {
+        color: #223741;
+        padding: 12px 16px;
+        text-decoration: none;
+        display: block;
+        text-align: left;
+    }
+
+    .dropdown-content a:hover {
+        background-color: #116466;
+        color: #EBEBEB;
+    }
+
+    .show {
+        display: block;
+    }
+
+    div.index_prices {
+        display: block;
+        background-color: #012840;
+        height: 5%;
+        width: 100%;
+        margin-left: .4%;
+        box-shadow: 2px 2px 2px gray;
+    }
+
+    .nav-index {
+        width: 95.5%;
+        display: flex;
+        margin: auto;
+
+    }
+
+    div.NIFTY50 {
+        flex: 1;
+        margin-top: -8px;
+    }
+
+    ul.NIFTY_table li {
+        display: inline-flex;
+    }
+
+    li.NIFTY {
+        font-size: 140%;
+        color: #ebea2b;
+    }
+
+    li.NIFTY_price {
+        font-size: 140%;
+        color: #EBEBEB;
+    }
+
+    li.NIFTY_diff_red {
+        font-size: 140%;
+        color: #d7040b;
+    }
+
+    li.NIFTY_diff_green {
+        font-size: 140%;
+        color: #00DB24;
+    }
+
+    div.SENSEX {
+        flex: 1;
+        margin-top: -8px;
+        margin-left: -16%;
+    }
+
+    ul.SENSEX_table li {
+        display: inline;
+    }
+
+    li.SENSEX {
+        font-size: 140%;
+        color: #ebea2b;
+    }
+
+    li.SENSEX_price {
+        font-size: 140%;
+        color: #EBEBEB;
+    }
+
+    li.SENSEX_diff_red {
+        font-size: 140%;
+        color: #d7040b;
+    }
+
+    li.SENSEX_diff_green {
+        font-size: 140%;
+        color: #00DB24;
+    }
+
+    div.NB {
+        flex: 1;
+        margin-top: -8px;
+        margin-left: -13%
+    }
+
+    ul.NB_table li {
+        display: inline;
+    }
+
+    li.NB {
+        font-size: 140%;
+        color: #ebea2b;
+    }
+
+
+    li.NB_price {
+        font-size: 140%;
+        color: #EBEBEB;
+    }
+
+    li.NB_diff_green {
+        font-size: 140%;
+        color: #44d731;
+    }
+
+    li.NB_diff_red {
+        font-size: 140%;
+        color: #d7040b;
+    }
+
+    div.footer {
+        background-color: #EBEBEB;
+        height: 5%;
+        width: 100%;
+        margin-left: -.1;
+        margin-top: 42%;
+    }
+
+    .social_media {
+        margin-left: 80%;
+    }
+
+    ul.social_media li {
+        display: inline;
+    }
+
+
+    li img {
+        margin-top: 5%;
+        margin-left: 15px;
+    }
+}
+
+@media only screen and (min-width: 1824px) {
+    body {
+        font-family: "Segoe UI", serif;
+        text-decoration: none;
+        position: relative;
+    }
+
+    div.header {
+        height: 5%;
+        width: 100%;
+        margin-top: -.5%;
+        background-color: #EBEBEB;
+        margin-left: .38%;
+    }
+
+    .nav-bar {
+        width: 87%;
+        display: flex;
+        margin: auto;
+    }
+
+    .hamburger {
+        flex: 0;
+        margin-top: -.2%;
+    }
+
+    .BSH {
+        flex: 2;
+        margin-left: 37px;
+        margin-top: -4px;
+    }
+
+    .dropdown-content {
+        display: none;
+        position: absolute;
+        background-color: #EBEBEB;
+        min-width: 160px;
+        overflow: auto;
+        box-shadow: 1px 8px 16px 1px rgba(0, 0, 0, 0.2);
+        z-index: 1;
+        text-align: left;
+    }
+
+    .dropdown-content a {
+        color: #223741;
+        padding: 12px 16px;
+        text-decoration: none;
+        display: block;
+        text-align: left;
+    }
+
+    .dropdown-content a:hover {
+        background-color: #116466;
+        color: #EBEBEB;
+    }
+
+    .show {
+        display: block;
+    }
+
+    div.index_prices {
+        display: block;
+        background-color: #012840;
+        height: 5%;
+        width: 100%;
+        margin-left: .4%;
+        box-shadow: 2px 2px 2px gray;
+    }
+
+    .nav-index {
+        width: 87.5%;
+        display: flex;
+        margin: auto;
+
+    }
+
+    div.NIFTY50 {
+        flex: 1;
+        margin-top: -13px;
+    }
+
+    ul.NIFTY_table li {
+        display: inline-flex;
+    }
+
+    li.NIFTY {
+        font-size: 180%;
+        color: #ebea2b;
+    }
+
+    li.NIFTY_price {
+        font-size: 180%;
+        color: #EBEBEB;
+    }
+
+    li.NIFTY_diff_red {
+        font-size: 180%;
+        color: #d7040b;
+    }
+
+    li.NIFTY_diff_green {
+        font-size: 180%;
+        color: #00DB24;
+    }
+
+    div.SENSEX {
+        flex: 1;
+        margin-top: -13px;
+        margin-left: -8%;
+    }
+
+    ul.SENSEX_table li {
+        display: inline;
+    }
+
+    li.SENSEX {
+        font-size: 180%;
+        color: #ebea2b;
+    }
+
+    li.SENSEX_price {
+        font-size: 180%;
+        color: #EBEBEB;
+    }
+
+    li.SENSEX_diff_red {
+        font-size: 180%;
+        color: #d7040b;
+    }
+
+    li.SENSEX_diff_green {
+        font-size: 180%;
+        color: #00DB24;
+    }
+
+    div.NB {
+        flex: 1;
+        margin-top: -13px;
+        margin-left: -12%;
+    }
+
+    ul.NB_table li {
+        display: inline;
+    }
+
+    li.NB {
+        font-size: 180%;
+        color: #ebea2b;
+    }
+
+    li.NB_price {
+        font-size: 180%;
+        color: #EBEBEB;
+    }
+
+    li.NB_diff_green {
+        font-size: 180%;
+        color: #44d731;
+    }
+    li.NB_diff_red {
+    font-size: 180%;
+    color: #d7040b;
+}
+
+    div.footer {
+        background-color: #EBEBEB;
+        height: 5%;
+        width: 100%;
+        margin-left: -.1;
+        margin-top: 42%;
+    }
+
+    .social_media {
+        margin-left: 80%;
+    }
+
+    ul.social_media li {
+        display: inline;
+    }
+
+
+    li img {
+        margin-top: 5%;
+        margin-left: 15px;
+    }
+}

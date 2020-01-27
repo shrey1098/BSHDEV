@@ -1,0 +1,194 @@
+body{
+    font-family: "Segoe UI", serif;
+    text-decoration: none;
+}
+@media only screen and (max-width: 380px)
+and (min-width: 370px){
+    div.search_results{
+        text-align: center;
+        font-size: 150%;
+        color: #116466;
+        margin-top: 5%;
+    }
+    form.ticker{
+        margin-left: 4.5%;
+        max-width: 80%;
+    }
+    input.Co_name{
+        max-width: 105%;
+        background: none;
+        border: none;
+        color: #012840;
+        transition: 200ms ease-in-out;
+    }
+    input.co_name:hover{
+        font-size: 120%;
+        border-bottom: 1px solid #EBEBEB;
+    }
+
+}
+@media only screen and (max-width: 418px)
+and (min-width: 410px){
+    div.search_results{
+        text-align: center;
+        font-size: 150%;
+        color: #116466;
+        margin-top: 5%;
+    }
+    form.ticker{
+        margin-left: 4.5%;
+        max-width: 80%;
+    }
+    input.Co_name{
+        max-width: 105%;
+        background: none;
+        border: none;
+        color: #012840;
+        transition: 200ms ease-in-out;
+    }
+    input.co_name:hover{
+        font-size: 120%;
+        border-bottom: 1px solid #EBEBEB;
+    }
+
+}
+
+@media only screen and (max-width: 460px)
+and (min-width: 454px){
+    div.search_results{
+        text-align: center;
+        font-size: 150%;
+        color: #116466;
+        margin-top: 5%;
+    }
+    form.ticker{
+        margin-left: 4.5%;
+    }
+    div.results{
+        margin-top: 10%;
+    }
+    input.Co_name{
+        max-width: 100%;
+        background: none;
+        border: none;
+        color: #012840;
+        transition: 200ms ease-in-out;
+    }
+    input.co_name:hover{
+        font-size: 120%;
+        border-bottom: 1px solid #EBEBEB;
+    }
+
+}
+@media only screen and (min-width : 1260px)
+and (max-width: 1290px){
+    div.search_results{
+        text-align: center;
+        font-size: 150%;
+        color: #116466;
+        margin-top: 5%;
+    }
+    form.ticker{
+        margin-left: 4.5%;
+    }
+    div.results{
+        margin-top: 4%;
+        margin-left: 10%;
+    }
+    input.Co_name{
+        background: none;
+        border: none;
+        color: #012840;
+        transition: 200ms ease-in-out;
+        margin-top: -2%;
+    }
+    input.co_name:hover{
+        font-size: 120%;
+        border-bottom: 1px solid #EBEBEB;
+    }
+
+}
+@media only screen and (min-width : 1360px)
+and (max-width: 1370px){
+    div.search_results{
+        text-align: center;
+        font-size: 150%;
+        color: #116466;
+        margin-top: 5%;
+    }
+    form.ticker{
+        margin-left: 4.5%;
+    }
+    div.results{
+        margin-top: 4%;
+        margin-left: 10%;
+    }
+    input.Co_name{
+        background: none;
+        border: none;
+        color: #012840;
+        transition: 200ms ease-in-out;
+        margin-top: -2%;
+    }
+    input.co_name:hover{
+        font-size: 120%;
+        border-bottom: 1px solid #EBEBEB;
+    }
+
+}
+@media only screen and (min-width : 1439px)
+and (max-width: 1441px){
+    div.search_results{
+        text-align: center;
+        font-size: 150%;
+        color: #116466;
+        margin-top: 5%;
+    }
+    form.ticker{
+        margin-left: 4.5%;
+    }
+    div.results{
+        margin-top: 4%;
+        margin-left: 10%;
+    }
+    input.Co_name{
+        background: none;
+        border: none;
+        color: #012840;
+        transition: 200ms ease-in-out;
+        margin-top: -2%;
+    }
+    input.co_name:hover{
+        font-size: 120%;
+        border-bottom: 1px solid #EBEBEB;
+    }
+
+}
+@media only screen and (min-width: 1824px){
+    div.search_results{
+        text-align: center;
+        font-size: 200%;
+        color: #116466;
+        margin-top: 5%;
+    }
+    form.ticker{
+        margin-left: 4.5%;
+    }
+    div.results{
+        margin-top: 4%;
+        margin-left: 10%;
+    }
+    input.Co_name{
+        background: none;
+        border: none;
+        color: #012840;
+        transition: 200ms ease-in-out;
+        margin-top: -2%;
+        font-size: 120%;
+    }
+    input.co_name:hover{
+        font-size: 150%;
+        border-bottom: 1px solid #EBEBEB;
+    }
+
+}

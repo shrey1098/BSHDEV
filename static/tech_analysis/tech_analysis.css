@@ -1,0 +1,568 @@
+body{
+    font-family: "Segoe UI", serif;
+}
+@media only screen and (max-width: 380px)
+and (min-width: 370px) {
+    div.head {
+        color: #012840;
+        margin-top: 5%;
+        border-bottom: 1px solid #EBEBEB;
+        max-width: 36%;
+        margin-left: 30%;
+    }
+
+    ul.ticker_table li {
+        display: inline-block;
+    }
+
+    ul.ticker_table {
+        margin-left: -5%;
+
+    }
+    li.ticker_name, li.ticker_price{
+        color: #012840;
+        font-size: 110%;
+    }
+    li.diff_green, li.diff_red{
+        font-size: 80%;
+    }
+    li.diff_green{
+        color: #00DB24;
+    }
+    li.diff_red{
+        color: #d7040b;
+    }
+    div.tables{margin-top: 15%}
+
+    th {
+    font-weight: normal;
+    font-size: 80%;
+    color: #919191;
+}
+    td.first{
+        min-width: 50%;
+        text-align: left;
+        border-bottom: 1px solid #EBEBEB;
+    }
+    td.second{
+        min-width: 20%;
+        text-align: center;
+        border-bottom: 1px solid #EBEBEB;
+    }
+
+    table.momentum{
+        margin-left: 6%;
+    }
+    table.Volume{
+        margin-left: 4%;
+        margin-top: 15%;
+    }
+    table.Volatility{
+        margin-left: 8%;
+        margin-top: 15%;
+    }
+    table.Trend{
+        margin-left: 4%;
+        margin-top: 15%;
+    }
+    img.mom_final, img.vol_final, img.vot_final, img.trn_final{
+        max-width: 80%;
+        margin-left: 9%;
+    }
+    div.more{
+    text-align: center;
+        margin-top: 30%;
+        margin-bottom: -40%;
+    }
+    div.more a{
+        text-decoration: none;
+        transition: 200ms ease-in-out;
+        color: #012840;
+    }
+    div.more a:hover{
+        font-size: 120%;
+        border-bottom: 1px solid #EBEBEB;
+    }
+}
+@media only screen and (max-width: 418px)
+and (min-width: 410px) {
+    div.head {
+        color: #012840;
+        margin-top: 5%;
+        border-bottom: 1px solid #EBEBEB;
+        max-width: 33%;
+        margin-left: 33%;
+    }
+
+    ul.ticker_table li {
+        display: inline-block;
+    }
+
+    ul.ticker_table {
+        margin-left: -5%;
+
+    }
+    li.ticker_name, li.ticker_price{
+        color: #012840;
+        font-size: 110%;
+    }
+    li.diff_green, li.diff_red{
+        font-size: 80%;
+    }
+    li.diff_green{
+        color: #00DB24;
+    }
+    li.diff_red{
+        color: #d7040b;
+    }
+    div.tables{margin-top: 15%}
+
+    th {
+    font-weight: normal;
+    font-size: 80%;
+    color: #919191;
+}
+    td.first{
+        min-width: 50%;
+        text-align: left;
+        border-bottom: 1px solid #EBEBEB;
+    }
+    td.second{
+        min-width: 20%;
+        text-align: center;
+        border-bottom: 1px solid #EBEBEB;
+    }
+
+    table.momentum{
+        margin-left: 8%;
+    }
+    table.Volume{
+        margin-left: 5%;
+        margin-top: 15%;
+    }
+    table.Volatility{
+        margin-left: 8%;
+        margin-top: 15%;
+    }
+    table.Trend{
+        margin-left: 5%;
+        margin-top: 15%;
+    }
+    img.mom_final, img.vol_final, img.vot_final, img.trn_final{
+        max-width: 80%;
+        margin-left: 12%;
+    }
+    div.more{
+    text-align: center;
+        margin-top: 30%;
+        margin-bottom: -40%;
+    }
+    div.more a{
+        text-decoration: none;
+        transition: 200ms ease-in-out;
+        color: #012840;
+    }
+    div.more a:hover{
+        font-size: 120%;
+        border-bottom: 1px solid #EBEBEB;
+    }
+}
+
+@media only screen and (max-width: 460px)
+and (min-width: 454px){
+        div.head {
+        color: #012840;
+        margin-top: 5%;
+        border-bottom: 1px solid #EBEBEB;
+        max-width: 30%;
+        margin-left: 33%;
+    }
+
+    ul.ticker_table li {
+        display: inline-block;
+    }
+
+    ul.ticker_table {
+        margin-left: -3%;
+        margin-top: 5%;
+
+    }
+    li.ticker_name, li.ticker_price{
+        color: #012840;
+        font-size: 120%;
+    }
+    li.diff_green, li.diff_red{
+        font-size: 80%;
+    }
+    li.diff_green{
+        color: #00DB24;
+    }
+    li.diff_red{
+        color: #d7040b;
+    }
+    div.tables{margin-top: 15%}
+
+    th {
+    font-weight: normal;
+    font-size: 80%;
+    color: #919191;
+}
+    td.first{
+        min-width: 50%;
+        text-align: left;
+        border-bottom: 1px solid #EBEBEB;
+    }
+    td.second{
+        min-width: 20%;
+        text-align: center;
+        border-bottom: 1px solid #EBEBEB;
+    }
+
+    table.momentum{
+        margin-left: 8%;
+    }
+    table.Volume{
+        margin-left: 5%;
+        margin-top: 15%;
+    }
+    table.Volatility{
+        margin-left: 8%;
+        margin-top: 15%;
+    }
+    table.Trend{
+        margin-left: 5%;
+        margin-top: 15%;
+    }
+    img.mom_final, img.vol_final, img.vot_final, img.trn_final{
+        max-width: 80%;
+        margin-left: 10%;
+    }
+    div.more{
+    text-align: center;
+        margin-top: 30%;
+        margin-bottom: -40%;
+    }
+    div.more a{
+        text-decoration: none;
+        transition: 200ms ease-in-out;
+        color: #012840;
+    }
+    div.more a:hover{
+        font-size: 120%;
+        border-bottom: 1px solid #EBEBEB;
+    }
+}
+
+@media only screen and (min-width : 1279px)
+and (max-width: 1281px){
+    div.head{
+        text-align: center;
+        margin-top: 5%;
+        font-size: 120%;
+    }
+     ul.ticker_table li {
+        display: inline-block;
+    }
+
+    ul.ticker_table {
+        margin-left: 5%;
+        margin-top: 5%;
+
+    }
+    li.ticker_name, li.ticker_price{
+        color: #012840;
+        font-size: 150%;
+    }
+    li.diff_green{
+        color: #00DB24;
+    }
+    li.diff_red{
+        color: #d7040b;
+    }
+    .tables table{
+        display: inline;
+    }
+     div.tables{margin-top: 5%;
+     margin-left: 8%;}
+
+    th {
+    font-weight: normal;
+    font-size: 80%;
+    color: #919191;
+}
+     table.Volume, table.Trend{
+         margin-left: 20%;
+     }
+    td.first{
+        text-align: left;
+        border-bottom: 1px solid #EBEBEB;
+    }
+    td.second{
+        text-align: center;
+        border-bottom: 1px solid #EBEBEB;
+    }
+    img.mom_final, img.vol_final, img.vot_final, img.trn_final{
+        max-width: 90%;
+    }
+    img.mom_final{
+        margin-bottom: 20%;
+        margin-top:53px;
+    }
+    img.trn_final{
+        margin-top: 10px;
+    }
+    img.vot_final{
+        margin-top: 140px;
+    }
+     div.more{
+    text-align: center;
+        margin-top: 10%;
+        margin-bottom: -20%;
+         font-size: 120%;
+    }
+    div.more a{
+        text-decoration: none;
+        transition: 200ms ease-in-out;
+        color: #012840;
+    }
+    div.more a:hover{
+        font-size: 150%;
+        border-bottom: 1px solid #EBEBEB;
+    }
+
+
+}
+@media only screen and (min-width : 1360px)
+and (max-width: 1370px){
+        div.head{
+        text-align: center;
+        margin-top: 5%;
+        font-size: 120%;
+    }
+     ul.ticker_table li {
+        display: inline-block;
+    }
+
+    ul.ticker_table {
+        margin-left: 5%;
+        margin-top: 5%;
+
+    }
+    li.ticker_name, li.ticker_price{
+        color: #012840;
+        font-size: 150%;
+    }
+    li.diff_green{
+        color: #00DB24;
+    }
+    li.diff_red{
+        color: #d7040b;
+    }
+    .tables table{
+        display: inline;
+    }
+     div.tables{margin-top: 5%;
+     margin-left: 8%;}
+
+    th {
+    font-weight: normal;
+    font-size: 80%;
+    color: #919191;
+}
+     table.Volume, table.Trend{
+         margin-left: 20%;
+     }
+    td.first{
+        text-align: left;
+        border-bottom: 1px solid #EBEBEB;
+    }
+    td.second{
+        text-align: center;
+        border-bottom: 1px solid #EBEBEB;
+    }
+    img.mom_final, img.vol_final, img.vot_final, img.trn_final{
+        max-width: 90%;
+    }
+    img.mom_final{
+        margin-bottom: 20%;
+        margin-top:53px;
+    }
+    img.trn_final{
+        margin-top: 10px;
+    }
+    img.vot_final{
+        margin-top: 140px;
+    }
+     div.more{
+    text-align: center;
+        margin-top: 10%;
+        margin-bottom: -20%;
+         font-size: 120%;
+    }
+    div.more a{
+        text-decoration: none;
+        transition: 200ms ease-in-out;
+        color: #012840;
+    }
+    div.more a:hover{
+        font-size: 150%;
+        border-bottom: 1px solid #EBEBEB;
+    }
+}
+@media only screen and (min-width : 1439px)
+and (max-width: 1441px){
+
+            div.head{
+        text-align: center;
+        margin-top: 5%;
+        font-size: 120%;
+    }
+     ul.ticker_table li {
+        display: inline-block;
+    }
+
+    ul.ticker_table {
+        margin-left: 5%;
+        margin-top: 5%;
+
+    }
+    li.ticker_name, li.ticker_price{
+        color: #012840;
+        font-size: 180%;
+    }
+    li.diff_green{
+        color: #00DB24;
+    }
+    li.diff_red{
+        color: #d7040b;
+    }
+    .tables table{
+        display: inline;
+    }
+     div.tables{margin-top: 5%;
+     margin-left: 13%;
+     font-size: 120%}
+
+    th {
+    font-weight: normal;
+    font-size: 80%;
+    color: #919191;
+}
+     table.Volume, table.Trend{
+         margin-left: 20%;
+     }
+    td.first{
+        text-align: left;
+        border-bottom: 1px solid #EBEBEB;
+    }
+    td.second{
+        text-align: center;
+        border-bottom: 1px solid #EBEBEB;
+    }
+    img.mom_final, img.vol_final, img.vot_final, img.trn_final{
+        max-width: 90%;
+    }
+    img.mom_final{
+        margin-bottom: 20%;
+        margin-top:53px;
+    }
+    img.trn_final{
+        margin-top: 10px;
+    }
+    img.vot_final{
+        margin-top: 140px;
+    }
+     div.more{
+    text-align: center;
+        margin-top: 10%;
+        margin-bottom: -20%;
+         font-size: 120%;
+    }
+    div.more a{
+        text-decoration: none;
+        transition: 200ms ease-in-out;
+        color: #012840;
+    }
+    div.more a:hover{
+        font-size: 150%;
+        border-bottom: 1px solid #EBEBEB;
+    }
+}
+@media only screen and (min-width: 1824px){
+                div.head{
+        text-align: center;
+        margin-top: 2%;
+        font-size: 200%;
+    }
+     ul.ticker_table li {
+        display: inline-block;
+    }
+
+    ul.ticker_table {
+        margin-left: 5%;
+        margin-top: 4%;
+
+    }
+    li.ticker_name, li.ticker_price{
+        color: #012840;
+        font-size: 250%;
+    }
+    li.diff_green{
+        color: #00DB24;
+    }
+    li.diff_red{
+        color: #d7040b;
+    }
+    .tables table{
+        display: inline;
+    }
+     div.tables{margin-top: 3%;
+     margin-left: 4%;
+
+     }
+    table.Volume, table.Volatility,table.Trend{
+        margin-left: 3%;
+
+    }
+    table.momentum, table.Volume, table.Volatility,table.Trend{
+         font-size: 130%;
+    }
+    th {
+    font-weight: normal;
+    font-size: 80%;
+    color: #919191;
+}
+    td.first{
+        text-align: left;
+        border-bottom: 1px solid #EBEBEB;
+    }
+    td.second{
+        text-align: center;
+        border-bottom: 1px solid #EBEBEB;
+    }
+    img.vol_final{
+        margin-top: 110px;
+    }
+    img.vot_final{
+        margin-top:205px;
+    }
+    img.trn_final{
+        margin-top: 45px;
+    }
+
+     div.more{
+    text-align: center;
+        margin-top: 3%;
+        margin-bottom: -25%;
+         font-size: 120%;
+    }
+    div.more a{
+        text-decoration: none;
+        transition: 200ms ease-in-out;
+        color: #012840;
+    }
+    div.more a:hover{
+        font-size: 150%;
+        border-bottom: 1px solid #EBEBEB;
+    }
+}
