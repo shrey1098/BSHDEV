@@ -24,15 +24,7 @@ SECRET_KEY = '898zf*uth=h(s&iu+3+yl5!(3kfgc1ihk-7uy@@!m1&c-t7!cp'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = False
 
-ALLOWED_HOSTS = ['buy-sell-hold-260610.appspot.com', '127.0.0.0']
-SECURE_HSTS_SECONDS = 0
-SECURE_CONTENT_TYPE_NOSNIFF =True
-SECURE_BROWSER_XSS_FILTER = True
-SECURE_SSL_REDIRECT = True
-SESSION_COOKIE_SECURE = True
-CSRF_COOKIE_SECURE = True
-X_FRAME_OPTIONS = 'DENY'
-
+ALLOWED_HOSTS = ['buy-sell-hold-260610.appspot.com', '127.0.0.1']
 
 # Application definition
 
