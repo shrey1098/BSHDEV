@@ -27,7 +27,7 @@ and (min-width: 370px){
     }
 
 }
-@media only screen and (max-width: 418px)
+@media only screen and (max-width: 430px)
 and (min-width: 410px){
     div.search_results{
         text-align: center;

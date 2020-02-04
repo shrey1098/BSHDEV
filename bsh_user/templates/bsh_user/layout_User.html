@@ -1,16 +1,16 @@
 {% load static %}
 
 <head>
-    <link rel="stylesheet" href="https://storage.googleapis.com/bshdev_static/static/bsh_user/layout_User.css">
+    <link rel="stylesheet" href="/static/bsh_user/layout_User.css">
     <meta name="viewport" content="width=device-width" initial-scale="1.0">
 </head>
 <div class="header">
     <div class="nav-bar">
         <div class="BSH"><a href="{% url 'homepage:Homepage' %}"> <img
-                src="https://storage.googleapis.com/bshdev_static/static/homepage/BSH.svg" alt="BSH"></a>
+                src="/static/homepage/BSH.svg" alt="BSH"></a>
         </div>
         <div class="hamburger"><img class="hamburger"
-                                    src="https://storage.googleapis.com/bshdev_static/static/homepage/investor.svg"
+                                    src="/static/homepage/investor.svg"
                                     alt="Hamburger"
                                     onclick="myFunction()">
             <div id="myDropdown" class="dropdown-content">
@@ -76,11 +76,11 @@
 {% endblock %}
 <div class="footer">
     <ul class="social_media">
-        <li class="ig_logo"><img src="https://storage.googleapis.com/bshdev_static/static/homepage/IG logo.png"
+        <li class="ig_logo"><img src="/static/homepage/IG logo.png"
                                  alt="ig_logo"></li>
-        <li class="fb_logo"><img src="https://storage.googleapis.com/bshdev_static/static/homepage/FB Logo.png"
+        <li class="fb_logo"><img src="/static/homepage/FB Logo.png"
                                  alt="fb_logo"></li>
-        <li class="mail_logo"><img src="https://storage.googleapis.com/bshdev_static/static/homepage/Gmail Logo.png"
+        <li class="mail_logo"><img src="/static/homepage/Gmail Logo.png"
                                    alt="mail_logo"></li>
     </ul>
 </div>

@@ -88,7 +88,7 @@ and (min-width: 370px) {
     }
     .name_wl{
         font-size: 150%;
-        margin-top: 2%;
+        margin-top: 5%;
         border-bottom: 1px solid #7b7b7b;
         width: 35%;
         margin-left: 35%;
@@ -96,7 +96,7 @@ and (min-width: 370px) {
     .eye_closed{
     flex: 0;
     margin-left: 85%;
-    margin-top: -9%;
+    margin-top: -5%;
 }
     th {
         font-size: 90%;
@@ -236,7 +236,7 @@ and (min-width: 410px){
     .eye_closed{
     flex: 0;
     margin-left: 85%;
-    margin-top: -9%;
+    margin-top: -5%;
 }
     th {
         font-size: 90%;
@@ -368,7 +368,7 @@ and (height: 812px){
     }
     .name_wl{
         font-size: 150%;
-        margin-top: 2%;
+        margin-top: 5%;
         border-bottom: 1px solid #7b7b7b;
         width: 35%;
         margin-left: 35%;
@@ -376,7 +376,7 @@ and (height: 812px){
     .eye_closed{
     flex: 0;
     margin-left: 85%;
-    margin-top: -9%;
+    margin-top: -5%;
 }
     th {
         font-size: 90%;
@@ -507,7 +507,7 @@ and (height: 896px)
     }
     .name_wl{
         font-size: 150%;
-        margin-top: 2%;
+        margin-top: 5%;
         border-bottom: 1px solid #7b7b7b;
         width: 35%;
         margin-left: 35%;
@@ -515,7 +515,7 @@ and (height: 896px)
     .eye_closed{
     flex: 0;
     margin-left: 85%;
-    margin-top: -9%;
+    margin-top: -5%;
 }
     th {
         font-size: 90%;
@@ -646,7 +646,7 @@ and (min-width: 454px){
     }
     .name_wl{
         font-size: 150%;
-        margin-top: 2%;
+        margin-top: 5%;
         border-bottom: 1px solid #7b7b7b;
         width: 35%;
         margin-left: 35%;
@@ -654,7 +654,7 @@ and (min-width: 454px){
     .eye_closed{
     flex: 0;
     margin-left: 85%;
-    margin-top: -9%;
+    margin-top: -5%;
 }
     th {
         font-size: 90%;
@@ -787,7 +787,7 @@ and (max-width: 1281px){
     }
     .name_wl{
         font-size: 150%;
-        margin-top: 2%;
+        margin-top: 5%;
         border-bottom: 1px solid #7b7b7b;
         width: 35%;
         margin-left: 35%;
@@ -795,7 +795,7 @@ and (max-width: 1281px){
     .eye_closed{
     flex: 0;
     margin-left: 85%;
-    margin-top: -8%;
+    margin-top: -4%;
 }
     th {
         font-size: 90%;
@@ -926,7 +926,7 @@ and (max-width: 1370px){
     }
     .name_wl{
         font-size: 150%;
-        margin-top: 2%;
+        margin-top: 5%;
         border-bottom: 1px solid #7b7b7b;
         width: 35%;
         margin-left: 35%;
@@ -934,7 +934,7 @@ and (max-width: 1370px){
     .eye_closed{
     flex: 0;
     margin-left: 85%;
-    margin-top: -8%;
+    margin-top: -4%;
 }
     th {
         font-size: 90%;
@@ -1064,7 +1064,7 @@ and (max-width: 1441px){
     }
     .name_wl{
         font-size: 150%;
-        margin-top: 2%;
+        margin-top: 5%;
         border-bottom: 1px solid #7b7b7b;
         width: 35%;
         margin-left: 35%;
@@ -1072,7 +1072,7 @@ and (max-width: 1441px){
     .eye_closed{
     flex: 0;
     margin-left: 85%;
-    margin-top: -6%;
+    margin-top: -3%;
 }
     th {
         font-size: 90%;
@@ -1201,7 +1201,7 @@ and (max-width: 1441px){
     }
     .name_wl{
         font-size: 150%;
-        margin-top: 2%;
+        margin-top: 5%;
         border-bottom: 1px solid #7b7b7b;
         width: 35%;
         margin-left: 35%;
@@ -1209,7 +1209,7 @@ and (max-width: 1441px){
     .eye_closed{
     flex: 0;
     margin-left: 85%;
-    margin-top: -6%;
+    margin-top: -3%;
 }
     th {
         font-size: 90%;

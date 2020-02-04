@@ -80,24 +80,31 @@ and (min-width: 370px) {
         z-index: 1;
     }
 
+    div.name {
+        margin-top: 20%;
+    }
+
     table.wl_table {
         margin-top: 5%;
         margin-left: 2%;
         margin-right: 4%;
 
     }
-    .name_wl{
+
+    .name_wl {
         font-size: 150%;
-        margin-top: 2%;
+        margin-top: 5%;
         border-bottom: 1px solid #7b7b7b;
         width: 35%;
         margin-left: 35%;
     }
-    .eye_closed{
-    flex: 0;
-    margin-left: 85%;
-    margin-top: -9%;
-}
+
+    .eye_closed {
+        flex: 0;
+        margin-left: 85%;
+        margin-top: -7%;
+    }
+
     th {
         font-size: 90%;
         color: #7b7b7b;
@@ -107,6 +114,7 @@ and (min-width: 370px) {
 
     th.third {
         text-align: right;
+        width: 1000px;
     }
 
     td {
@@ -119,6 +127,10 @@ and (min-width: 370px) {
         font-size: 80%;
     }
 
+    input.Co_name {
+        height: 150%;
+    }
+
     td.third {
         width: 1000px;
         text-align: right;
@@ -127,7 +139,8 @@ and (min-width: 370px) {
     .showbar {
         margin-left: -2700%;
     }
-    div.info{
+
+    div.info {
         margin-left: 10%;
         margin-top: 20%;
         margin-bottom: -50%;
@@ -138,8 +151,9 @@ and (min-width: 370px) {
 
 
 }
-@media only screen and (max-width: 418px)
-and (min-width: 410px){
+
+@media only screen and (max-width: 430px)
+and (min-width: 410px) {
     div.welcome {
         font-size: 180%;
         color: #919191;
@@ -194,7 +208,7 @@ and (min-width: 410px){
     }
 
     div.sidebar {
-        height: 100%;
+        height: 150%;
         width: 3.5%;
         margin-left: -1.8%;
         margin-top: -81%;
@@ -220,24 +234,31 @@ and (min-width: 410px){
         z-index: 1;
     }
 
+    div.name {
+        margin-top: 15%;
+    }
+
     table.wl_table {
         margin-top: 5%;
         margin-left: 2%;
         margin-right: 4%;
 
     }
-    .name_wl{
+
+    .name_wl {
         font-size: 150%;
         margin-top: 2%;
         border-bottom: 1px solid #7b7b7b;
         width: 35%;
         margin-left: 35%;
     }
-    .eye_closed{
-    flex: 0;
-    margin-left: 85%;
-    margin-top: -9%;
-}
+
+    .eye_closed {
+        flex: 0;
+        margin-left: 85%;
+        margin-top: -6.5%;
+    }
+
     th {
         font-size: 90%;
         color: #7b7b7b;
@@ -247,6 +268,7 @@ and (min-width: 410px){
 
     th.third {
         text-align: right;
+        width: 1000px;
     }
 
     td {
@@ -267,7 +289,8 @@ and (min-width: 410px){
     .showbar {
         margin-left: -2700%;
     }
-    div.info{
+
+    div.info {
         margin-left: 10%;
         margin-top: 20%;
         margin-bottom: -50%;
@@ -278,8 +301,18 @@ and (min-width: 410px){
 
 
 }
+
+@media only screen and (height: 881px) {
+    div.sidebar {
+        margin-top: -90%;
+    }
+    div.arrowleft{
+        margin-top: 100%;
+    }
+}
+
 @media only screen and (width: 375px)
-and (height: 812px){
+and (height: 812px) {
     div.welcome {
         font-size: 180%;
         color: #919191;
@@ -366,18 +399,21 @@ and (height: 812px){
         margin-right: 4%;
 
     }
-    .name_wl{
+
+    .name_wl {
         font-size: 150%;
-        margin-top: 2%;
+        margin-top: 5%;
         border-bottom: 1px solid #7b7b7b;
         width: 35%;
         margin-left: 35%;
     }
-    .eye_closed{
-    flex: 0;
-    margin-left: 85%;
-    margin-top: -9%;
-}
+
+    .eye_closed {
+        flex: 0;
+        margin-left: 85%;
+        margin-top: -6.5%;
+    }
+
     th {
         font-size: 90%;
         color: #7b7b7b;
@@ -407,7 +443,8 @@ and (height: 812px){
     .showbar {
         margin-left: -2700%;
     }
-    div.info{
+
+    div.info {
         margin-left: 10%;
         margin-top: 20%;
         margin-bottom: -45%;
@@ -416,9 +453,9 @@ and (height: 812px){
         text-align: justify;
     }
 }
+
 @media only screen and (width: 414px)
-and (height: 896px)
-{
+and (height: 896px) {
     div.welcome {
         font-size: 180%;
         color: #919191;
@@ -505,18 +542,21 @@ and (height: 896px)
         margin-right: 4%;
 
     }
-    .name_wl{
+
+    .name_wl {
         font-size: 150%;
-        margin-top: 2%;
+        margin-top: 5%;
         border-bottom: 1px solid #7b7b7b;
         width: 35%;
         margin-left: 35%;
     }
-    .eye_closed{
-    flex: 0;
-    margin-left: 85%;
-    margin-top: -9%;
-}
+
+    .eye_closed {
+        flex: 0;
+        margin-left: 85%;
+        margin-top: -7%;
+    }
+
     th {
         font-size: 90%;
         color: #7b7b7b;
@@ -546,7 +586,8 @@ and (height: 896px)
     .showbar {
         margin-left: -2700%;
     }
-    div.info{
+
+    div.info {
         margin-left: 10%;
         margin-top: 20%;
         margin-bottom: -42%;
@@ -557,7 +598,7 @@ and (height: 896px)
 }
 
 @media only screen and (max-width: 460px)
-and (min-width: 454px){
+and (min-width: 454px) {
     div.welcome {
         font-size: 180%;
         color: #919191;
@@ -612,10 +653,10 @@ and (min-width: 454px){
     }
 
     div.sidebar {
-        height: 100%;
+        height: 150%;
         width: 3.5%;
         margin-left: -1.8%;
-        margin-top: -79%;
+        margin-top: -80%;
         background-color: #EBEBEB;
         position: fixed;
 
@@ -638,24 +679,31 @@ and (min-width: 454px){
         z-index: 1;
     }
 
+    div.name {
+        margin-top: 15%;
+    }
+
     table.wl_table {
         margin-top: 5%;
         margin-left: 2%;
         margin-right: 4%;
 
     }
-    .name_wl{
+
+    .name_wl {
         font-size: 150%;
-        margin-top: 2%;
+        margin-top: 5%;
         border-bottom: 1px solid #7b7b7b;
         width: 35%;
         margin-left: 35%;
     }
-    .eye_closed{
-    flex: 0;
-    margin-left: 85%;
-    margin-top: -9%;
-}
+
+    .eye_closed {
+        flex: 0;
+        margin-left: 85%;
+        margin-top: -7%;
+    }
+
     th {
         font-size: 90%;
         color: #7b7b7b;
@@ -665,6 +713,7 @@ and (min-width: 454px){
 
     th.third {
         text-align: right;
+        width: 1000px;
     }
 
     td {
@@ -685,7 +734,8 @@ and (min-width: 454px){
     .showbar {
         margin-left: -2700%;
     }
-    div.info{
+
+    div.info {
         margin-left: 10%;
         margin-top: 20%;
         margin-bottom: -50%;
@@ -696,8 +746,21 @@ and (min-width: 454px){
 
 
 }
-@media only screen and (min-width : 1279px)
-and (max-width: 1281px){
+
+@media only screen and (width: 412px)
+and (height: 892px) {
+    div.sidebar {
+        margin-top: -91%
+    }
+
+    div.arrowleft {
+        margin-top: 95%;
+        margin-left: -.5%;
+    }
+}
+
+@media only screen and (min-width: 1279px)
+and (max-width: 1281px) {
 
     div.welcome {
         font-size: 250%;
@@ -779,24 +842,31 @@ and (max-width: 1281px){
         z-index: 1;
     }
 
+    div.name {
+        margin-top: 15%;
+    }
+
     table.wl_table {
         margin-top: 8%;
         margin-left: 5%;
         margin-right: 4%;
 
     }
-    .name_wl{
+
+    .name_wl {
         font-size: 150%;
-        margin-top: 2%;
+        margin-top: 5%;
         border-bottom: 1px solid #7b7b7b;
         width: 35%;
         margin-left: 35%;
     }
-    .eye_closed{
-    flex: 0;
-    margin-left: 85%;
-    margin-top: -8%;
-}
+
+    .eye_closed {
+        flex: 0;
+        margin-left: 85%;
+        margin-top: -6%;
+    }
+
     th {
         font-size: 90%;
         color: #7b7b7b;
@@ -806,6 +876,7 @@ and (max-width: 1281px){
 
     th.third {
         text-align: right;
+        width: 1000px;
     }
 
     td {
@@ -826,7 +897,8 @@ and (max-width: 1281px){
     .showbar {
         margin-left: -2700%;
     }
-    div.info{
+
+    div.info {
         margin-top: 5%;
         color: #7b7b7b;
         text-align: center;
@@ -835,8 +907,8 @@ and (max-width: 1281px){
 
 }
 
-@media only screen and (min-width : 1360px)
-and (max-width: 1370px){
+@media only screen and (min-width: 1360px)
+and (max-width: 1370px) {
 
     div.welcome {
         font-size: 250%;
@@ -918,24 +990,31 @@ and (max-width: 1370px){
         z-index: 1;
     }
 
+    div.name {
+        margin-top: 15%;
+    }
+
     table.wl_table {
         margin-top: 8%;
         margin-left: 5%;
         margin-right: 4%;
 
     }
-    .name_wl{
+
+    .name_wl {
         font-size: 150%;
-        margin-top: 2%;
+        margin-top: 5%;
         border-bottom: 1px solid #7b7b7b;
         width: 35%;
         margin-left: 35%;
     }
-    .eye_closed{
-    flex: 0;
-    margin-left: 85%;
-    margin-top: -8%;
-}
+
+    .eye_closed {
+        flex: 0;
+        margin-left: 85%;
+        margin-top: -6%;
+    }
+
     th {
         font-size: 90%;
         color: #7b7b7b;
@@ -945,6 +1024,7 @@ and (max-width: 1370px){
 
     th.third {
         text-align: right;
+        width: 1000px;
     }
 
     td {
@@ -965,7 +1045,8 @@ and (max-width: 1370px){
     .showbar {
         margin-left: -2700%;
     }
-    div.info{
+
+    div.info {
         margin-top: 5%;
         color: #7b7b7b;
         text-align: center;
@@ -974,9 +1055,9 @@ and (max-width: 1370px){
 
 }
 
-@media only screen and (min-width : 1439px)
-and (max-width: 1441px){
-        div.welcome {
+@media only screen and (min-width: 1439px)
+and (max-width: 1441px) {
+    div.welcome {
         font-size: 250%;
         color: #919191;
         text-align: center;
@@ -1056,24 +1137,31 @@ and (max-width: 1441px){
         z-index: 1;
     }
 
+    div.name {
+        margin-top: 10%;
+    }
+
     table.wl_table {
         margin-top: 8%;
         margin-left: 5%;
         margin-right: 4%;
 
     }
-    .name_wl{
+
+    .name_wl {
         font-size: 150%;
-        margin-top: 2%;
+        margin-top: 5%;
         border-bottom: 1px solid #7b7b7b;
         width: 35%;
         margin-left: 35%;
     }
-    .eye_closed{
-    flex: 0;
-    margin-left: 85%;
-    margin-top: -6%;
-}
+
+    .eye_closed {
+        flex: 0;
+        margin-left: 85%;
+        margin-top: -4.5%;
+    }
+
     th {
         font-size: 90%;
         color: #7b7b7b;
@@ -1083,6 +1171,7 @@ and (max-width: 1441px){
 
     th.third {
         text-align: right;
+        width: 1000px;
     }
 
     td {
@@ -1103,7 +1192,8 @@ and (max-width: 1441px){
     .showbar {
         margin-left: -2700%;
     }
-    div.info{
+
+    div.info {
         margin-top: 5%;
         color: #7b7b7b;
         text-align: center;
@@ -1113,7 +1203,7 @@ and (max-width: 1441px){
 }
 
 @media only screen and (min-width: 1824px) {
-        div.welcome {
+    div.welcome {
         font-size: 250%;
         color: #919191;
         text-align: center;
@@ -1193,24 +1283,31 @@ and (max-width: 1441px){
         z-index: 1;
     }
 
+    div.name {
+        margin-top: 10%;
+    }
+
     table.wl_table {
         margin-top: 8%;
         margin-left: 10%;
         margin-right: 4%;
 
     }
-    .name_wl{
+
+    .name_wl {
         font-size: 150%;
-        margin-top: 2%;
+        margin-top: 5%;
         border-bottom: 1px solid #7b7b7b;
         width: 35%;
         margin-left: 35%;
     }
-    .eye_closed{
-    flex: 0;
-    margin-left: 85%;
-    margin-top: -6%;
-}
+
+    .eye_closed {
+        flex: 0;
+        margin-left: 85%;
+        margin-top: -4.5%;
+    }
+
     th {
         font-size: 90%;
         color: #7b7b7b;
@@ -1220,6 +1317,7 @@ and (max-width: 1441px){
 
     th.third {
         text-align: right;
+        width: 1000px;
     }
 
     td {
@@ -1239,7 +1337,8 @@ and (max-width: 1441px){
     .showbar {
         margin-left: -2700%;
     }
-    div.info{
+
+    div.info {
         margin-top: 5%;
         color: #7b7b7b;
         text-align: center;

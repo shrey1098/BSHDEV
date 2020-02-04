@@ -175,7 +175,7 @@ and (min-width: 370px) {
     }
 }
 
-@media only screen and (max-width: 418px)
+@media only screen and (max-width: 430px)
 and (min-width: 410px) {
     body {
         font-family: "Segoe UI", serif;
@@ -252,7 +252,7 @@ and (min-width: 410px) {
     div.NIFTY50 {
         margin-top: -10px;
         text-align: left;
-        margin-left: -20px;
+        margin-left: -15px;
     }
 
     ul.NIFTY_table li {
@@ -278,7 +278,7 @@ and (min-width: 410px) {
     div.SENSEX {
         margin-top: -10px;
         text-align: left;
-        margin-left: -20px;
+        margin-left: -10px;
     }
 
     ul.SENSEX_table li {
@@ -304,7 +304,7 @@ and (min-width: 410px) {
     div.NB {
         margin-top: -10px;
         text-align: left;
-        margin-left: -35px;
+        margin-left: -40px;
     }
 
     ul.NB_table li {
@@ -321,10 +321,12 @@ and (min-width: 410px) {
 
     li.NB_diff_green {
         color: #44d731;
+
     }
 
     li.NB_diff_red {
         color: #d7040b;
+
     }
 
     div.footer {
@@ -427,7 +429,7 @@ and (min-width: 454px) {
     div.NIFTY50 {
         margin-top: -10px;
         text-align: left;
-        margin-left: -20px;
+        margin-left: -15px;
     }
 
     ul.NIFTY_table li {
@@ -453,7 +455,7 @@ and (min-width: 454px) {
     div.SENSEX {
         margin-top: -10px;
         text-align: left;
-        margin-left: -20px;
+        margin-left: -5px;
     }
 
     ul.SENSEX_table li {

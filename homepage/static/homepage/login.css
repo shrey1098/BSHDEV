@@ -64,7 +64,7 @@ and (min-width: 359px) {
     }
 }
 
-@media only screen and (max-width: 418px)
+@media only screen and (max-width: 430px)
 and (min-width: 410px) {
     div.head {
         text-align: center;

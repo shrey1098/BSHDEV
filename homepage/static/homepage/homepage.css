@@ -19,7 +19,7 @@ and (min-width: 359px) {
         margin-left: 4%;
         margin-top: 30%;
         border-bottom: 1px solid #EBEBEB;
-        max-width: 115px;
+        max-width: 119px;
     }
 
     div.Hpbar {
@@ -94,7 +94,7 @@ and (min-width: 359px) {
 }
 
 
-@media only screen and (max-width: 418px)
+@media only screen and (max-width: 430px)
 and (min-width: 410px) {
     div.tag_line {
         color: #B4B4B4;
@@ -115,7 +115,7 @@ and (min-width: 410px) {
         margin-left: 4%;
         margin-top: 35%;
         border-bottom: 1px solid #EBEBEB;
-        max-width: 115px;
+        max-width: 119px;
     }
 
     div.Hpbar {
@@ -165,7 +165,7 @@ and (min-width: 410px) {
     }
 
     div.explore, div.coming_soon {
-        margin-left: 6%;
+        margin-left: 3%;
         margin-top: 15%;
         text-align: center;
     }
@@ -195,7 +195,7 @@ and (min-width: 454px) {
     div.tag_line {
         color: #B4B4B4;
         margin-top: 35%;
-        font-size: 150%;
+        font-size: 140%;
         margin-left: 10%;
         font-family: "Roboto", serif;
         font-weight: lighter;
@@ -211,7 +211,7 @@ and (min-width: 454px) {
         margin-left: 10%;
         margin-top: 40%;
         border-bottom: 1px solid #EBEBEB;
-        width: 115px;
+        width: 122px;
     }
 
     div.Hpbar {
@@ -283,6 +283,7 @@ and (min-width: 454px) {
         border-bottom: 1px solid #EBEBEB;
     }
 }
+
 
 @media only screen and (min-width: 1279px)
 and (max-width: 1281px) {

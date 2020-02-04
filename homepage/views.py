@@ -226,7 +226,7 @@ def register(request):
             form.save()
             return HttpResponseRedirect('login')
         else:
-            return HttpResponse("Registration Form Not Valid")
+            return HttpResponse("Ooopss!! Something was wrong with your information. Please go back and try again.")
     else:
         form = RegistrationForm()
 
