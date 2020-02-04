@@ -1,9 +1,24 @@
+div.login_user{
+    text-align: center;
+    color: #EBEBEB;
+}
+a.login_user{
+    color: #EBEBEB;
+}
+a.login_user:hover{
+    color: #5897fb;
+}
 body {
     background-color: #012840;
 
     font-family: "Segoe UI", serif;
     text-decoration: none;
     position: relative;
+
+}
+p{
+    font-size: 70%;
+    color: #a1a1a1;
 }
 @media only screen and (max-width: 380px)
 and (min-width: 370px) {
@@ -57,7 +72,7 @@ and (min-width: 370px) {
         color: #EBEBEB;
     }
 }
-@media only screen and (max-width: 418px)
+@media only screen and (max-width: 430px)
 and (min-width: 410px){
         div.head {
         text-align: center;
@@ -218,6 +233,9 @@ and (max-width: 1281px)
         border: 1px solid #EBEBEB;
         color: #EBEBEB;
     }
+    div.login_user{
+        margin-left: 12%;
+    }
 }
 @media only screen and (min-width : 1360px)
 and (max-width: 1370px){
@@ -273,6 +291,9 @@ and (max-width: 1370px){
     button:hover {
         border: 1px solid #EBEBEB;
         color: #EBEBEB;
+    }
+    div.login_user{
+        margin-left: 12%;
     }
 
 }
@@ -332,6 +353,9 @@ and (max-width: 1441px)
         border: 1px solid #EBEBEB;
         color: #EBEBEB;
     }
+    div.login_user{
+        margin-left: 12%;
+    }
 }
 @media only screen and (min-width: 1824px) {
     body{
@@ -389,5 +413,8 @@ and (max-width: 1441px)
     button:hover {
         border: 1px solid #EBEBEB;
         color: #EBEBEB;
+    }
+    div.login_user{
+        margin-left :12%;
     }
 }

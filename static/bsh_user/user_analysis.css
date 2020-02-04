@@ -178,33 +178,35 @@ and (min-width: 370px) {
     }
 
     td.fisrt {
-        min-width: 50%;
+        min-width: 10%;
+        max-width: 20%;
         text-align: left;
         border-bottom: 1px solid #EBEBEB;
     }
 
     td.second {
-        min-width: 20%;
+        min-width: 1%;
+        max-width: 5%;
         text-align: center;
         border-bottom: 1px solid #EBEBEB;
     }
 
     table.momentum {
-        margin-left: 6%;
+         margin: 0 auto;
     }
 
     table.Volume {
-        margin-left: 4%;
+         margin: 0 auto;
         margin-top: 15%;
     }
 
     table.Volatility {
-        margin-left: 12%;
+         margin: 0 auto;
         margin-top: 15%;
     }
 
     table.Trend {
-        margin-left: 4%;
+         margin: 0 auto;
         margin-top: 15%;
         margin-bottom: 20%;
     }
@@ -227,7 +229,7 @@ and (min-width: 370px) {
     }
 }
 
-@media only screen and (max-width: 418px)
+@media only screen and (max-width: 430px)
 and (min-width: 410px) {
     div.header {
         margin-left: -2.5%;
@@ -403,33 +405,35 @@ and (min-width: 410px) {
     }
 
     td.fisrt {
-        min-width: 50%;
+        min-width: 10%;
+        max-width: 20%;
         text-align: left;
         border-bottom: 1px solid #EBEBEB;
     }
 
     td.second {
-        min-width: 20%;
+        min-width: 1%;
+        max-width: 5%;
         text-align: center;
         border-bottom: 1px solid #EBEBEB;
     }
 
     table.momentum {
-        margin-left: 6%;
+         margin: 0 auto;
     }
 
     table.Volume {
-        margin-left: 4%;
+         margin: 0 auto;
         margin-top: 15%;
     }
 
     table.Volatility {
-        margin-left: 12%;
+         margin: 0 auto;
         margin-top: 15%;
     }
 
     table.Trend {
-        margin-left: 4%;
+        margin: 0 auto;
         margin-top: 15%;
         margin-bottom: 20%;
     }
@@ -612,7 +616,7 @@ and (min-width: 454px) {
         margin-top: 10%;
         border-bottom: 1px solid #EBEBEB;
         width: 30%;
-        margin-left: 32%;
+        margin-left: 35%;
     }
 
     div.tables {
@@ -626,33 +630,35 @@ and (min-width: 454px) {
     }
 
     td.fisrt {
-        min-width: 50%;
+        min-width: 10%;
+        max-width: 20%;
         text-align: left;
         border-bottom: 1px solid #EBEBEB;
     }
 
     td.second {
-        min-width: 20%;
+        min-width: 1%;
+        max-width: 5%;
         text-align: center;
         border-bottom: 1px solid #EBEBEB;
     }
 
     table.momentum {
-        margin-left: 10%;
+        margin: 0 auto;
     }
 
     table.Volume {
-        margin-left: 4%;
+        margin: 0 auto;
         margin-top: 15%;
     }
 
     table.Volatility {
-        margin-left: 15%;
+        margin: 0 auto;
         margin-top: 15%;
     }
 
     table.Trend {
-        margin-left: 4%;
+        margin: 0 auto;
         margin-top: 15%;
         margin-bottom: 20%;
     }

@@ -22,12 +22,13 @@ and (min-width: 370px) {
 
 }
 
-@media only screen and (max-width: 418px)
+@media only screen and (max-width: 430px)
 and (min-width: 410px) {
     .write_up {
         text-align: justify;
         width: 85%;
         margin-left: 7%;
+        margin-bottom: 150%;
     }
 
     h1 {
