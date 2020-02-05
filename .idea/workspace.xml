@@ -1,7 +1,24 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="657a36ee-179f-4fd7-b60f-4d24a3398590" name="Default Changelist" comment="" />
+    <list default="true" id="657a36ee-179f-4fd7-b60f-4d24a3398590" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BSHDEV/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/BSHDEV/settings.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bsh_user/templates/bsh_user/analysis.html" beforeDir="false" afterPath="$PROJECT_DIR$/bsh_user/templates/bsh_user/analysis.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bsh_user/templates/bsh_user/layout_User.html" beforeDir="false" afterPath="$PROJECT_DIR$/bsh_user/templates/bsh_user/layout_User.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bsh_user/templates/bsh_user/user_page.html" beforeDir="false" afterPath="$PROJECT_DIR$/bsh_user/templates/bsh_user/user_page.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bsh_user/templates/bsh_user/user_page_search.html" beforeDir="false" afterPath="$PROJECT_DIR$/bsh_user/templates/bsh_user/user_page_search.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/homepage/templates/homepage/What_do_we_do.html" beforeDir="false" afterPath="$PROJECT_DIR$/homepage/templates/homepage/What_do_we_do.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/homepage/templates/homepage/homepage.html" beforeDir="false" afterPath="$PROJECT_DIR$/homepage/templates/homepage/homepage.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/homepage/templates/homepage/layout.html" beforeDir="false" afterPath="$PROJECT_DIR$/homepage/templates/homepage/layout.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/homepage/templates/homepage/our_goal.html" beforeDir="false" afterPath="$PROJECT_DIR$/homepage/templates/homepage/our_goal.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/homepage/templates/homepage/our_inspiration.html" beforeDir="false" afterPath="$PROJECT_DIR$/homepage/templates/homepage/our_inspiration.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/homepage/templates/homepage/register.html" beforeDir="false" afterPath="$PROJECT_DIR$/homepage/templates/homepage/register.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/homepage/templates/homepage/who_we_are.html" beforeDir="false" afterPath="$PROJECT_DIR$/homepage/templates/homepage/who_we_are.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/homepage/templates/registration/login.html" beforeDir="false" afterPath="$PROJECT_DIR$/homepage/templates/registration/login.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tech_analysis/templates/tech_analysis/results.html" beforeDir="false" afterPath="$PROJECT_DIR$/tech_analysis/templates/tech_analysis/results.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tech_analysis/templates/tech_analysis/tech_analysis.html" beforeDir="false" afterPath="$PROJECT_DIR$/tech_analysis/templates/tech_analysis/tech_analysis.html" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -390,7 +407,8 @@
       <workItem from="1580456533257" duration="7671000" />
       <workItem from="1580710274889" duration="7387000" />
       <workItem from="1580728608036" duration="1215000" />
-      <workItem from="1580801502410" duration="6132000" />
+      <workItem from="1580801502410" duration="6445000" />
+      <workItem from="1580886411518" duration="982000" />
     </task>
     <task id="LOCAL-00001" summary="main.py">
       <created>1577993738016</created>
