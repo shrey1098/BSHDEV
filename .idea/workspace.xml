@@ -3,21 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="657a36ee-179f-4fd7-b60f-4d24a3398590" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/BSHDEV/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/BSHDEV/settings.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/bsh_user/templates/bsh_user/analysis.html" beforeDir="false" afterPath="$PROJECT_DIR$/bsh_user/templates/bsh_user/analysis.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bsh_user/templates/bsh_user/layout_User.html" beforeDir="false" afterPath="$PROJECT_DIR$/bsh_user/templates/bsh_user/layout_User.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bsh_user/templates/bsh_user/user_page.html" beforeDir="false" afterPath="$PROJECT_DIR$/bsh_user/templates/bsh_user/user_page.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bsh_user/templates/bsh_user/user_page_search.html" beforeDir="false" afterPath="$PROJECT_DIR$/bsh_user/templates/bsh_user/user_page_search.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/homepage/templates/homepage/What_do_we_do.html" beforeDir="false" afterPath="$PROJECT_DIR$/homepage/templates/homepage/What_do_we_do.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/homepage/templates/homepage/homepage.html" beforeDir="false" afterPath="$PROJECT_DIR$/homepage/templates/homepage/homepage.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/homepage/templates/homepage/layout.html" beforeDir="false" afterPath="$PROJECT_DIR$/homepage/templates/homepage/layout.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/homepage/templates/homepage/our_goal.html" beforeDir="false" afterPath="$PROJECT_DIR$/homepage/templates/homepage/our_goal.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/homepage/templates/homepage/our_inspiration.html" beforeDir="false" afterPath="$PROJECT_DIR$/homepage/templates/homepage/our_inspiration.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/homepage/templates/homepage/register.html" beforeDir="false" afterPath="$PROJECT_DIR$/homepage/templates/homepage/register.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/homepage/templates/homepage/who_we_are.html" beforeDir="false" afterPath="$PROJECT_DIR$/homepage/templates/homepage/who_we_are.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/homepage/templates/registration/login.html" beforeDir="false" afterPath="$PROJECT_DIR$/homepage/templates/registration/login.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tech_analysis/templates/tech_analysis/results.html" beforeDir="false" afterPath="$PROJECT_DIR$/tech_analysis/templates/tech_analysis/results.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tech_analysis/templates/tech_analysis/tech_analysis.html" beforeDir="false" afterPath="$PROJECT_DIR$/tech_analysis/templates/tech_analysis/tech_analysis.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -408,7 +394,7 @@
       <workItem from="1580710274889" duration="7387000" />
       <workItem from="1580728608036" duration="1215000" />
       <workItem from="1580801502410" duration="6445000" />
-      <workItem from="1580886411518" duration="982000" />
+      <workItem from="1580886411518" duration="1777000" />
     </task>
     <task id="LOCAL-00001" summary="main.py">
       <created>1577993738016</created>
@@ -424,7 +410,14 @@
       <option name="project" value="LOCAL" />
       <updated>1578174788585</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="main.py">
+      <created>1580887495893</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1580887495893</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TodoView">
@@ -456,10 +449,10 @@
       <screen x="1366" y="0" width="1920" height="1080" />
     </state>
     <state x="2055" y="287" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1366.768/1366.0.1920.1080@1366.0.1920.1080" timestamp="1579845515592" />
-    <state x="584" y="134" key="CommitChangelistDialog2" timestamp="1578174782476">
+    <state x="584" y="134" key="CommitChangelistDialog2" timestamp="1580887479113">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
-    <state x="584" y="134" key="CommitChangelistDialog2/0.0.1920.1080@0.0.1920.1080" timestamp="1578174782476" />
+    <state x="584" y="134" key="CommitChangelistDialog2/0.0.1920.1080@0.0.1920.1080" timestamp="1580887479113" />
     <state width="1291" height="294" key="GridCell.Tab.0.bottom" timestamp="1579889243125">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
