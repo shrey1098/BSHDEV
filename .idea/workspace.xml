@@ -4,29 +4,7 @@
     <list default="true" id="657a36ee-179f-4fd7-b60f-4d24a3398590" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/BSHDEV/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/BSHDEV/settings.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bsh_user/static/bsh_user/layout_User.css" beforeDir="false" afterPath="$PROJECT_DIR$/bsh_user/static/bsh_user/layout_User.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bsh_user/static/bsh_user/user_analysis.css" beforeDir="false" afterPath="$PROJECT_DIR$/bsh_user/static/bsh_user/user_analysis.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bsh_user/static/bsh_user/user_page.css" beforeDir="false" afterPath="$PROJECT_DIR$/bsh_user/static/bsh_user/user_page.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bsh_user/static/bsh_user/user_page_results.css" beforeDir="false" afterPath="$PROJECT_DIR$/bsh_user/static/bsh_user/user_page_results.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/db.sqlite3" beforeDir="false" afterPath="$PROJECT_DIR$/db.sqlite3" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/homepage/static/homepage/homepage.css" beforeDir="false" afterPath="$PROJECT_DIR$/homepage/static/homepage/homepage.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/homepage/static/homepage/login.css" beforeDir="false" afterPath="$PROJECT_DIR$/homepage/static/homepage/login.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/homepage/static/homepage/our_goal.css" beforeDir="false" afterPath="$PROJECT_DIR$/homepage/static/homepage/our_goal.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/homepage/static/homepage/register.css" beforeDir="false" afterPath="$PROJECT_DIR$/homepage/static/homepage/register.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/homepage/templates/homepage/homepage.html" beforeDir="false" afterPath="$PROJECT_DIR$/homepage/templates/homepage/homepage.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/homepage/templates/homepage/layout.html" beforeDir="false" afterPath="$PROJECT_DIR$/homepage/templates/homepage/layout.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/bsh_user/layout_User.css" beforeDir="false" afterPath="$PROJECT_DIR$/static/bsh_user/layout_User.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/bsh_user/user_analysis.css" beforeDir="false" afterPath="$PROJECT_DIR$/static/bsh_user/user_analysis.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/bsh_user/user_page.css" beforeDir="false" afterPath="$PROJECT_DIR$/static/bsh_user/user_page.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/bsh_user/user_page_results.css" beforeDir="false" afterPath="$PROJECT_DIR$/static/bsh_user/user_page_results.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/homepage/homepage.css" beforeDir="false" afterPath="$PROJECT_DIR$/static/homepage/homepage.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/homepage/login.css" beforeDir="false" afterPath="$PROJECT_DIR$/static/homepage/login.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/homepage/our_goal.css" beforeDir="false" afterPath="$PROJECT_DIR$/static/homepage/our_goal.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/homepage/register.css" beforeDir="false" afterPath="$PROJECT_DIR$/static/homepage/register.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/tech_analysis/results.css" beforeDir="false" afterPath="$PROJECT_DIR$/static/tech_analysis/results.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/tech_analysis/tech_analysis.css" beforeDir="false" afterPath="$PROJECT_DIR$/static/tech_analysis/tech_analysis.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tech_analysis/static/tech_analysis/results.css" beforeDir="false" afterPath="$PROJECT_DIR$/tech_analysis/static/tech_analysis/results.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tech_analysis/static/tech_analysis/tech_analysis.css" beforeDir="false" afterPath="$PROJECT_DIR$/tech_analysis/static/tech_analysis/tech_analysis.css" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -421,7 +399,7 @@
       <workItem from="1581015320828" duration="5412000" />
       <workItem from="1581181145241" duration="2918000" />
       <workItem from="1581315001472" duration="1842000" />
-      <workItem from="1581317098202" duration="750000" />
+      <workItem from="1581317098202" duration="1483000" />
     </task>
     <task id="LOCAL-00001" summary="main.py">
       <created>1577993738016</created>
