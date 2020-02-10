@@ -163,7 +163,7 @@ and (min-width: 370px) {
     div.head {
         margin-top: 10%;
         border-bottom: 1px solid #EBEBEB;
-        width: 35%;
+        width: 40%;
         margin-left: 32%;
     }
 
@@ -390,7 +390,7 @@ and (min-width: 410px) {
     div.head {
         margin-top: 10%;
         border-bottom: 1px solid #EBEBEB;
-        width: 35%;
+        width: 40%;
         margin-left: 32%;
     }
 
@@ -457,7 +457,7 @@ and (min-width: 410px) {
 }
 
 @media only screen and (max-width: 460px)
-and (min-width: 454px) {
+and (min-width: 449px) {
     div.header {
         margin-left: -2.5%;
         width: 104.5%;
@@ -615,7 +615,7 @@ and (min-width: 454px) {
     div.head {
         margin-top: 10%;
         border-bottom: 1px solid #EBEBEB;
-        width: 30%;
+        width: 35%;
         margin-left: 35%;
     }
 

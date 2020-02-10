@@ -1,15 +1,15 @@
 {% load static %}
 
 <head>
-    <link rel="stylesheet" href="https://storage.googleapis.com/bsh_statidc/static/homepage/layout.css">
-    <script src="https://storage.googleapis.com/bsh_statidc/static/homepage/layout.js" type="text/javascript"></script>
+    <link rel="stylesheet" href="https://storage.googleapis.com/bshd_static/static/homepage/layout.css">
+    <script src="https://storage.googleapis.com/bshd_static/static/homepage/layout.js" type="text/javascript"></script>
     <meta name="viewport" content="width=device-width" initial-scale="1.0">
 </head>
 <body>
 <div class="header">
     <div class="nav-bar">
-    <div class="BSH"><a href="{% url 'homepage:Homepage' %}"> <img src="https://storage.googleapis.com/bsh_statidc/static/homepage/BSH.svg" alt="BSH"></a></div>
-    <div class="hamburger"><img class="hamburger" src="https://storage.googleapis.com/bsh_statidc/static/homepage/investor.svg" alt="Hamburger" onclick="myFunction()">
+    <div class="BSH"><a href="{% url 'homepage:Homepage' %}"> <img src="https://storage.googleapis.com/bshd_static/static/homepage/BSH.svg" alt="BSH"></a></div>
+    <div class="hamburger"><img class="hamburger" src="https://storage.googleapis.com/bshd_static/static/homepage/investor.svg" alt="Hamburger" onclick="myFunction()">
     <div id="myDropdown" class="dropdown-content">
         <a href="{% url 'login' %}">Login</a>
         <a href="{% url 'homepage:Register' %}">Register</a>
@@ -81,9 +81,9 @@ window.onclick = function(event) {
 
             <label>
                 <input class="enter_ticker" type="text" name="Ticker" id="myInput"  placeholder="Enter Ticker">
-                <img class="search-label-icon" src="https://storage.googleapis.com/bsh_statidc/static/homepage/path.png" alt="search" id="input_img">
+                <img class="search-label-icon" src="https://storage.googleapis.com/bshd_static/static/homepage/path.png" alt="search" id="input_img">
             </label>
-            <input class="technical_analysis" type="image" src="https://storage.googleapis.com/bsh_statidc/static/homepage/Submit.png" >
+            <input class="technical_analysis" type="image" src="https://storage.googleapis.com/bshd_static/static/homepage/Submit.png" >
             </div>
         </form>
 </div>
@@ -91,7 +91,7 @@ window.onclick = function(event) {
 <div class="line">
 </div>
 <div class="sidebar" onclick="sidebar_pullout()">
-<div class="arrowleft" onclick="sidebar_pullout()"><img src="https://storage.googleapis.com/bsh_statidc/static/homepage/Arrow Left.png" alt="Arrowleft" >
+<div class="arrowleft" onclick="sidebar_pullout()"><img src="https://storage.googleapis.com/bshd_static/static/homepage/Arrow Left.png" alt="Arrowleft" >
     </div>
         <div class="submenu" id="submenu">
                 <a class="head">BUY SELL HOLD</a>
@@ -107,9 +107,9 @@ window.onclick = function(event) {
 <div class="footer">
     <table class="social_media">
         <tr>
-    <td class="ig_logo"><img src="https://storage.googleapis.com/bsh_statidc/static/homepage/IG logo.png" alt="ig_logo"></td>
-    <td class="fb_logo"><img src="https://storage.googleapis.com/bsh_statidc/static/homepage/FB Logo.png" alt="fb_logo"></td>
-    <td class="mail_logo"><img src="https://storage.googleapis.com/bsh_statidc/static/homepage/Gmail Logo.png" alt="mail_logo"></td>
+    <td class="ig_logo"><img src="https://storage.googleapis.com/bshd_static/static/homepage/IG logo.png" alt="ig_logo"></td>
+    <td class="fb_logo"><img src="https://storage.googleapis.com/bshd_static/static/homepage/FB Logo.png" alt="fb_logo"></td>
+    <td class="mail_logo"><img src="https://storage.googleapis.com/bshd_static/static/homepage/Gmail Logo.png" alt="mail_logo"></td>
     </tr>
     </table>
 </div>

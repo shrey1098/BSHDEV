@@ -119,7 +119,7 @@ and (min-width: 410px) {
 }
 
 @media only screen and (max-width: 460px)
-and (min-width: 454px) {
+and (min-width: 449px) {
     div.head {
         text-align: center;
         color: #EBEBEB;

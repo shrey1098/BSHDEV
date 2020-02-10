@@ -1,9 +1,13 @@
+div.body{
+    text-align: center;
+    color: #B4B4B4;
+}
 @media only screen and (max-width: 380px)
 and (min-width: 359px) {
     div.tag_line {
         color: #B4B4B4;
         margin-top: 30%;
-        font-size: 135%;
+        font-size: 120%;
         margin-left: 4%;
         font-family: "Roboto", serif;
         font-weight: lighter;
@@ -191,11 +195,11 @@ and (min-width: 410px) {
 
 
 @media only screen and (max-width: 460px)
-and (min-width: 454px) {
+and (min-width: 449px) {
     div.tag_line {
         color: #B4B4B4;
         margin-top: 35%;
-        font-size: 140%;
+        font-size: 125%;
         margin-left: 10%;
         font-family: "Roboto", serif;
         font-weight: lighter;
