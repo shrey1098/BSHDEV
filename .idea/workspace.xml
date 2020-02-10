@@ -1,11 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="657a36ee-179f-4fd7-b60f-4d24a3398590" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/BSHDEV/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/BSHDEV/settings.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/db.sqlite3" beforeDir="false" afterPath="$PROJECT_DIR$/db.sqlite3" afterDir="false" />
-    </list>
+    <list default="true" id="657a36ee-179f-4fd7-b60f-4d24a3398590" name="Default Changelist" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -399,7 +395,7 @@
       <workItem from="1581015320828" duration="5412000" />
       <workItem from="1581181145241" duration="2918000" />
       <workItem from="1581315001472" duration="1842000" />
-      <workItem from="1581317098202" duration="1483000" />
+      <workItem from="1581317098202" duration="1705000" />
     </task>
     <task id="LOCAL-00001" summary="main.py">
       <created>1577993738016</created>
@@ -422,7 +418,14 @@
       <option name="project" value="LOCAL" />
       <updated>1580887495893</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="main.py123">
+      <created>1581318682072</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1581318682072</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TodoView">
@@ -439,7 +442,8 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="main.py" />
-    <option name="LAST_COMMIT_MESSAGE" value="main.py" />
+    <MESSAGE value="main.py123" />
+    <option name="LAST_COMMIT_MESSAGE" value="main.py123" />
   </component>
   <component name="WindowStateProjectService">
     <state x="961" y="153" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1580022181274">
