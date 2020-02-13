@@ -129,8 +129,7 @@ def homepage(request):
             third_news_result = news_result.value[2]
             data2 = format(third_news_result.description)
 
-            fourth_news_result = news_result.value[3]
-            data3 = format(fourth_news_result.description)
+
             # print("news name: {}".format(first_news_result.name))
             #
             # print("news description: {}".format(first_news_result.description))
@@ -157,7 +156,6 @@ def homepage(request):
             {"id": "1", "language": "en", "text": data},
             {"id": "2", "language": "en", "text": data1},
             {"id": "3", "language": "en", "text": data2},
-            {"id": "4 ", "language": "en", "text": data3},
 
         ]
 
@@ -193,10 +191,6 @@ def homepage(request):
                    'diffnb_green': diffnb_green,
                    'diffnb_red': diffnb_red, 'price_bm': price_bm, 'diffbm_green': diffbm_green,
                    'diffbm_red': diffbm_red})
-
-
-def menu(request):
-    return render(request, 'homepage/menu.html')
 
 
 def how_it_works(request):
