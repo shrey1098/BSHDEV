@@ -23,7 +23,7 @@ SECRET_KEY = '898zf*uth=h(s&iu+3+yl5!(3kfgc1ihk-7uy@@!m1&c-t7!cp'
 
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = False
-ALLOWED_HOSTS = ['bshd-267806.appspot.com', '127.0.0.1:8000']
+ALLOWED_HOSTS = ['bshd-267806.appspot.com', '127.0.0.1']
 
 # Application definition
 
