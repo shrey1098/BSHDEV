@@ -2,8 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="657a36ee-179f-4fd7-b60f-4d24a3398590" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/BSHDEV/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/BSHDEV/settings.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/db.sqlite3" beforeDir="false" afterPath="$PROJECT_DIR$/db.sqlite3" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -399,7 +398,7 @@
       <workItem from="1581181145241" duration="2918000" />
       <workItem from="1581315001472" duration="1842000" />
       <workItem from="1581317098202" duration="1705000" />
-      <workItem from="1581577493780" duration="799000" />
+      <workItem from="1581577493780" duration="1051000" />
     </task>
     <task id="LOCAL-00001" summary="main.py">
       <created>1577993738016</created>
