@@ -126,8 +126,6 @@ def homepage(request):
             sec_news_result = news_result.value[1]
             data1 = format(sec_news_result.description)
 
-            third_news_result = news_result.value[2]
-            data2 = format(third_news_result.description)
 
 
             # print("news name: {}".format(first_news_result.name))
@@ -155,8 +153,7 @@ def homepage(request):
         documents = [
             {"id": "1", "language": "en", "text": data},
             {"id": "2", "language": "en", "text": data1},
-            {"id": "3", "language": "en", "text": data2},
-
+         
         ]
 
         response = client.sentiment(documents=documents)
