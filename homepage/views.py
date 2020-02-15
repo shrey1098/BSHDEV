@@ -157,7 +157,7 @@ def homepage(request):
         for document in response.documents:
             res.append(float(format(document.score)))
 
-        res_mean = (sum(res) / 4) * 100
+        res_mean = res * 100
 
         if res_mean > 80:
             hpbar.append("StrongBuy_hpbar.svg")
